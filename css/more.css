@@ -1,0 +1,53 @@
+﻿.more {
+    position:relative;
+    z-index:1000;
+    background-color: var(--black);
+    height:250px;
+    width:100vw;
+    font-size:2em;
+    overflow:hidden;
+}
+
+/* Social */
+.social-holder {
+    font-size: 2.5em;
+    height: 50px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social {
+    border-bottom: 1px solid #abc;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    color: var(--white);
+    height: 50px;
+    overflow: hidden;
+}
+    .social div {
+        position: relative;
+        flex: 0 0 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        .social div svg {
+            position: absolute;
+            bottom: -40px;
+            transition-duration: .5s;
+        }
+        .social div svg:hover{
+            bottom:-30px;
+        }
+
+/* FAQ */
+.FAQ{
+    height:140px;
+    margin: 20px 50px;
+}

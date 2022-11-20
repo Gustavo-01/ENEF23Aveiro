@@ -1,0 +1,54 @@
+﻿:root {
+    
+    /* General variables */
+    --white: white;
+    --black: #121212;
+    --color1: #44b3e1;
+    --color1_shade: #065a8d;
+    --color1_clear: #a9cddb;
+    --color2: #fdbe2d;
+    --color2_shade: #f2a602;
+    --color2_clear: #fce7b6;
+    --color3: #8ec9b2;
+    --color3_shade: #7fb39f;
+    --color3_clear: #9dc4b5;
+    --color4: #d62620;
+    --color4_shade: #92301b;
+    --color4_clear: #d69694;
+
+    font-family: 'Roboto Condensed', sans-serif;
+    color:var(--white);
+    opacity:1;
+}
+
+body {
+    width: 100vw;
+    overflow: hidden;
+    margin: 0
+}
+
+.content {
+    scroll-snap-type: both mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+    .content::-webkit-scrollbar {
+        display: none;
+        -webkit-appearance: none; /* Chrome, Safari and Opera */
+    }
+
+.hidden{
+    opacity:0.5;
+}
+
+.snapTop-PC {
+    scroll-snap-align: start;
+}
+.snapMid-PC {
+    scroll-snap-align: center;
+}

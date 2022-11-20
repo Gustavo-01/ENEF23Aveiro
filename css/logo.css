@@ -1,0 +1,298 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@800&display=swap');
+
+.logoPC {
+    height: 100vh;
+    background: url('../img/Mural2_.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    transition-duration: 1s;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+    .logoPC:hover {
+        background-size: 200%;
+    }
+
+.logoMob {
+    height: 100vh;
+    background-image: url('../img/MuralVert.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    overflow: hidden;
+    letter-spacing: 3px;
+}
+
+.logo-back-img {
+    z-index: 0;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity:0;
+    transition-duration: 1s;
+}
+
+.logo_holder {
+    z-index: 1;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.5s;
+    font-family: 'Barlow', sans-serif !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: .5s;
+    opacity: 0.7;
+}
+    .logo_holder:hover{
+        opacity: 1;
+    }
+
+.logo_holder-rows {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_logoPC {
+    width: 10em;
+    height: 2.5em;
+    margin: 2vh 0 6vh 0;
+    transition-duration: .3s;
+    padding: 5px;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 1.5px;
+    font-family: 'Barlow', sans-serif !important;
+    font-size: 16px;
+    cursor: pointer;
+    opacity: 1;
+    background-color: transparent;
+    position:relative;
+    transition: border .5s, letter-spacing .5s, font-size .5s;
+}
+
+    .btn_logoPC:hover {
+        border: 2px solid var(--black);
+        letter-spacing: 3px;
+        font-size: 20px;
+    }
+
+    .btn_logoPC::before{
+        z-index:-2;
+        border-radius: 5px;
+        transition: background-position .5s ease-in-out, background-size .5s ease-in-out;
+        content: '';
+        position:absolute;
+        top:0; right:0; width:100%; height:100%;
+        background: linear-gradient(50deg, 
+            var(--white) 16.7%,
+            var(--color2) 33.4%,
+            var(--color3) 50%,
+            var(--color4) 66.7%,
+            var(--color1) 83.4%,
+            var(--color2) 100%
+        );
+        background-size: 500%;
+        background-position: 0;
+    }
+
+    .btn_logoPC:hover::before {
+        background-size: 250%;
+        background-position: 100%;
+    }
+
+    .btn_logoPC::after {
+        content: '';
+        z-index: -1;
+        border-radius: 5px;
+        position: absolute;
+        top: 0; right: 0; width: 100%; height: 100%;
+        background-color: white;
+        opacity: 0.6;
+        transition-duration: .5s;
+        transition-timing-function: ease-in;
+    }
+
+    .btn_logoPC:hover::after {
+        opacity: 0.4;
+        transition-duration:0;
+    }
+
+.btn_logoMob {
+    width: 10em;
+    height: 2.5em;
+    margin: 2vh 0 6vh 0;
+    padding: 5px;
+    border: 1px solid var(--black);
+    border-radius: 5px;
+    text-align: center;
+    letter-spacing: 3px;
+    font-family: 'Barlow', sans-serif !important;
+    color: var(--white);
+    box-shadow: 0 0.5em 0.5em -0.4em var(--black);
+    background-color: var(--white);
+    color: var(--black);
+    opacity: 1;
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* ScrollDownPC animation */
+.scrolldownPC {
+    --color: white;
+    --sizeX: 30px;
+    --sizeY: 50px;
+    position: absolute;
+    z-index: 100;
+    top:45%;
+    right:5vw;
+    width: var(--sizeX);
+    height: var(--sizeY);
+    margin-left: var(sizeX / 2);
+    border: calc(var(--sizeX) / 10) solid var(--color);
+    border-radius: 50px; /* For PC */
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+    .scrolldownPC::before {
+        content: "";
+        position: absolute;
+        bottom: 30px; /* for PC */;
+        left: 50%;
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        background-color: var(--color);
+        border-radius: 100%;
+        animation: scrolldown-animPC 2s infinite;
+        box-sizing: border-box;
+        box-shadow: 0px -5px 3px 1px #ffffff66;
+    }
+
+@keyframes scrolldown-animPC {
+    0% {
+        opacity: 0;
+        height: 6px;
+    }
+
+    40% {
+        opacity: 1;
+        height: 10px;
+    }
+
+    80% {
+        transform: translate(0, 20px); /* for PC */
+        height: 10px;
+        opacity: 0;
+    }
+
+    100% {
+        height: 3px;
+        opacity: 0;
+    }
+}
+
+
+/* ScrollDownMobile animation */
+.scrolldownMob {
+    --color: white;
+    --sizeX: 30px;
+    --sizeY: 50px;
+    position: absolute;
+    z-index: 100;
+    top: 45%;
+    right: 5vw;
+    width: var(--sizeX);
+    height: var(--sizeY);
+    margin-left: var(sizeX / 2);
+    border: calc(var(--sizeX) / 10) solid var(--color);
+    border-radius: 5px; /* For Mobile */
+    box-sizing: border-box;
+    margin-bottom: 16px;
+}
+
+    .scrolldownMob::before {
+        content: "";
+        position: absolute;
+        bottom: 3px; /* for Mobile */
+        left: 50%;
+        width: 6px;
+        height: 6px;
+        margin-left: -3px;
+        background-color: var(--color);
+        border-radius: 100%;
+        animation: scrolldown-animMob 2s infinite;
+        box-sizing: border-box;
+        box-shadow: 0px -5px 3px 1px #ffffff66;
+    }
+
+@keyframes scrolldown-animMob {
+    0% {
+        opacity: 0;
+        height: 6px;
+    }
+
+    40% {
+        opacity: 1;
+        height: 10px;
+    }
+
+    80% {
+        transform: translate(0, -20px); /* for Mobile */
+        height: 10px;
+        opacity: 0;
+    }
+
+    100% {
+        height: 3px;
+        opacity: 0;
+    }
+}
+
+
+.chevrons {
+    padding: 6px 0 0 0;
+    margin-left: -3px;
+    margin-top: 48px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chevrondown {
+    margin-top: -6px;
+    position: relative;
+    border: solid var(--color);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+}
+
+    .chevrondown:nth-child(odd) {
+        animation: pulse 500ms ease infinite alternate;
+    }
+
+    .chevrondown:nth-child(even) {
+        animation: pulse 500ms ease infinite alternate 250ms;
+    }
+
+@keyframes pulse {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}

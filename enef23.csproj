@@ -105,15 +105,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\clcok2.css" />
+    <Content Include="css\Atividades.css" />
+    <Content Include="css\MainPage\clcok2.css" />
     <Content Include="css\clockOld.css" />
     <Content Include="css\loading.css" />
-    <Content Include="css\logo.css" />
-    <Content Include="css\map.css" />
-    <Content Include="css\more.css" />
-    <Content Include="css\navbarStyle.css" />
-    <Content Include="css\description.css" />
-    <Content Include="css\sponsors.css" />
+    <Content Include="css\MainPage\Content\Content.css" />
+    <Content Include="css\MainPage\Content\FAQ.css" />
+    <Content Include="css\MainPage\logo.css" />
+    <Content Include="css\MainPage\more.css" />
+    <Content Include="css\MainPage\navbarStyle.css" />
+    <Content Include="css\MainPage\Content\Activ_description.css" />
+    <Content Include="css\MainPage\sponsors.css" />
     <Content Include="css\variables.css" />
     <Content Include="Default.aspx" />
     <Content Include="Dependencies\gasp\.DS_Store" />
@@ -144,6 +146,7 @@
     <Content Include="Dependencies\gasp\TextPlugin.min.js" />
     <Content Include="Dependencies\gasp\TextPlugin.min.js.map" />
     <Content Include="Enef23.ico" />
+    <Content Include="Error.aspx" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -161,7 +164,6 @@
     <Content Include="img\Logo\enef23_white.png" />
     <Content Include="img\Logo\enef23_white_s.png" />
     <Content Include="img\Logo\enef23_white2.png" />
-    <Content Include="img\Mural.png" />
     <Content Include="img\Mural2.png" />
     <Content Include="img\Mural2_.png" />
     <Content Include="img\Mural2_2.png" />
@@ -179,11 +181,14 @@
     <Content Include="img\Ria.jpg" />
     <Content Include="img\Salina.jpg" />
     <Content Include="scripts\clock.js" />
-    <Content Include="scripts\MobileSupport.js" />
+    <Content Include="scripts\DescriptionContent\desc_conts.js" />
+    <Content Include="scripts\MobileSupportAtiv.js" />
+    <Content Include="scripts\MobileSupportDefault.js" />
     <Content Include="scripts\Navbar.js" />
     <Content Include="scripts\script.js" />
+    <Content Include="scripts\scriptAtiv.js" />
     <Content Include="Web.config" />
-    <Content Include="WebForm1.aspx" />
+    <Content Include="Atividades.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
@@ -195,16 +200,23 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Error.aspx.designer.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WebForm1.aspx.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Atividades.aspx.cs">
+      <DependentUpon>Atividades.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WebForm1.aspx.designer.cs">
-      <DependentUpon>WebForm1.aspx</DependentUpon>
+    <Compile Include="Atividades.aspx.designer.cs">
+      <DependentUpon>Atividades.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

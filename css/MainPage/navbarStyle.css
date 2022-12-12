@@ -16,7 +16,7 @@
 }
 
 .bubble-holder{
-    width: 25vw;
+    width: 20vw;
     position: absolute;
     display: flex;
     justify-content: center;
@@ -121,7 +121,7 @@
 
 .menuElementPC {
     position: absolute;
-    width: 25vw;
+    width: 20vw;
     height: 25px;
     opacity: 0.4;
     transform: translateY(25%);
@@ -161,6 +161,7 @@
     }
 
 #menu1 { left: -1px; }
-#menu2 { left: 25vw; }
-#menu3 { left: 50vw; }
-#menu4 { left: 75vw; }
+#menu2 { left: 20vw; }
+#menu3 { left: 40vw; }
+#menu4 { left: 60vw; }
+#menu5 { left: 80vw; }

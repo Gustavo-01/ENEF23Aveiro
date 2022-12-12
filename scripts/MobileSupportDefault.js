@@ -11,7 +11,6 @@ function MobileCheck() {
         is_mobile_device = false; if (window.matchMedia("(max-width: 750px)").matches) { is_mobile_device = true; }
 
         if (last_mobile != is_mobile_device) {
-            console.log("T?osap");
             RefreshMobile(is_mobile_device);
             last_mobile = is_mobile_device;
         }
@@ -91,6 +90,4 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("arrowDown-Mob", "arrowDown-PC");
 
     }
-
-    navbar_bublleClick("b1");
 }

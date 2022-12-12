@@ -1,43 +1,4 @@
-﻿.description-holder-PC{
-    z-index: 1;
-    background-color: var(--color1);
-    padding: 50px 80px;
-    height: calc(100vh - 100px);
-    width: calc(100% - 160px);
-    position: relative;
-}
-.description-holder-Mob {
-    z-index: 1;
-    background-color: var(--color1);
-    padding-top: calc(50px + 2.67em);
-    height: calc(100vh - calc(50px + 2.67em));
-    width: 100%;
-    position: relative;
-}
-.description-PC {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    height: calc(100vh - 100px);
-    width: calc(100vw - 200px);
-    overflow: hidden;
-    transform: translate(0,0);
-    position:relative;
-    z-index:1;
-}
-.description-Mob {
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: 70vh;
-    width: 100vw;
-    position: relative;
-    gap: 20px;
-    z-index: -1;
-    overflow: scroll !important;
-}
-.description-page-Pc {
+﻿.description-page-Pc {
     position: absolute;
     left: 0;
     display: flex;
@@ -62,7 +23,7 @@
 }
 .des-cont-PC {
     box-shadow: 10px 10px 2px var(--color1_shade);
-    height: 60%;
+    height: 70%;
     flex: 0 0 calc(33% - 100px);
     font-size: 1.1em;
     background-color: transparent;
@@ -118,21 +79,12 @@
         transition-duration: 0;
     }
 
-.desc-cont-select::before {
-    background-size: 500% 100% !important;
-    background-position: 50% 50% !important;
-}
-
 .des-cont-Mob {
     box-shadow: 10px 10px 2px var(--color1_shade);
     flex: 0 0 25vh;
     width: 80%;
     font-size: 0.8em;
     background-color: var(--black);
-}
-
-.des-disabled{
-    cursor: default !important;
 }
 
 .description-page-more-PC {
@@ -163,16 +115,18 @@
 }
 
 .cont {
+    font-weight: 500;
     margin: 20px;
     height: calc(100% - 40px);
     width: calc(100% - 40px);
+    text-align: justify;
 }
 .cont h1{
     text-align: center;
     border-bottom: 1px solid var(--white);
 }
 .cont p{
-
+    font-weight: 300;
 }
 .cont h4{
 
@@ -189,13 +143,15 @@
 }
 .des-arrow-PC{
     position:absolute;
-    bottom: 50vh;
     height: 50px;
     width: 50px;
     transition:.5s;
     border-radius:50%;
     cursor:pointer;
 }
+#arrow-l{ left:-60px }
+#arrow-r { right:-60px; }
+
 .des-arrow-Mob{
     display:none;
 }

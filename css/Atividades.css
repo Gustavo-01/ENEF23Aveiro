@@ -1,0 +1,64 @@
+﻿.content {
+    background-color: #222324;
+}
+
+#section1 {
+    background-color: var(--color1);
+    box-shadow: 5px 5px var(--color1_shade);
+}
+
+#section2 {
+    background-color: var(--color2);
+    box-shadow: 5px 5px var(--color2_shade);
+}
+
+#section3 {
+    background-color: var(--color3);
+    box-shadow: 5px 5px var(--color3_shade);
+}
+
+#section4 {
+    background-color: var(--color4);
+    box-shadow: 5px 5px var(--color4_shade);
+}
+
+.Ativ_section {
+    max-height: 2.5em;
+    margin: 20px 10vw;
+    padding: 10px;
+    width: calc(100% - 20vw);
+    border-radius: 5px;
+    color: #222324;
+    transition: max-height .5s;
+    overflow: hidden;
+    font-size: 1.2em;
+}
+
+.closed{ transition: font-size linear .2s; font-size: 1em !important; }
+.closed:hover { font-size: 1.2em !important; }
+
+.Ativ_head {
+    height: 2.5em;
+    display: flex;
+    cursor: pointer;
+    transition: max-height linear .5s;
+}
+    .Ativ_head h1 {
+        margin: 0 10px;
+        flex: 1 1 0;
+        white-space: nowrap;
+        text-align: center;
+        transition: flex .5s;
+    }
+    .Ativ_head div{ transition: flex .5s; }
+
+.Ativ_icon { 
+    margin: 0 10px; 
+    flex: 1 1 0;
+}
+.Ativ_icon h1{ text-align: right; }
+
+.Ativ_cont{
+    border-top: 1px solid var(--black);
+    margin-top: 1em;
+}

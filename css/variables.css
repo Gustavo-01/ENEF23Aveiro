@@ -1,5 +1,4 @@
 ﻿:root {
-    
     /* General variables */
     --white: white;
     --black: #121212;
@@ -15,10 +14,11 @@
     --color4: #d62620;
     --color4_shade: #92301b;
     --color4_clear: #d69694;
-
-    font-family: 'Roboto Condensed', sans-serif;
-    color:var(--white);
-    opacity:1;
+    --color5: #14224b;
+    --color5_shade: #0a1126;
+    --color5_clear: #203575;
+    color: var(--white);
+    opacity: 1;
 }
 
 body {
@@ -28,6 +28,8 @@ body {
 }
 
 .content {
+    font-family: 'Barlow', sans-serif !important;
+    font-weight: 500;
     scroll-snap-type: both mandatory;
     overflow-y: scroll;
     overflow-x: hidden;

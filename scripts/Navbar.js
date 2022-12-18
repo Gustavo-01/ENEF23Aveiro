@@ -20,7 +20,7 @@
             break;
         case 3:
             bgBubbleLeft = 40;
-            window.contentPage = window.PagLocalizações;
+            window.contentPage = window.PagLocalizacoes;
             break;
         case 4:
             bgBubbleLeft = 60;
@@ -68,3 +68,4 @@
 function Inscrever_click() {
     //TODO
 }
+

@@ -109,7 +109,8 @@
         <div class="Sponsors snapMid-PC" id="sponsors_tab">
             <h1>Patrocinadores</h1>
             <div class="SponsorsContainer">
-                <div class="SponsorHolder">Sponsor1</div>
+                <!-- Change Sponors when needed -->
+                <div class="SponsorHolder">Sponsor1</div> 
                 <div class="SponsorHolder">Sponsor2</div>
                 <div class="SponsorHolder">Sponsor3</div>
                 <div class="SponsorHolder">Sponsor4</div>

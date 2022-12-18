@@ -68,3 +68,4 @@
 function Inscrever_click() {
     //TODO
 }
+

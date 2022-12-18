@@ -27,7 +27,7 @@
 .FAQ-quest {
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
+    overflow-y: auto;
     max-height: auto
 }
 
@@ -36,7 +36,16 @@
     }
 
 .FAQ-cont-PC {
-    display:flex
- }
+    color: var(--white);
+    padding: 5px 20px;
+    margin: 10px 5px;
+    border-radius: 5px;
+    background-color: var(--black);
+    box-shadow: var(--gray) 5px 5px;
+    scroll-snap-align: start;
+}
+.FAQ-cont-hidden{
+    display:none
+}
 
 

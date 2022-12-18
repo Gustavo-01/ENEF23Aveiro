@@ -86,13 +86,12 @@ class PagFaq {
 
         let i = 0;
         for (var key in FAQ) {
-            console.log(key);
-            content += `<div class="FAQ-box-${device}" id="FAQ_cont${i}" onclick="window.contentPage.click_desc_FAQ(${i},'${key}')">;
-                        <div class="FAQ-quest">
+            content += `<div class="FAQ-box-${device}" id="FAQ_quest${i}" onclick="window.contentPage.click_desc_FAQ(${i},'${key}')">
+                            <div class="FAQ-quest">
                                 <h2>${key}</h2>
                             </div>
-                        </div>\n
-                        <div class="FAQ-cont-${device}" id="FAQ_cont${i}">
+                        </div>
+                            <div class="FAQ-cont-${device} FAQ-cont-hidden" id="FAQ_cont${i}">
                         </div>`;
             i++;
         }
@@ -100,7 +99,16 @@ class PagFaq {
     }
 
     click_desc_FAQ(i, key) {
-        document.getElementById(`FAQ_cont${i}`).innerHTML = FAQ[key]
+        if (document.getElementById(`FAQ_cont${i}`).classList.contains("FAQ-cont-hidden")){
+            document.getElementById(`FAQ_cont${i}`).innerHTML = FAQ[key]
+            document.getElementById(`FAQ_cont${i}`).classList.remove("FAQ-cont-hidden")
+        }
+        else {
+            document.getElementById(`FAQ_cont${i}`).innerHTML = ""
+            document.getElementById(`FAQ_cont${i}`).classList.add("FAQ-cont-hidden")
+        }
+
+       
     }
 }
 

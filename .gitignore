@@ -1,0 +1,20 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/enef23/FileContentIndex/04a4c07c-a6a1-41de-8889-88de5c94ff43.vsidx
+*.vsidx
+/.vs/enef23/FileContentIndex/9861a8fb-ed00-40fc-8fc3-f739a1a7a4ce.vsidx
+/.vs/enef23/FileContentIndex/c3534ec5-a5a4-47cf-abdc-bf711e4dcf3d.vsidx
+/.vs/enef23/FileContentIndex/d62c1488-86f0-4b84-9c4b-6260f3c75d9f.vsidx
+/.vs/enef23/v17/.suo
+/bin/enef23.pdb
+/bin/enef23.dll
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/obj/Debug/enef23.dll
+/obj/Debug/enef23.pdb
+/.vs/enef23/FileContentIndex/04a4c07c-a6a1-41de-8889-88de5c94ff43.vsidx
+/.vs/enef23/FileContentIndex/04a4c07c-a6a1-41de-8889-88de5c94ff43.vsidx
+/.vs/enef23/FileContentIndex/9861a8fb-ed00-40fc-8fc3-f739a1a7a4ce.vsidx
+/.vs/enef23/FileContentIndex/c3534ec5-a5a4-47cf-abdc-bf711e4dcf3d.vsidx
+/.vs/enef23/FileContentIndex/d62c1488-86f0-4b84-9c4b-6260f3c75d9f.vsidx

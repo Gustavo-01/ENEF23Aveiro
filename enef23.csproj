@@ -111,6 +111,7 @@
     <Content Include="css\loading.css" />
     <Content Include="css\MainPage\Content\Content.css" />
     <Content Include="css\MainPage\Content\FAQ.css" />
+    <Content Include="css\MainPage\Content\Local.css" />
     <Content Include="css\MainPage\logo.css" />
     <Content Include="css\MainPage\more.css" />
     <Content Include="css\MainPage\navbarStyle.css" />

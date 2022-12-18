@@ -24,6 +24,8 @@
     <link rel="stylesheet" type="text/css" href="../css/loading.css" />
     <link rel="stylesheet" type="text/css" href="../css/MainPage/sponsors.css" />
     <link rel="stylesheet" type="text/css" href="../css/MainPage/more.css" />
+    <link rel="stylesheet" type="text/css" href="../css/MainPage/more.css" />
+    <link rel="stylesheet" type="text/css" href="../css/MainPage/Content/Local.css" />
     <script src="../scripts/DescriptionContent/desc_conts.js"></script>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/clock.js"></script>

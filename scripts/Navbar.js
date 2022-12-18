@@ -4,7 +4,7 @@
 
     //if window is changing (only applies for Atividades)
     if (window.contentPage !== undefined) {
-        if (window.contentPage.changinPage !== undefined && window.contentPage.changinPage == true) {
+        if (window.contentPage.changingPage !== undefined && window.contentPage.changingPage == true) {
             return;
         }
     }

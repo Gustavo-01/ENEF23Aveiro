@@ -1,0 +1,17 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/enef23/config/applicationhost.config
+/.vs/enef23/FileContentIndex/04a4c07c-a6a1-41de-8889-88de5c94ff43.vsidx
+/.vs/enef23/FileContentIndex/a11c6a0c-7355-4555-ab49-e7e15d2d2b4d.vsidx
+*.vsidx
+/.vs/enef23/FileContentIndex/9861a8fb-ed00-40fc-8fc3-f739a1a7a4ce.vsidx
+/.vs/enef23/FileContentIndex/6f6f85af-20df-4de1-8c39-6c491a8a944a.vsidx
+/.vs/enef23/FileContentIndex/c34fdf16-6dd0-4863-8b7b-53f457e44419.vsidx
+/.vs/enef23/FileContentIndex/c8c6dcd0-ae3c-4d91-8406-fdee90c17568.vsidx
+/.vs/enef23/FileContentIndex/c3534ec5-a5a4-47cf-abdc-bf711e4dcf3d.vsidx
+/.vs/enef23/FileContentIndex/d62c1488-86f0-4b84-9c4b-6260f3c75d9f.vsidx
+/.vs/enef23/v17/.suo
+/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+/obj/Debug/enef23.csproj.AssemblyReference.cache

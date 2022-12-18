@@ -103,7 +103,6 @@ class PagFaq {
     }
 }
 
-function 
 
 
 window.PagFaq = new PagFaq();

@@ -1,7 +1,7 @@
 ﻿const FAQ = {
     "É NECESSÁRIO PAGAR LOGO APÓS O ATO DE INSCRIÇÃO?":
-        `<p>Após preencheres o formulário, terás de efetuar o pagamento e enviar o respetivo comprovativo num prazo de 5 dias.
-        Só aí a tua vaga estará assegurada!</p>`,
+        `Após preencheres o formulário, terás de efetuar o pagamento e enviar o respetivo comprovativo num prazo de 5 dias.
+        Só aí a tua vaga estará assegurada!`,
 
     "COMO FUNCIONA O DESCONTO PARA SÓCIOS DA PHYSIS E COMO ME TORNO SÓCIO?":
         `Se fores sócio da Physis, tens um desconto de 5 € em qualquer pack que escolheres.
@@ -85,9 +85,10 @@ class PagFaq {
         var content = "<div class='FAQ-holder'>";
 
         let i = 0;
-        for (let [key, value] of Object.entries(FAQ)) {
-            content += `<div class="FAQ-box-${device}" id="FAQ_cont${i}" onclick='window.PagContent.click_desc_FAQ(${i},${value})">`;
-            content += `<div class="FAQ-quest">
+        for (var key in FAQ) {
+            console.log(key);
+            content += `<div class="FAQ-box-${device}" id="FAQ_cont${i}" onclick="window.contentPage.click_desc_FAQ(${i},'${key}')">;
+                        <div class="FAQ-quest">
                                 <h2>${key}</h2>
                             </div>
                         </div>\n
@@ -98,11 +99,9 @@ class PagFaq {
         return content + "</div>";
     }
 
-    click_desc_FAQ(i, value) {
-        document.getElementById(`FAQ_cont${i}`).innerHTML = value
+    click_desc_FAQ(i, key) {
+        document.getElementById(`FAQ_cont${i}`).innerHTML = FAQ[key]
     }
 }
-
-
 
 window.PagFaq = new PagFaq();

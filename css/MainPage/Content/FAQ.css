@@ -24,6 +24,19 @@
     scroll-snap-align: start;
 }
 
-.FAQ-cont{
-
+.FAQ-quest {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: auto
 }
+
+    .FAQ-quest:hover {
+        cursor: pointer;
+    }
+
+.FAQ-cont-PC {
+    display:flex
+ }
+
+

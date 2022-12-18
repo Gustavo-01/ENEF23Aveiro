@@ -181,7 +181,11 @@
     <Content Include="img\Ria.jpg" />
     <Content Include="img\Salina.jpg" />
     <Content Include="scripts\clock.js" />
-    <Content Include="scripts\DescriptionContent\desc_conts.js" />
+    <Content Include="scripts\DescriptionContent\PagPac.js" />
+    <Content Include="scripts\DescriptionContent\PagAti.js" />
+    <Content Include="scripts\DescriptionContent\PagEqu.js" />
+    <Content Include="scripts\DescriptionContent\PagFAQ.js" />
+    <Content Include="scripts\DescriptionContent\PagLoc.js" />
     <Content Include="scripts\MobileSupportAtiv.js" />
     <Content Include="scripts\MobileSupportDefault.js" />
     <Content Include="scripts\Navbar.js" />

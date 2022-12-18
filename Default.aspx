@@ -26,7 +26,11 @@
     <link rel="stylesheet" type="text/css" href="../css/MainPage/more.css" />
     <link rel="stylesheet" type="text/css" href="../css/MainPage/more.css" />
     <link rel="stylesheet" type="text/css" href="../css/MainPage/Content/Local.css" />
-    <script src="../scripts/DescriptionContent/desc_conts.js"></script>
+    <script src="../scripts/DescriptionContent/PagPac.js"></script>
+    <script src="../scripts/DescriptionContent/PagEqu.js"></script>
+    <script src="../scripts/DescriptionContent/PagAti.js"></script>
+    <script src="../scripts/DescriptionContent/PagFAQ.js"></script>
+    <script src="../scripts/DescriptionContent/PagLoc.js"></script>
     <script src="../scripts/script.js"></script>
     <script src="../scripts/clock.js"></script>
     <script src="../scripts/Navbar.js"></script>

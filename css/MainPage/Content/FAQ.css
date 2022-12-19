@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     overflow-y: scroll;
-    max-height: 100%;
+    max-height: calc(100% - 50px);
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     scroll-snap-type: both mandatory;
@@ -22,6 +22,7 @@
     background-color: var(--white);
     box-shadow: var(--black) 5px 5px;
     scroll-snap-align: start;
+    transition: .5s;
 }
 
 .FAQ-quest {
@@ -43,9 +44,18 @@
     background-color: var(--black);
     box-shadow: var(--gray) 5px 5px;
     scroll-snap-align: start;
+    max-height: 1000px;
+    flex: 1 1 auto;
+    opacity: 1;
+    transition: .5s;
 }
-.FAQ-cont-hidden{
-    display:none
+.FAQ-cont-hidden {
+    padding: 0 20px !important;
+    margin: 0 5px !important;
+    flex: 1 1 0 !important;
+    max-height: 0 !important;
+    opacity: 0 !important;
+    transition: padding .5s, margin .5s, flex .5s, opacity .5s, max-height .5s;
 }
 
 

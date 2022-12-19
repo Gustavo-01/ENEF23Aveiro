@@ -63,6 +63,3 @@
     border-bottom: 1px solid var(--black);
     transition-duration:.3s;
 }
-.loc-search-body-cont:hover{
-    color:white;    
-}

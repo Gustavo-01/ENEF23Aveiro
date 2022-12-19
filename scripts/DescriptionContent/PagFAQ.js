@@ -100,11 +100,13 @@ class PagFaq {
 
     click_desc_FAQ(i, key) {
         if (document.getElementById(`FAQ_cont${i}`).classList.contains("FAQ-cont-hidden")){
-            document.getElementById(`FAQ_cont${i}`).innerHTML = FAQ[key]
-            document.getElementById(`FAQ_cont${i}`).classList.remove("FAQ-cont-hidden")
+            document.getElementById(`FAQ_cont${i}`).innerHTML = "<h3 style='font-weight: 100; letter-spacing: 1px;'>" + FAQ[key] + "</h3>";
+            document.getElementById(`FAQ_cont${i}`).classList.remove("FAQ-cont-hidden");
         }
         else {
-            document.getElementById(`FAQ_cont${i}`).innerHTML = ""
+            window.setTimeout(function () {
+                document.getElementById(`FAQ_cont${i}`).innerHTML = "";
+            }, 500);
             document.getElementById(`FAQ_cont${i}`).classList.add("FAQ-cont-hidden")
         }
 

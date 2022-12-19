@@ -10,7 +10,11 @@ class PagPacotes {
     }
 
     getContent() {
-        return ""
+        return `<div class='pac-fitinha'>
+                    <div class='pac-fitinha-in' style='position:relative; width:100%; height: 100%'>
+                        <div><h2>Por anunciar!</h2></div>
+                    </div>
+                </div>`;
     }
 
 }

@@ -6,7 +6,7 @@ class PagLocalizacoes {
         this.optionN = 3;
         this.options = {
             "Atividades": {
-                "AtivTitle1": "Coordenates1",
+                "AtivTitle1": `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d304.783799028831!2d-8.65661213949019!3d40.630218078233725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aba29f8fb3%3A0x2b165678e2281ef7!2sDepartment%20of%20Physics%2C%20University%20of%20Aveiro!5e0!3m2!1sen!2spt!4v1671383272212!5m2!1sen!2spt`,
                 "AtivTitle2": "Coordenates2",
                 "AtivTitle3": "Coordenates3",
                 "AtivTitle4": "Coordenates4",
@@ -61,7 +61,9 @@ class PagLocalizacoes {
         return `
         <div class="local-wrapper">
             <div onmouseover="window.contentPage.shiftFlex(0)" id="loc-side0" class="local-box">
-                <iframe id="loc-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12112.821164248973!2d-8.649069149999999!3d40.6253544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversity%20of%20Aveiro!5e0!3m2!1sen!2spt!4v1671361252119!5m2!1sen!2spt" width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="loc-map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12112.821164248973!2d-8.649069149999999!3d40.6253544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversity%20of%20Aveiro!5e0!3m2!1sen!2spt!4v1671361252119!5m2!1sen!2spt" width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
             <div onmouseover="window.contentPage.shiftFlex(1)" id="loc-side1" class="local-box loc-search-box">
                 <div class="loc-search-head">${getHeadContent()}</div>
@@ -83,7 +85,7 @@ class PagLocalizacoes {
             let j = 0;
             let cont = "";
             for (var optionTitle in optionContents) {
-                cont += `<div id="loc-body-op${j}" onclick="window.contentPage.clickOp('${j}','${i}','${optionContents[optionTitle]}')" onmouseover="window.contentPage.hoverOp('${j}','${i}')" class='loc-search-body-cont' style='background-color:var(--color${i}_clear)'>${optionTitle}</div>`;
+                cont += `<div id="loc-body-op${j}" onclick="window.contentPage.clickOp('${j}','${i}',\``+optionContents[optionTitle]+`\`)" onmouseover="window.contentPage.hoverOp('${j}','${i}')" class='loc-search-body-cont' style='background-color:var(--color${i}_clear)'>${optionTitle}</div>`;
                 j += 1;
             }
             return cont;
@@ -93,15 +95,23 @@ class PagLocalizacoes {
 
     clickOp(j, i, bodyOp) {
         const elem = document.getElementById("loc-body-op" + j);
-
         elem.style.backgroundColor = "var(--color" + i + ")";
+        elem.style.color = "var(--white)";
+        const mapElem = document.getElementById("loc-map");
+        mapElem.innerHTML = `<iframe src=${bodyOp} width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+
+        if (window.contentPage.selectedOp != null) {
+            const lastElem = document.getElementById("loc-body-op" + window.contentPage.selectedOp);
+            lastElem.style.backgroundColor = "var(--color" + i + "_clear)";
+            lastElem.style.color = "black";
+        }
         window.contentPage.selectedOp = j;
     }
 
     hoverOp(j, i) {
         const elem = document.getElementById("loc-body-op" + j);
-
         elem.style.backgroundColor = "var(--color" + i + ")";
+
         elem.onmouseout = function () {
             if (j == window.contentPage.selectedOp) { return; }
             elem.style.backgroundColor = "var(--color" + i + "_clear)";

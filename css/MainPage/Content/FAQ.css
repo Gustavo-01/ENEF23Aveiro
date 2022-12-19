@@ -26,6 +26,7 @@
 }
 
 .FAQ-quest {
+    position: relative;
     display: flex;
     flex-direction: column;
     overflow-y: auto;
@@ -57,5 +58,10 @@
     opacity: 0 !important;
     transition: padding .5s, margin .5s, flex .5s, opacity .5s, max-height .5s;
 }
-
+.FAQ-arrow{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    width: 25px;
+}
 

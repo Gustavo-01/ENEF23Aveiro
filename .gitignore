@@ -15,3 +15,14 @@
 /.vs/enef23/v17/.suo
 /obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
 /obj/Debug/enef23.csproj.AssemblyReference.cache
+*.lock
+/.vs/slnx.sqlite
+/bin/enef23.dll
+/bin/enef23.pdb
+/obj/Debug/enef23.dll
+/obj/Debug/enef23.pdb
+/.vs/slnx.sqlite
+/bin/enef23.dll
+/bin/enef23.pdb
+/obj/Debug/enef23.dll
+/obj/Debug/enef23.pdb

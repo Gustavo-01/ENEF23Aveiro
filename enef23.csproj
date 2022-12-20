@@ -111,6 +111,7 @@
     <Content Include="css\loading.css" />
     <Content Include="css\MainPage\Content\Content.css" />
     <Content Include="css\MainPage\Content\FAQ.css" />
+    <Content Include="css\MainPage\Content\Packages.css" />
     <Content Include="css\MainPage\logo.css" />
     <Content Include="css\MainPage\more.css" />
     <Content Include="css\MainPage\navbarStyle.css" />
@@ -156,8 +157,12 @@
     <Content Include="img\Biblioteca.jpg" />
     <Content Include="img\Biblioteca2.jpg" />
     <Content Include="img\Caloirodromo.JPG" />
+    <Content Include="img\Apoios\cesam.svg" />
+    <Content Include="img\Apoios\ciceco.svg" />
     <Content Include="img\Cor.jpg" />
     <Content Include="img\CostaNova.jpg" />
+    <Content Include="img\Apoios\fisua.svg" />
+    <Content Include="img\Apoios\it.svg" />
     <Content Include="img\Logo\enef23.png" />
     <Content Include="img\Eu.jpg" />
     <Content Include="img\Flores.jpg" />
@@ -226,6 +231,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\" />
+    <Folder Include="img\Sponsors\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

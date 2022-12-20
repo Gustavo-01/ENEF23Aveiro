@@ -1,5 +1,10 @@
 ﻿device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = true }
 
+const Packages = {
+    'Soon':
+        "Em Breve"
+    }
+
 class PagPacotes {
     constructor() {
         this.title = "Pacotes/Inscrições";
@@ -10,7 +15,9 @@ class PagPacotes {
     }
 
     getContent() {
-        return ""
+        var content = `<div>
+</div>`
+        return Packages["Soon"]
     }
 
 }

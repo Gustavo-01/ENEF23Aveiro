@@ -59,7 +59,6 @@
         .to(".des-title", { duration: 0.3, y: "30px", opacity: "0", textShadow: "2px 2px var(--color" + bubble_N + "_shade)", ease: "ease-in-out" }, 0)
         .to(".des-title", { duration: 0.5, y: "0", opacity: "1", ease: "ease-in-out" }, 0.3)
         .to(".content-holder-" + device, { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
-        .to("#sponsors_tab", { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
         .to("#bg", { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
         .to("#bgBubble", { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
         .to(".content-" + device, { duration: 0.5, y: "-30px", opacity: "1", ease: "ease-in" }, 0.3)

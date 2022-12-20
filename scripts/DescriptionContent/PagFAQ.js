@@ -75,6 +75,12 @@ device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = t
 class PagFaq {
     constructor() {
         this.title = "Perguntas Frequentes";
+        this.arrowDown = `<svg width="100%" height="100%" fill="currentColor" class="bi bi-chevron-compact-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.553 6.776a.5.5 0 0 1 .67-.223L8 9.44l5.776-2.888a.5.5 0 1 1 .448.894l-6 3a.5.5 0 0 1-.448 0l-6-3a.5.5 0 0 1-.223-.67z"/>
+                        </svg>`;
+        this.arrowUp = `<svg width="100%" height="100%" fill="currentColor" class="bi bi-chevron-compact-up" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M7.776 5.553a.5.5 0 0 1 .448 0l6 3a.5.5 0 1 1-.448.894L8 6.56 2.224 9.447a.5.5 0 1 1-.448-.894l6-3z"/>
+                        </svg>`;
     }
 
     initial_f() {
@@ -89,6 +95,7 @@ class PagFaq {
             content += `<div class="FAQ-box-${device}" id="FAQ_quest${i}" onclick="window.contentPage.click_desc_FAQ(${i},'${key}')">
                             <div class="FAQ-quest">
                                 <h2>${key}</h2>
+                                <div class='FAQ-arrow' id="FAQ_arrow${i}">${this.arrowDown}</div>
                             </div>
                         </div>
                             <div class="FAQ-cont-${device} FAQ-cont-hidden" id="FAQ_cont${i}">
@@ -100,12 +107,16 @@ class PagFaq {
 
     click_desc_FAQ(i, key) {
         if (document.getElementById(`FAQ_cont${i}`).classList.contains("FAQ-cont-hidden")){
-            document.getElementById(`FAQ_cont${i}`).innerHTML = FAQ[key]
-            document.getElementById(`FAQ_cont${i}`).classList.remove("FAQ-cont-hidden")
+            document.getElementById(`FAQ_cont${i}`).innerHTML = "<h3 style='font-weight: 100; letter-spacing: 1px;'>" + FAQ[key] + "</h3>";
+            document.getElementById(`FAQ_cont${i}`).classList.remove("FAQ-cont-hidden");
+            document.getElementById(`FAQ_arrow${i}`).innerHTML = window.contentPage.arrowUp;
         }
         else {
-            document.getElementById(`FAQ_cont${i}`).innerHTML = ""
-            document.getElementById(`FAQ_cont${i}`).classList.add("FAQ-cont-hidden")
+            window.setTimeout(function () {
+                document.getElementById(`FAQ_cont${i}`).innerHTML = "";
+            }, 500);
+            document.getElementById(`FAQ_cont${i}`).classList.add("FAQ-cont-hidden");
+            document.getElementById(`FAQ_arrow${i}`).innerHTML = window.contentPage.arrowDown;
         }
 
        

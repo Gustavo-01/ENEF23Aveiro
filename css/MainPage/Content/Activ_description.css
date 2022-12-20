@@ -22,6 +22,7 @@
     opacity: 1 !important;
 }
 .des-cont-PC {
+    color: var(--black);
     box-shadow: 10px 10px 2px var(--color1_shade);
     height: 70%;
     flex: 0 0 calc(33% - 100px);
@@ -31,54 +32,18 @@
     transition-duration: .5s;
     transform: translate(0,0);
 }
-    .des-cont-PC:hover {
-        cursor: pointer;
-    }
-
     .des-cont-PC::before {
         z-index: -2;
         transition: background-position .5s ease-in-out, background-size .5s ease-in-out;
         content: '';
+        opacity: 0.8;
         position: absolute;
         top: 0;
         right: 0;
         width: 100%;
         height: 100%;
-        background: linear-gradient(50deg, 
-            var(--color1) 0.01%,
-            var(--black) 2%,
-            var(--black) 16.7%,
-            var(--color2) 33.4%,
-            var(--color3) 50%,
-            var(--color4) 66.7%,
-            var(--color1) 83.4%,
-            var(--color2) 100%
-        );
-        background-size: 800% 100%;
-        background-position: 0 0;
+        background: linear-gradient(45deg, var(--color1_clear), var(--white));
     }
-
-    .des-cont-PC:hover::before {
-        background-size: 500% 100%;
-        background-position: 50% 50%;
-    }
-
-    .des-cont-PC::after {
-        content: '';
-        z-index: -1;
-        position: absolute;
-        top: 0; right: 0; width: 100%; height: 100%;
-        background-color: var(--black);
-        opacity: 0.8;
-        transition-duration: .5s;
-        transition-timing-function: ease-in;
-    }
-
-    .des-cont-PC:hover::after {
-        opacity: 0.6;
-        transition-duration: 0;
-    }
-
 .des-cont-Mob {
     box-shadow: 10px 10px 2px var(--color1_shade);
     flex: 0 0 25vh;
@@ -123,7 +88,6 @@
 }
 .cont h1{
     text-align: center;
-    border-bottom: 1px solid var(--white);
 }
 .cont p{
     font-weight: 300;

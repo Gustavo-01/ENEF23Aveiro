@@ -1,13 +1,13 @@
 ﻿.Sponsors {
     height: 100%;
-    background-color:var(--color1);
+    background-color:var(--white);
     position:relative;
 }
     .Sponsors h1 {
         margin: 0;
         padding: 30px 0 15px 0;
         font-family: 'Barlow', sans-serif !important;
-        color: white;
+        color: var(--black);
         text-align: center;
         letter-spacing: 3px;
         font-size: 1.2em;

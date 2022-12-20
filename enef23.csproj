@@ -113,6 +113,7 @@
     <Content Include="css\MainPage\Content\FAQ.css" />
     <Content Include="css\MainPage\Content\Local.css" />
     <Content Include="css\MainPage\Content\pacote.css" />
+    <Content Include="css\MainPage\supporters.css" />
     <Content Include="css\MainPage\logo.css" />
     <Content Include="css\MainPage\more.css" />
     <Content Include="css\MainPage\navbarStyle.css" />
@@ -186,6 +187,7 @@
     <Content Include="img\Reservatorio.jpg" />
     <Content Include="img\Ria.jpg" />
     <Content Include="img\Salina.jpg" />
+    <Content Include="scripts\CarouselApoios.js" />
     <Content Include="scripts\clock.js" />
     <Content Include="scripts\DescriptionContent\PagPac.js" />
     <Content Include="scripts\DescriptionContent\PagAti.js" />

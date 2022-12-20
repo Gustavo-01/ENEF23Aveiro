@@ -1,5 +1,5 @@
 ﻿.Sponsors {
-    height: 530px;
+    height: 100%;
     background-color:var(--color1);
     position:relative;
 }
@@ -15,7 +15,7 @@
 
 .SponsorsContainer {
     margin: 0 50px;
-    height: calc( calc(500px - 2em - 70px) / 2);
+    height: calc(50% - 100px);
     display: flex;
     flex-direction: row;
     gap:50px;

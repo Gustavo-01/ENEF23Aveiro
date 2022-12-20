@@ -116,7 +116,16 @@
             <div class="SponsorsContainer">
                 <!-- Change Sponors when needed -->
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\ciceco.svg" width="100" height="100"></object>
+                    <object data=".\img\Apoios\cesam.svg" height ="400" width ="400"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Apoios\ciceco.svg"height ="400" width ="400"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Apoios\fisua.svg" height ="400" width ="400"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Apoios\it.svg" height ="400" width ="400"></object>
                 </div>
             </div>
             <h1>Apoios</h1>

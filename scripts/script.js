@@ -22,6 +22,15 @@ window.onload = function () {
 
     //Loading page
     document.getElementById("loading_page").style.opacity = "0";
+
+    //Sponsors auto-scroll
+    window.sponsorTab = document.getElementById("supportContainer");
+    self.setInterval(() => {                //200vw + 8 * gap
+        if (window.sponsorTab.scrollLeft > window.innerWidth * 2 + 400) {
+            window.sponsorTab.scrollLeft = 0;
+        }
+        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 2, 0); // control velocity here
+    }, 15); //or here
 }
 
 

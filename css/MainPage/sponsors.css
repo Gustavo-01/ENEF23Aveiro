@@ -14,16 +14,22 @@
     }
 
 .SponsorsContainer {
-    width:100%;
-    margin: 0 50px;
+    width: 100%;
     height: calc(50% - 100px);
     display: flex;
     flex-direction: row;
-    gap:50px;
+    gap: 50px;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
 }
+    .SponsorsContainer::-webkit-scrollbar {
+        display: none;
+        -webkit-appearance: none; /* Chrome, Safari and Opera */
+    }
 .SponsorHolder {
     height: calc(60% - 40px);
-    flex: 0 0 calc(25vw - 92.5px);
+    flex: 0 0 calc(25vw - 80px);
     text-align: center;
     margin: auto;
     box-shadow: rgb(50 50 93 / 25%) 0px 6px 6px -12px inset, rgb(0 0 0 / 30%) 0px 6px 30px -18px inset;

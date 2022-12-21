@@ -144,28 +144,28 @@
             <h1>Apoios</h1>
             <div class="SponsorsContainer">
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\cesam.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\cesam.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\ciceco.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\ciceco.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\dfis.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\dfis.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\eps.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\eps.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\fisua.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\fisua.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\i3n.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\i3n.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\it.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\it.svg"></object>
                 </div>
                 <div class="SponsorHolder">
-                    <object data=".\img\Apoios\neef.svg" height="400" width="400"></object>
+                    <object data=".\img\Apoios\neef.svg"></object>
                 </div>
             </div>
         </div>

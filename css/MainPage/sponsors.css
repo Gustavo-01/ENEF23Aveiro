@@ -14,6 +14,7 @@
     }
 
 .SponsorsContainer {
+    width:100%;
     margin: 0 50px;
     height: calc(50% - 100px);
     display: flex;
@@ -21,8 +22,8 @@
     gap:50px;
 }
 .SponsorHolder {
-    height: 70%;
-    flex: 1 1 auto;
+    height: calc(60% - 40px);
+    flex: 0 0 calc(25vw - 92.5px);
     text-align: center;
     margin: auto;
     box-shadow: rgb(50 50 93 / 25%) 0px 6px 6px -12px inset, rgb(0 0 0 / 30%) 0px 6px 30px -18px inset;
@@ -32,8 +33,17 @@
     justify-content: center;
     text-shadow: 0;
     transition-duration: .5s;
+    padding: 40px;
 }
     .SponsorHolder:hover {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-        text-shadow: 0px 3px 0px #b2a98f, 0px 14px 10px rgba(0,0,0,0.15), 0px 24px 2px rgba(0,0,0,0.1), 0px 34px 30px rgba(0,0,0,0.1);
+    }
+        .SponsorHolder:hover object {
+            -webkit-filter: drop-shadow( 6px 6px 3px var(--white_shade));
+            filter: drop-shadow( 6px 6px 3px rgb(50 50 93 / 25%));
+        }
+    .SponsorHolder object{
+        transition-duration: .5s;
+        max-width: 100%;
+        max-height:100%
     }

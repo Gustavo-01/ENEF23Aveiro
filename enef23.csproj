@@ -155,6 +155,10 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="img\Apoios\dfis.svg" />
+    <Content Include="img\Apoios\eps.svg" />
+    <Content Include="img\Apoios\i3n.svg" />
+    <Content Include="img\Apoios\neef.svg" />
     <Content Include="img\Biblioteca.jpg" />
     <Content Include="img\Biblioteca2.jpg" />
     <Content Include="img\Caloirodromo.JPG" />

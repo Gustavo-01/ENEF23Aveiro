@@ -1,6 +1,7 @@
 ﻿:root {
     /* General variables */
-    --white: white;
+    --white: #FAF9F6;
+    --white_shade: #ebe9e6;
     --black: #121212;
     --color1: #44b3e1;
     --color1_shade: #065a8d;

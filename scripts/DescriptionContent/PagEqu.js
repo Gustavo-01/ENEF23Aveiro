@@ -1,6 +1,4 @@
-﻿device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = true }
-
-class PagEquipa {
+﻿class PagEquipa {
     constructor() {
         this.title = "Equipa";
     }
@@ -10,6 +8,8 @@ class PagEquipa {
     }
 
     getContent() {
+        const device = window.getDevice();
+
         return "something"
     }
 }

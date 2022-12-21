@@ -1,4 +1,8 @@
-﻿
+﻿window.getDevice = function () {
+    let device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = "Mob" };
+    return device;
+}
+
 //Ran from window.onLoad at script.js
 function MobileCheck() {
     //Check if mobile
@@ -52,11 +56,8 @@ function RefreshMobile(is_mobile_device) {
         document.getElementById("_clock").style.gap = "10px";
 
         //Description
-        ChangeClasses("des-arrow-PC", "des-arrow-Mob");
-        ChangeClasses("description-PC", "description-Mob");
-        ChangeClasses("description-holder-PC", "description-holder-Mob");
-        ChangeClasses("des-cont-PC", "des-cont-Mob");
-        ChangeClasses("arrowDown-PC", "arrowDown-Mob");
+        ChangeClasses("content-PC", "content-Mob");
+        ChangeClasses("content-holder-PC", "content-holder-Mob");
 
     }
     else {
@@ -83,11 +84,7 @@ function RefreshMobile(is_mobile_device) {
         document.getElementById("_clock").style.gap = "20px";
 
         //Description
-        ChangeClasses("des-arrow-Mob", "des-arrow-PC");
-        ChangeClasses("description-Mob", "description-PC");
-        ChangeClasses("description-holder-Mob", "description-holder-PC");
-        ChangeClasses("des-cont-Mob", "des-cont-PC");
-        ChangeClasses("arrowDown-Mob", "arrowDown-PC");
-
+        ChangeClasses("content-Mob", "content-PC");
+        ChangeClasses("content-holder-Mob", "content-holder-PC");
     }
 }

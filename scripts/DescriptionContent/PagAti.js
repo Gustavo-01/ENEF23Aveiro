@@ -74,8 +74,6 @@
 
 }
 
-device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = true }
-
 class PagAtividades {
     constructor() {
         this.title = "Plano de atividades";
@@ -90,6 +88,8 @@ class PagAtividades {
     }
 
     getContent() {
+        const device = window.getDevice();
+
         //Left and Right arrows:
         var content = `
                     <div id="arrow-l" class="des-arrow-PC can-hover" onclick="window.contentPage.changePage(false)">

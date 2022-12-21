@@ -1,6 +1,4 @@
-﻿device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = true }
-
-class PagLocalizacoes {
+﻿class PagLocalizacoes {
     constructor() {
         this.title = "Localizações";
         this.optionN = 3;
@@ -41,6 +39,8 @@ class PagLocalizacoes {
     }
 
     getContent() {
+        const device = window.getDevice();
+
         const options = this.options;
         const optionN = this.optionN;
 

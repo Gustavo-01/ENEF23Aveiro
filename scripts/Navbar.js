@@ -32,7 +32,7 @@
             break;
     }
 
-    const device = window.device;
+    const device = window.getDevice();
     const iconClass = ".icon" + device;
     const color = getComputedStyle(document.documentElement).getPropertyValue('--color' + bubble_N);
 

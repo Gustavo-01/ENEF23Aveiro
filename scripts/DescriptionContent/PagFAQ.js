@@ -70,8 +70,6 @@
         `Os recibos são enviados alguns dias após o final de cada fase.​`
 }
 
-device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = true }
-
 class PagFaq {
     constructor() {
         this.title = "Perguntas Frequentes";
@@ -88,6 +86,8 @@ class PagFaq {
     }
 
     getContent() {
+        const device = window.getDevice();
+
         var content = "<div class='FAQ-holder'>";
 
         let i = 0;

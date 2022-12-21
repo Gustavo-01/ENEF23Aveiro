@@ -1,6 +1,4 @@
-﻿device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = true }
-
-const Packages = {
+﻿const Packages = {
     'Soon':
         "Em Breve"
     }
@@ -15,6 +13,8 @@ class PagPacotes {
     }
 
     getContent() {
+        const device = window.getDevice();
+
         return `<div class='pac-fitinha'>
                     <div class='pac-fitinha-in' style='position:relative; width:100%; height: 100%'>
                         <div><h2>Por anunciar!</h2></div>

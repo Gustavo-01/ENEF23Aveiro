@@ -29,8 +29,8 @@ window.onload = function () {
         if (window.sponsorTab.scrollLeft > window.innerWidth * 2 + 400) {
             window.sponsorTab.scrollLeft = 0;
         }
-        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 2, 0); // control velocity here
-    }, 15); //or here
+        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 1, 0); // control velocity here
+    }, 4); //or here
 }
 
 

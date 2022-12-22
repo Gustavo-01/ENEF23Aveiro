@@ -44,7 +44,6 @@
     border-radius: 5px;
     background-color: var(--black);
     box-shadow: var(--gray) 5px 5px;
-    scroll-snap-align: start;
     max-height: 1000px;
     flex: 1 1 auto;
     opacity: 1;

@@ -27,6 +27,7 @@
     <link rel="stylesheet" type="text/css" href="../css/MainPage/more.css" />
     <link rel="stylesheet" type="text/css" href="../css/MainPage/Content/Local.css" />
     <link rel="stylesheet" type="text/css" href="../css/MainPage/Content/pacote.css" />
+    <link rel="stylesheet" type="text/css" href="../css/MainPage/Content/Equipa.css" />
     <script src="../scripts/DescriptionContent/PagPac.js"></script>
     <script src="../scripts/DescriptionContent/PagEqu.js"></script>
     <script src="../scripts/DescriptionContent/PagAti.js"></script>
@@ -78,7 +79,7 @@
                     <img id="logo_img" src="img/Logo/enef23_white_s.png" style="max-width: 30vw;" />
                 </div>
                 <div class="logo_holder-rows" style="flex: 0 0 40vh; flex-direction: column; position: relative; display: inline-flex; perspective: 1000px;">
-                    <button class="btn_logoPC" onclick="Inscrever_click()">Inscrever</button>
+                    <button class="btn_logoPC" onclick="window.location = './Atividades.aspx'">Atividades</button>
                     <div class="countdown-clock">
                         <div class="_clockPC">
                             <div id="_clock">
@@ -107,7 +108,7 @@
 
                 </div>
                 <!-- MORE -->
-                <div class="more snapTop-PC">
+                <div class="more">
                     <div class="social-holder">
                         <div class="social">
                             <div style="cursor: pointer" onclick="window.location='https://www.instagram.com/enef2023/'">

@@ -108,7 +108,7 @@
 
     Scroll() {
         window.TeamsTab = document.getElementById("TeamHolder");
-        window.TeamsMemberHeight = (window.innerHeight - 100);
+        window.TeamsMemberHeight = document.getElementById("gustavo").clientHeight;
         window.setInterval(() => {                //200vh + 15 * gap
             console.log(window.TeamsTab.scrollTop, window.TeamsMemberHeight * 15 + 750);
             if (window.TeamsTab.scrollTop > window.TeamsMemberHeight * 15 + 750) {

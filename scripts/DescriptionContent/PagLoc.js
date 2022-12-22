@@ -53,7 +53,7 @@
                 if (i == 3) { i += 1; }
                 // Fix to avoid last item having black line right side
                 const lastOptionStyle = (i == optionN + 1) ? "border-right:none" : "";
-                cont += `<div onclick="window.contentPage.setBodyContent('${option}',${i})" onmouseover='window.contentPage.shiftOp(${i})' id='loc-head-op${i}' class='loc-head-op' style="background-color: var(--color${i}); ${lastOptionStyle}">${option}</div>`;
+                cont += `<div onclick="window.contentPage.setBodyContent('${option}',${i})" onmouseover='window.contentPage.shiftOp(${i})' id='loc-head-op${i}' class='loc-head-op' style="background-color: #587c6c; ${lastOptionStyle}">${option}</div>`;
             }
             return cont;
         }
@@ -85,7 +85,7 @@
             let j = 0;
             let cont = "";
             for (var optionTitle in optionContents) {
-                cont += `<div id="loc-body-op${j}" onclick="window.contentPage.clickOp('${j}','${i}',\``+optionContents[optionTitle]+`\`)" onmouseover="window.contentPage.hoverOp('${j}','${i}')" class='loc-search-body-cont' style='background-color:var(--color${i}_clear)'>${optionTitle}</div>`;
+                cont += `<div id="loc-body-op${j}" onclick="window.contentPage.clickOp('${j}','${i}',\`` + optionContents[optionTitle] + `\`)" onmouseover="window.contentPage.hoverOp('${j}','${i}')" class='loc-search-body-cont' style='background-color:#799EA0'>${optionTitle}</div>`;
                 j += 1;
             }
             return cont;
@@ -95,14 +95,14 @@
 
     clickOp(j, i, bodyOp) {
         const elem = document.getElementById("loc-body-op" + j);
-        elem.style.backgroundColor = "var(--color" + i + ")";
+        elem.style.backgroundColor = "#799EA0";
         elem.style.color = "var(--white)";
         const mapElem = document.getElementById("loc-map");
         mapElem.innerHTML = `<iframe src=${bodyOp} width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
 
         if (window.contentPage.selectedOp != null) {
             const lastElem = document.getElementById("loc-body-op" + window.contentPage.selectedOp);
-            lastElem.style.backgroundColor = "var(--color" + i + "_clear)";
+            lastElem.style.backgroundColor = "#587C5A";
             lastElem.style.color = "black";
         }
         window.contentPage.selectedOp = j;
@@ -110,11 +110,11 @@
 
     hoverOp(j, i) {
         const elem = document.getElementById("loc-body-op" + j);
-        elem.style.backgroundColor = "var(--color" + i + ")";
+        elem.style.backgroundColor = "#587C5A";
 
         elem.onmouseout = function () {
             if (j == window.contentPage.selectedOp) { return; }
-            elem.style.backgroundColor = "var(--color" + i + "_clear)";
+            elem.style.backgroundColor = "#799EA0";
         }
     }
 
@@ -133,9 +133,9 @@
 
     shiftOp(opN) {
         const element = document.getElementById(`loc-head-op${opN}`);
-        element.style.backgroundColor = `var(--color${opN}_shade)`;
+        element.style.backgroundColor = `#354a41`;
         element.onmouseleave = function () {
-            element.style.backgroundColor = `var(--color${opN})`;
+            element.style.backgroundColor = `#587c6c`;
         }
     }
 }

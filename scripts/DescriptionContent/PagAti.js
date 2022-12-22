@@ -108,7 +108,7 @@ class PagAtividades {
         let i = 0;
         for (let [key, value] of Object.entries(atividades)) {
             if (i == 0) {
-                content += `<div class="description-page-${device}" style="opacity: 1; z-index: 2" id="desc_page${i}">\n`;
+                content += `<div class="description-page-${device}" style="opacity: 1; z-index: -1" id="desc_page${i}">\n`;
             }
             else if (i % 3 == 0) {
                 content += `</div><div class="description-page-${device}" id="desc_page${i / 3}">`;
@@ -146,7 +146,7 @@ class PagAtividades {
             var t1 = gsap.timeline();
             t1.to("#desc_page" + (page - 1), { duration: 0.5, transform: "translate(-20vw,0)", opacity: "0", ease: "ease-in" }, 0)
                 .to("#desc_page" + (page - 1), { duration: 0, transform: "translate(0,0)", zIndex: "-2" }, 0)
-                .to("#desc_page" + page, { duration: 0, transform: "translate(20vw,0)", zIndex: "2" }, 0.5)
+                .to("#desc_page" + page, { duration: 0, transform: "translate(20vw,0)", zIndex: "-1" }, 0.5)
                 .to("#desc_page" + page, { duration: 0.5, transform: "translate(0,0)", opacity: "1", ease: "ease-out" }, 0.5);
         }
         else {

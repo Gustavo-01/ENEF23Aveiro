@@ -61,10 +61,11 @@
         .to(".content-holder-" + device, { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
         .to("#bg", { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
         .to("#bgBubble", { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
+        .to("#sponsors_tab", { duration: 0.3, backgroundColor: color, ease: "ease-in-out" }, 0)
         .to(".content-" + device, { duration: 0.5, y: "-30px", opacity: "1", ease: "ease-in" }, 0.3)
 }
 
 function Inscrever_click() {
-    //TODO
+    window.location = "./Atividades.aspx"
 }
 

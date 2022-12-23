@@ -45,11 +45,12 @@
         background: linear-gradient(45deg, var(--color1_clear), var(--white));
     }
 .des-cont-Mob {
-    box-shadow: 10px 10px 2px var(--color1_shade);
+    color: var(--black);
+    box-shadow: rgb(50 50 93 / 25%) 10px 10px 2px;
     flex: 0 0 25vh;
     width: 80%;
     font-size: 0.8em;
-    background-color: var(--black);
+    background-color: var(--white);
 }
 
 .description-page-more-PC {
@@ -116,9 +117,6 @@
 #arrow-l{ left:-60px }
 #arrow-r { right:-60px; }
 
-.des-arrow-Mob{
-    display:none;
-}
 .des-arrow-PC svg{ padding: 10px; }
 .disabled {
     opacity: 0.3;
@@ -129,9 +127,6 @@
     color: var(--black);
 }
 
-.arrowDown-Mob{
-
-}
 .arrowDown-PC{
     display: none;
 }

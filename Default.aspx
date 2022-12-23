@@ -108,7 +108,7 @@
 
                 </div>
                 <!-- MORE -->
-                <div class="more">
+                <div class="morePC">
                     <div class="social-holder">
                         <div class="social">
                             <div style="cursor: pointer" onclick="window.location='https://www.instagram.com/enef2023/'">

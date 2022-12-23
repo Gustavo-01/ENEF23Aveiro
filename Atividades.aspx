@@ -11,7 +11,7 @@
     <!-- Change White or black deppending on black or white theme -->
 
     <link id="favicon" href="../Enef23.ico" rel="shortcut icon" type="image/x-icon" />
-    
+
     <!-- Css + Js's -->
     <link rel="stylesheet" type="text/css" href="../css/variables.css" />
     <link rel="stylesheet" type="text/css" href="../css/logo.css" />
@@ -49,12 +49,11 @@
 
         <div style="text-align: center; margin: 0 10vw">
 
-            <img src="img/Logo/enef23_white2.png" style="min-height: 200px; min-width: 200px; width: 30vw; margin:-5vw auto; display: block; cursor: pointer" onClick="window.location = '/';"/>
+            <img src="img/Logo/enef23_white2.png" style="min-height: 200px; min-width: 200px; width: 30vw; margin: -5vw auto; display: block; cursor: pointer" onclick="window.location = '/';" />
 
             <h1 style="width: 100%; margin-top: -50px">Informação de Atividades</h1>
 
-            <h3 style="text-align:left; margin: 100px 0;">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nislex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
+            <h3 style="text-align: left; margin: 100px 0;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nislex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
             </h3>
 
         </div>
@@ -64,74 +63,42 @@
         <div class="Ativ_section closed" id="section1" onclick="ExpandSection(1)">
             <div class="Ativ_head" id="section_head1">
                 <h1>Workshops </h1>
-                <div style="flex:1 1 100%"></div>
+                <div style="flex: 1 1 100%"></div>
                 <div class="Ativ_icon">
                     <h1>+</h1>
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-
+                <h4>Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”,
+        aplicando conhecimentos de uma forma dinâmica!</h4>
             </div>
         </div>
 
         <div class="Ativ_section closed" id="section2" onclick="ExpandSection(2)">
             <div class="Ativ_head" id="section_head2">
                 <h1>Inside Views</h1>
-                <div style="flex:1 1 100%"></div>
+                <div style="flex: 1 1 100%"></div>
                 <div class="Ativ_icon">
                     <h1>+</h1>
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-
+                <h4>Nas Inside Views, conhecerás alguns dos meios de investigação principais e terás a oportunidade de visitar laboratórios dos diversos institutos e
+        centros de investigação</h4>
             </div>
         </div>
 
         <div class="Ativ_section closed" id="section3" onclick="ExpandSection(3)">
             <div class="Ativ_head" id="section_head3">
                 <h1>Palestras</h1>
-                <div style="flex:1 1 100%"></div>
+                <div style="flex: 1 1 100%"></div>
                 <div class="Ativ_icon">
                     <h1>+</h1>
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
+                <h4>Esperam-te palestras interessantes relacionadas a diversas áreas da Física, nas quais irás assistir a oradores de renome a nível nacional e
+        aprender sobre as suas áreas de investigação!</h4>
 
             </div>
         </div>
@@ -139,33 +106,23 @@
         <div class="Ativ_section closed" id="section4" onclick="ExpandSection(4)">
             <div class="Ativ_head" id="section_head4">
                 <h1>Debate</h1>
-                <div style="flex:1 1 100%"></div>
+                <div style="flex: 1 1 100%"></div>
                 <div class="Ativ_icon">
                     <h1>+</h1>
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
-                                <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
-
+                <h4>Alterações Climáticas - um tema que será aprofundado por investigadores e profissionais das áreas de Meteorologia, Climatologia e Oceanografia no
+        debate, no qual poderás participar, colocando questões.</h4>
 
             </div>
         </div>
 
         <!-- MORE -->
         <div class="more" style="background-color: #222324">
-            <div class="social-holder">
+            <div class="social-holder" style="width: max-content">
                 <div class="social">
-                     <div style="cursor: pointer" onclick="window.location = 'https://www.instagram.com/enef2023/'">
+                    <div style="cursor: pointer" onclick="window.location = 'https://www.instagram.com/enef2023/'">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16" style="fill: var(--white);">
                             <path d="M 4.773438 1 C 2.695313 1 1 2.695313 1 4.773438 L 1 10.230469 C 1 12.304688 2.695313 14 4.773438 14 L 10.230469 14 C 12.304688 14 14 12.304688 14 10.226563 L 14 4.773438 C 14 2.695313 12.304688 1 10.226563 1 Z M 4.773438 2 L 10.226563 2 C 11.765625 2 13 3.234375 13 4.773438 L 13 10.226563 C 13 11.765625 11.765625 13 10.230469 13 L 4.773438 13 C 3.234375 13 2 11.765625 2 10.230469 L 2 4.773438 C 2 3.234375 3.234375 2 4.773438 2 Z M 11.5 3 C 11.222656 3 11 3.222656 11 3.5 C 11 3.777344 11.222656 4 11.5 4 C 11.777344 4 12 3.777344 12 3.5 C 12 3.222656 11.777344 3 11.5 3 Z M 7.5 4 C 5.574219 4 4 5.574219 4 7.5 C 4 9.425781 5.574219 11 7.5 11 C 9.425781 11 11 9.425781 11 7.5 C 11 5.574219 9.425781 4 7.5 4 Z M 7.5 5 C 8.886719 5 10 6.113281 10 7.5 C 10 8.886719 8.886719 10 7.5 10 C 6.113281 10 5 8.886719 5 7.5 C 5 6.113281 6.113281 5 7.5 5 Z"></path></svg>
                     </div>
@@ -176,8 +133,11 @@
                     </div>
                     <div style="cursor: pointer" onclick="window.location = 'https://www.linkedin.com/company/enef-2023/'">
                         <!-- https://www.linkedin.com/company/enef-2023/ -->
-                        <svg xmlns="http://www.w3.org/2000/svg"  x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32" style="fill: var(--white);">
-                            <path d="M28 1c1.654 0 3 1.346 3 3v24c0 1.654-1.346 3-3 3H4c-1.654 0-3-1.346-3-3V4c0-1.654 1.346-3 3-3h24m0-1H4C1.8 0 0 1.8 0 4v24c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4V4c0-2.2-1.8-4-4-4z"/><path d="M24.299 23.921v-6.137c0-3.288-1.755-4.818-4.096-4.818-1.889 0-2.735 1.039-3.206 1.768v-1.517h-3.558c.047 1.005 0 10.704 0 10.704h3.558v-5.978c0-.319.023-.639.117-.867.257-.639.842-1.301 1.825-1.301 1.288 0 1.803.981 1.803 2.42v5.727l3.557-.001zM9.69 11.756c1.24 0 2.013-.823 2.013-1.85-.023-1.05-.773-1.849-1.99-1.849s-2.012.799-2.012 1.849c0 1.028.772 1.85 1.967 1.85h.022zm1.779 12.165V13.217H7.912v10.704h3.557z"/></svg>                    </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 32 32" style="fill: var(--white);">
+                            <path d="M28 1c1.654 0 3 1.346 3 3v24c0 1.654-1.346 3-3 3H4c-1.654 0-3-1.346-3-3V4c0-1.654 1.346-3 3-3h24m0-1H4C1.8 0 0 1.8 0 4v24c0 2.2 1.8 4 4 4h24c2.2 0 4-1.8 4-4V4c0-2.2-1.8-4-4-4z" />
+                            <path d="M24.299 23.921v-6.137c0-3.288-1.755-4.818-4.096-4.818-1.889 0-2.735 1.039-3.206 1.768v-1.517h-3.558c.047 1.005 0 10.704 0 10.704h3.558v-5.978c0-.319.023-.639.117-.867.257-.639.842-1.301 1.825-1.301 1.288 0 1.803.981 1.803 2.42v5.727l3.557-.001zM9.69 11.756c1.24 0 2.013-.823 2.013-1.85-.023-1.05-.773-1.849-1.99-1.849s-2.012.799-2.012 1.849c0 1.028.772 1.85 1.967 1.85h.022zm1.779 12.165V13.217H7.912v10.704h3.557z" />
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>

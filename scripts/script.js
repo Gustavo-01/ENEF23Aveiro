@@ -24,12 +24,17 @@ window.onload = function () {
     document.getElementById("loading_page").style.opacity = "0";
 
     //Sponsors auto-scroll
-    window.sponsorTab = document.getElementById("supportContainer");
+    window.sponsorTab = document.getElementById("sponsorContainer");
+    window.supportTab = document.getElementById("supportContainer");
     self.setInterval(() => {                //200vw + 8 * gap
-        if (window.sponsorTab.scrollLeft > window.innerWidth * 2 + 400) {
+        if (window.supportTab.scrollLeft > window.innerWidth * 2 + 830) {
+            window.supportTab.scrollLeft = 0;
+        }
+        if (window.sponsorTab.scrollLeft > window.innerWidth * 2 + 300) {
             window.sponsorTab.scrollLeft = 0;
         }
-        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 1, 0); // control velocity here
+        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 1, 0);
+        window.supportTab.scrollTo(window.supportTab.scrollLeft + 1, 0);// control velocity here
     }, 4); //or here
 }
 

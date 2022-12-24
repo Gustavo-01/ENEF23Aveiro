@@ -53,7 +53,7 @@
 
             <h1 style="width: 100%; margin-top: -50px">Informação de Atividades</h1>
             <div class="back-button" id="back_button">
-                <button class="btn_logoPC" style="background-color:var(--color1_clear); height:3.5em" onclick="window.location = './Default.aspx'">Voltar a pagina inicial</button>
+                <button class="btn_logoPC" style="background-color:var(--white); padding: 10px" onclick="window.location = './Default.aspx'">página inicial</button>
             </div>
 
             <h3 style="text-align: center; margin: 100px 0;">Aqui encontrarás mais informações detalhadas sobre as atividades que irás experienciar ao longo do ENEF 2023!</h3>
@@ -62,70 +62,70 @@
 
         <!-- Content -->
 
-        <div class="Ativ-section closed" id="section1" onclick="ExpandSection(1)">
-            <div class="Ativ-head" id="section_head1">
+        <div class="Ativ-sectionPC closed" id="section1" onclick="ExpandSection(1)">
+            <div class="Ativ-headPC" id="section_head1">
                 <h1>Workshops </h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ-icon">
+                <div class="Ativ-iconPC">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ-cont">
+            <div class="Ativ-contPC">
                 <h4>Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”, aplicando conhecimentos adquiridos de uma forma dinâmica!
 No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em duas sessões consecutivas. Desta forma, poderás participar em 2 Workshops e/ou Talks! Após efetuares a tua inscrição, ser-te-á fornecido um formulário no qual poderás dizer quais são as tuas 3 opções, por ordem de preferência. As colocações nos Workshops e Talks serão por ordem de inscrição, consequentemente, não haverá garantia que ficarás nas tuas primeiras opções.</h4>
             </div>
         </div>
 
-        <div class="Ativ-section closed" id="section2" onclick="ExpandSection(2)">
-            <div class="Ativ-head" id="section_head2">
+        <div class="Ativ-sectionPC closed" id="section2" onclick="ExpandSection(2)">
+            <div class="Ativ-headPC" id="section_head2">
                 <h1>Inside Views</h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ-icon">
+                <div class="Ativ-iconPC">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ_contPC">
                 <h4>Nas Inside Views, conhecerás alguns dos meios de investigação principais na cidade e Universidade de Aveiro no âmbito de áreas relacionadas a Física e Engenharia Física. Terás a oportunidade de visitar laboratórios dos diversos institutos e centros de investigação, comunicar com investigadores e ver em primeira-mão o ambiente de investigação nos que selecionares. O número de visitantes por laboratório terá vagas limitadas, sendo que as colocações nos mesmos serão por ordem de inscrição, consequentemente, não há garantia de que fiques nas tuas primeiras opções.</h4>
             </div>
         </div>
 
-        <div class="Ativ-section closed" id="section3" onclick="ExpandSection(3)">
-            <div class="Ativ-head" id="section_head3">
+        <div class="Ativ-sectionPC closed" id="section3" onclick="ExpandSection(3)">
+            <div class="Ativ-headPC" id="section_head3">
                 <h1>Palestras</h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ-icon">
+                <div class="Ativ-iconPC">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ_contPC">
                 <h4>Esperam-te palestras interessantes relacionadas a diversas áreas da Física, nas quais irás assistir a oradores de renome a nível nacional e
         aprender sobre as suas áreas de investigação!</h4>
 
             </div>
         </div>
 
-        <div class="Ativ-section closed" id="section4" onclick="ExpandSection(4)">
-            <div class="Ativ-head" id="section_head4">
+        <div class="Ativ-sectionPC closed" id="section4" onclick="ExpandSection(4)">
+            <div class="Ativ-headPC" id="section_head4">
                 <h1>Debate</h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ-icon">
+                <div class="Ativ-iconPC">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ_contPC">
                 <h4>No ENEF2023, o tema selecionado para o Debate será “Alterações Climáticas”, visto que é um tema de grande importância a nível mundial e imensa relevância na comunidade científica. O tema principal será aprofundado por investigadores e profissionais das áreas de Meteorologia, Climatologia e Oceanografia, sendo estas importantes no meio de investigação em Aveiro, e terás oportunidade de comunicar com os oradores do debate.</h4>
 
             </div>
         </div>
-        <div class="Ativ_section closed" id="section5" onclick="ExpandSection(5)">
-            <div class="Ativ_head" id="section_head5">
+        <div class="Ativ-sectionPC closed" id="section5" onclick="ExpandSection(5)">
+            <div class="Ativ-headPC" id="section_head5">
                 <h1>Nobel Talk</h1>
                 <div style="flex: 1 1 100%"></div>
-                <div class="Ativ_icon">
+                <div class="Ativ-iconPC">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ-contPC">
                 <h4>O tema central da Nobel Talk do ENEF2023, será o Prémio Nobel da Física atribuído em 2022 aos investigadores Anton Zeilinger, Alain Aspect e John Clauser, pelos seus desenvolvimentos científicos no tópico de entrelaçamento quântico, estabelecimento da violação das Inequações de Bell e investigação pioneira na ciência de comunicação e informação quântica. Na palestra terás a oportunidade de ouvir a apresentação do Nobel por um dos professores catedráticos do Departamento de Física da Universidade de Aveiro e de colocar as tuas questões acerca do tema!</h4>
 
             </div>

@@ -27,7 +27,7 @@
     box-shadow: 5px 5px var(--color5);
 }
 
-.Ativ-section-PC {
+.Ativ-sectionPC {
     max-height: 2.5em;
     margin: 20px 10vw;
     padding: 10px;
@@ -39,41 +39,41 @@
     font-size: 1.2em;
 }
 
-.closed-PC{ transition: font-size linear .2s; font-size: 1em !important; }
-.closed-PC:hover { font-size: 1.2em !important; }
+.closedPC{ transition: font-size linear .2s; font-size: 1em !important; }
+.closedPC:hover { font-size: 1.2em !important; }
 
-.Ativ-head-PC {
+.Ativ-headPC {
     height: 2.5em;
     display: flex;
     cursor: pointer;
     transition: max-height linear .5s;
 }
-    .Ativ-head-PC h1 {
+    .Ativ-headPC h1 {
         margin: 0 10px;
         flex: 1 1 0;
         white-space: nowrap;
         text-align: center;
         transition: flex .5s;
     }
-    .Ativ-head div{ transition: flex .5s; }
+    .Ativ-headPC div{ transition: flex .5s; }
 
-.Ativ-icon { 
+.Ativ-iconPC { 
     margin: 0 10px; 
     flex: 1 1 0;
 }
-.Ativ-icon h1{ text-align: right; }
+.Ativ-iconPC h1{ text-align: right; }
 
-.Ativ-cont{
+.Ativ-contPC{
     border-top: 1px solid var(--black);
     margin-top: 1em;
     display: flex;
     flex-direction: column;
 }
 
-.Ativ-cont-PC{
+.Ativ-contPC{
 
 }
 
-.Ativ-box{
+.Ativ-boxPC{
     width: 100%
 }

@@ -75,7 +75,7 @@
             <div class="logo_holder" id="logo_holder">
                 <div style="flex: 0 0 20vh" id="logo_top_margin"></div>
                 <div id="bem-vindo-logo" class="logo_holder-rows" style="flex: 0 0 30vh; flex-direction: row;">
-                    <h1 style="margin-right: 25px; font-weight: 800">Bem-vindo ao</h1>
+                    <h1 style="margin-right: 25px; font-weight: 800">Bem-vind@ ao</h1>
                     <img id="logo_img" src="img/Logo/enef23_white_s.png" style="max-width: 30vw;" />
                 </div>
                 <div class="logo_holder-rows" style="flex: 0 0 40vh; flex-direction: column; position: relative; display: inline-flex; perspective: 1000px;">

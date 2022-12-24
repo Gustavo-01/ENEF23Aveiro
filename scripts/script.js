@@ -11,8 +11,37 @@ function show_map() {
     document.getElementById("map_holder").style.height = "80vh";
 }
 
-var scrollInterval;
+function setupAutoScroll() {
+    //Sponsors auto-scroll
+    window.sponsorTab = document.getElementById("sponsorContainer");
+    window.supportTab = document.getElementById("supportContainer");
+    window.sponsorMemberWidth = document.getElementById("logo_cesam").clientWidth;
+    console.log(window.sponsorMemberWidth);
+    self.setInterval(() => {               //Card_N * (childWidth + gap)
+        if (window.supportTab.scrollLeft > 9 * (window.sponsorMemberWidth + 50)) {
+            window.supportTab.scrollLeft = 0;
+        }
+        if (window.sponsorTab.scrollLeft > 7 * (window.sponsorMemberWidth + 50)) {
+            window.sponsorTab.scrollLeft = 0;
+        }
+        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 1, 0);
+        window.supportTab.scrollTo(window.supportTab.scrollLeft + 1, 0);// control velocity here
+    }, 1); //or here
+
+    window.resetScroll = function () {
+        setTimeout(function () {
+            window.sponsorMemberWidth = document.getElementById("logo_cesam").clientWidth;
+            window.sponsorTab = document.getElementById("sponsorContainer");
+            window.supportTab = document.getElementById("supportContainer");
+            console.log(window.sponsorMemberWidth);
+        },2000);
+    }
+}
+
 window.onload = function () {
+
+    // Support auto-scroll
+    setupAutoScroll();
 
     //MobileSupport
     MobileCheck();
@@ -22,20 +51,6 @@ window.onload = function () {
 
     //Loading page
     document.getElementById("loading_page").style.opacity = "0";
-
-    //Sponsors auto-scroll
-    window.sponsorTab = document.getElementById("sponsorContainer");
-    window.supportTab = document.getElementById("supportContainer");
-    self.setInterval(() => {                //200vw + 8 * gap
-        if (window.supportTab.scrollLeft > window.innerWidth * 2 + 830) {
-            window.supportTab.scrollLeft = 0;
-        }
-        if (window.sponsorTab.scrollLeft > window.innerWidth * 2 + 300) {
-            window.sponsorTab.scrollLeft = 0;
-        }
-        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + 1, 0);
-        window.supportTab.scrollTo(window.supportTab.scrollLeft + 1, 0);// control velocity here
-    }, 4); //or here
 }
 
 

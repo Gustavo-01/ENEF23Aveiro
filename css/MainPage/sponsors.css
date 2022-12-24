@@ -1,5 +1,4 @@
 ﻿.Sponsors {
-    height: 100%;
     position:relative;
     color: var(--white);
 }
@@ -12,7 +11,7 @@
         font-size: 1.2em;
     }
 
-.SponsorsContainer {
+.SponsorsContainerPC {
     width: 100%;
     height: calc(50% - 100px);
     display: flex;
@@ -22,11 +21,26 @@
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
 }
-    .SponsorsContainer::-webkit-scrollbar {
+    .SponsorsContainerPC::-webkit-scrollbar {
         display: none;
         -webkit-appearance: none; /* Chrome, Safari and Opera */
     }
-.SponsorHolder {
+.SponsorsContainerMob {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    overflow: auto;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+    .SponsorsContainerMob::-webkit-scrollbar {
+        display: none;
+        -webkit-appearance: none; /* Chrome, Safari and Opera */
+    }
+.SponsorHolderPC {
     height: calc(60% - 40px);
     flex: 0 0 calc(25vw - 80px);
     text-align: center;
@@ -42,26 +56,63 @@
     background-color: var(--white);
     position: relative;
 }
-    .SponsorHolder:hover {
+    .SponsorHolderPC:hover {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     }
-        .SponsorHolder:hover object {
+        .SponsorHolderPC:hover object {
             -webkit-filter: drop-shadow( 6px 6px 3px var(--white_shade));
             filter: drop-shadow( 6px 6px 3px rgb(50 50 93 / 25%));
         }
-    .SponsorHolder object{
+    .SponsorHolderPC object{
         transition-duration: .5s;
         max-width: 100%;
         max-height:100%
     }
-.SponsorHolder::after{
+.SponsorHolderPC::after{
     content:'';
     position: absolute;
     top:0; bottom:0; right:0; left:0;
     box-shadow: rgb(50 50 93 / 25%) 10px 10px;
 }
-.logo_cesam {
+.SponsorHolderMob {
+    height: calc(100% - 30px);
+    flex: 0 0 calc(25vw - 20px);
+    text-align: center;
+    margin: auto;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 6px -12px inset, rgb(0 0 0 / 30%) 0px 6px 30px -18px inset;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0;
+    transition-duration: .5s;
+    padding: 10px;
+    background-color: var(--white);
+    position: relative;
+}
+
+    .SponsorHolderMob object {
+        transition-duration: .5s;
+        max-width: 100%;
+        max-height: 100%
+    }
+
+    .SponsorHolderMob::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        box-shadow: rgb(50 50 93 / 25%) 10px 10px;
+    }
+.logo_cesamPC {
     flex: 0 0 25vw !important;
     padding: 0 !important;
     height: calc(60% + 40px) !important;
+}
+.logo_cesamMob {
+    flex: 0 0 25vw !important;
+    padding: 0 !important;
+    height: calc(100% - 10px) !important;
 }

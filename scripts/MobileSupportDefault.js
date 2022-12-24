@@ -55,7 +55,13 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("_clockPC", "_clockMob");
         ChangeClasses("btn_logoPC", "btn_logoMob");
         ChangeClasses("morePC", "moreMob")
+        ChangeClasses("social-holderPC", "social-holderMob")
         document.getElementById("_clock").style.gap = "10px";
+
+        //Sponsor
+        ChangeClasses("SponsorHolderPC", "SponsorHolderMob");
+        ChangeClasses("SponsorsContainerPC", "SponsorsContainerMob");
+        ChangeClasses("logo_cesamPC", "logo_cesamMob");
 
         //Description
         ChangeClasses("content-PC", "content-Mob");
@@ -84,11 +90,20 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("logoMob", "logoPC");
         ChangeClasses("_clockMob", "_clockPC");
         ChangeClasses("btn_logoMob", "btn_logoPC");
-        ChangeClasses("moreMob", "morePc")
+        ChangeClasses("moreMob", "morePC")
+        ChangeClasses("social-holderMob", "social-holderPC")
         document.getElementById("_clock").style.gap = "20px";
+
+        //Sponsor
+        ChangeClasses("SponsorHolderMob", "SponsorHolderPC");
+        ChangeClasses("SponsorsContainerMob", "SponsorsContainerPC");
+        ChangeClasses("logo_cesamMob", "logo_cesamPC");
 
         //Description
         ChangeClasses("content-Mob", "content-PC");
         ChangeClasses("content-holder-Mob", "content-holder-PC");
     }
+
+    //Sponsor auto-scroll
+    window.resetScroll();
 }

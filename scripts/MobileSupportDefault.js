@@ -1,5 +1,5 @@
 ﻿window.getDevice = function () {
-    let device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = "Mob" };
+    let device = "PC"; if (window.matchMedia("(max-width: 800px)").matches) { device = "Mob" };
     return device;
 }
 
@@ -7,12 +7,12 @@
 function MobileCheck() {
     //Check if mobile
     var is_mobile_device = false;
-    if (window.matchMedia("(max-width: 750px)").matches) { is_mobile_device = true; }
+    if (window.matchMedia("(max-width: 800px)").matches) { is_mobile_device = true; }
     var last_mobile = is_mobile_device;
     RefreshMobile(is_mobile_device);
 
     setInterval(function () {
-        is_mobile_device = false; if (window.matchMedia("(max-width: 750px)").matches) { is_mobile_device = true; }
+        is_mobile_device = false; if (window.matchMedia("(max-width: 800px)").matches) { is_mobile_device = true; }
 
         if (last_mobile != is_mobile_device) {
             RefreshMobile(is_mobile_device);
@@ -40,6 +40,7 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("bubblePC", "bubbleMob");
         ChangeClasses("menuElementPC", "menuElementMob");
         ChangeClasses("bgBPC", "bgBMob");
+        document.getElementById("navbar_holder").style.bottom = "calc( -100vh - 130%)";
 
         //Logo
         document.getElementById("scrolldown-ico").classList.remove("scrolldownPC");
@@ -48,11 +49,12 @@ function RefreshMobile(is_mobile_device) {
         document.getElementById("logo_top_margin").style.flex = "0 0 10vh";
         document.getElementById("logo_img").style.maxWidth = "60vw";
         document.getElementById("logo_holder").style.opacity = "1";
-        document.getElementById("logo_holder").style.gap = "100px";
+        document.getElementById("logo_holder").style.gap = "7px";
         document.getElementById("logo_back_img").style.opacity = "0.2"
         ChangeClasses("logoPC", "logoMob");
         ChangeClasses("_clockPC", "_clockMob");
         ChangeClasses("btn_logoPC", "btn_logoMob");
+        ChangeClasses("morePC", "moreMob")
         document.getElementById("_clock").style.gap = "10px";
 
         //Description
@@ -69,6 +71,7 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("bubbleMob", "bubblePC");
         ChangeClasses("menuElementMob", "menuElementPC");
         ChangeClasses("bgBMob", "bgBPC");
+        document.getElementById("navbar_holder").style.bottom = "calc( -100vh - 100%)"
 
         //Logo
         document.getElementById("scrolldown-ico").classList.add("scrolldownPC");
@@ -81,6 +84,7 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("logoMob", "logoPC");
         ChangeClasses("_clockMob", "_clockPC");
         ChangeClasses("btn_logoMob", "btn_logoPC");
+        ChangeClasses("moreMob", "morePc")
         document.getElementById("_clock").style.gap = "20px";
 
         //Description

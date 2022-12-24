@@ -4,18 +4,14 @@
         this.optionN = 3;
         this.options = {
             "Atividades": {
-                "AtivTitle1": `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d304.783799028831!2d-8.65661213949019!3d40.630218078233725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aba29f8fb3%3A0x2b165678e2281ef7!2sDepartment%20of%20Physics%2C%20University%20of%20Aveiro!5e0!3m2!1sen!2spt!4v1671383272212!5m2!1sen!2spt`,
-                "AtivTitle2": "Coordenates2",
-                "AtivTitle3": "Coordenates3",
-                "AtivTitle4": "Coordenates4",
-                "AtivTitle5": "Coordenates5",
-                "AtivTitle6": "Coordenates6",
-                "AtivTitle7": "Coordenates7",
-                "AtivTitle8": "Coordenates8",
-                "AtivTitle9": "Coordenates9",
-                "AtivTitle10": "Coordenates10",
-                "AtivTitle11": "Coordenates11"
-
+                "Sessao de Abertura": `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.8985307139883!2d-8.659129272500326!3d40.63257107688241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aab7c61c2b%3A0x92aee967fde277f!2sDepartamento%20de%20Ambiente%20e%20Ordenamento!5e0!3m2!1spt-PT!2spt!4v1671848627229!5m2!1spt-PT!2spt`,
+                "Sessaso de Encerramento": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.8985307139883!2d-8.659129272500326!3d40.63257107688241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aab7c61c2b%3A0x92aee967fde277f!2sDepartamento%20de%20Ambiente%20e%20Ordenamento!5e0!3m2!1spt-PT!2spt!4v1671848627229!5m2!1spt-PT!2spt",
+                "Palestras": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.8985307139883!2d-8.659129272500326!3d40.63257107688241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aab7c61c2b%3A0x92aee967fde277f!2sDepartamento%20de%20Ambiente%20e%20Ordenamento!5e0!3m2!1spt-PT!2spt!4v1671848627229!5m2!1spt-PT!2spt",
+                "Debate": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.8985307139883!2d-8.659129272500326!3d40.63257107688241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aab7c61c2b%3A0x92aee967fde277f!2sDepartamento%20de%20Ambiente%20e%20Ordenamento!5e0!3m2!1spt-PT!2spt!4v1671848627229!5m2!1spt-PT!2spt",
+                "Nobel Talk": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241.8985307139883!2d-8.659129272500326!3d40.63257107688241!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aab7c61c2b%3A0x92aee967fde277f!2sDepartamento%20de%20Ambiente%20e%20Ordenamento!5e0!3m2!1spt-PT!2spt!4v1671848627229!5m2!1spt-PT!2spt",
+                "Inside Views - DFis": "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d189.24898061292078!2d-8.65665189435307!3d40.63024166262188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-PT!2spt!4v1671848804458!5m2!1spt-PT!2spt",
+                "Inside Views - IT": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d714.4686348719528!2d-8.66016981097998!3d40.63401821192275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd239800023fffff%3A0x75387a25e0613df8!2sIT%20-%20Instituto%20de%20Telecomunica%C3%A7%C3%B5es%2C%203810-193%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1671848871119!5m2!1spt-PT!2spt",
+                "Inside Views - CICFANO": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d756.9941955341956!2d-8.657670511867625!3d40.63039399870249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2abbac7cb1b%3A0x55890551aa449a!2sCICFANO%20-%20Complexo%20Interdisciplinar%20de%20Ci%C3%AAncias.%20F%C3%ADsicas%20Aplicadas%20%C3%A0%20Nanotecnologia%20e%20%C3%A0.%20Oceanografia!5e0!3m2!1spt-PT!2spt!4v1671848959906!5m2!1spt-PT!2spt",
             },
             "Título2": {
                 "Title1": "Coordenates1",
@@ -59,7 +55,7 @@
         }
 
         return `
-        <div class="local-wrapper">
+        <div class="local-wrapper-${device}" id = "local_wrapper_${device}">
             <div onmouseover="window.contentPage.shiftFlex(0)" id="loc-side0" class="local-box">
                 <div id="loc-map">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12112.821164248973!2d-8.649069149999999!3d40.6253544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversity%20of%20Aveiro!5e0!3m2!1sen!2spt!4v1671361252119!5m2!1sen!2spt" width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -95,14 +91,14 @@
 
     clickOp(j, i, bodyOp) {
         const elem = document.getElementById("loc-body-op" + j);
-        elem.style.backgroundColor = "#799EA0";
+        elem.style.backgroundColor = "#587C5A";
         elem.style.color = "var(--white)";
         const mapElem = document.getElementById("loc-map");
         mapElem.innerHTML = `<iframe src=${bodyOp} width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
 
         if (window.contentPage.selectedOp != null) {
             const lastElem = document.getElementById("loc-body-op" + window.contentPage.selectedOp);
-            lastElem.style.backgroundColor = "#587C5A";
+            lastElem.style.backgroundColor = "#799EA0"; 
             lastElem.style.color = "black";
         }
         window.contentPage.selectedOp = j;

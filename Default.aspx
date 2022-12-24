@@ -75,7 +75,7 @@
             <div class="logo_holder" id="logo_holder">
                 <div style="flex: 0 0 20vh" id="logo_top_margin"></div>
                 <div id="bem-vindo-logo" class="logo_holder-rows" style="flex: 0 0 30vh; flex-direction: row;">
-                    <h1 style="margin-right: 25px; font-weight: 800">Bem-vindo ao</h1>
+                    <h1 style="margin-right: 25px; font-weight: 800">Bem-vind@ ao</h1>
                     <img id="logo_img" src="img/Logo/enef23_white_s.png" style="max-width: 30vw;" />
                 </div>
                 <div class="logo_holder-rows" style="flex: 0 0 40vh; flex-direction: column; position: relative; display: inline-flex; perspective: 1000px;">
@@ -108,7 +108,7 @@
 
                 </div>
                 <!-- MORE -->
-                <div class="more">
+                <div class="morePC">
                     <div class="social-holder">
                         <div class="social">
                             <div style="cursor: pointer" onclick="window.location='https://www.instagram.com/enef2023/'">
@@ -137,10 +137,48 @@
         <div class="Sponsors snapMid-PC" id="sponsors_tab">
             <h1>Patrocinadores</h1>
             <div class="SponsorsContainer" id="sponsorContainer">
-                <div class="SponsorHolder">Supporter2</div>
-                <div class="SponsorHolder">Supporter3</div>
-                <div class="SponsorHolder">Supporter4</div>
-                <div class="SponsorHolder">Supporter5</div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\cesam.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\ciceco.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\dfis.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\i3n.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\it.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\leica.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\spf.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\cesam.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\ciceco.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\dfis.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\i3n.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\it.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\leica.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Sponsors\spf.svg"></object>
+                </div>
             </div>
             <h1>Apoios</h1>
             <div class="SponsorsContainer" id="supportContainer">
@@ -168,6 +206,9 @@
                 <div class="SponsorHolder">
                     <object data=".\img\Apoios\neef.svg"></object>
                 </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Apoios\nemog.svg"></object>
+                </div>
                 <!-- Repeated for infinite scroll effect -->
                 <div class="SponsorHolder">
                     <object data=".\img\Apoios\cesam.svg"></object>
@@ -192,6 +233,9 @@
                 </div>
                 <div class="SponsorHolder">
                     <object data=".\img\Apoios\neef.svg"></object>
+                </div>
+                <div class="SponsorHolder">
+                    <object data=".\img\Apoios\nemog.svg"></object>
                 </div>
             </div>
         </div>

@@ -110,7 +110,6 @@
         window.TeamsTab = document.getElementById("TeamHolder");
         window.TeamsMemberHeight = document.getElementById("gustavo").clientHeight;
         window.setInterval(() => {                //200vh + 15 * gap
-            console.log(window.TeamsTab.scrollTop, window.TeamsMemberHeight * 15 + 750);
             if (window.TeamsTab.scrollTop > window.TeamsMemberHeight * 15 + 750) {
                 window.TeamsTab.scrollTop = 0;
             }

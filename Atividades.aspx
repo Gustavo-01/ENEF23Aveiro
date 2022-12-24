@@ -14,9 +14,9 @@
 
     <!-- Css + Js's -->
     <link rel="stylesheet" type="text/css" href="../css/variables.css" />
-    <link rel="stylesheet" type="text/css" href="../css/logo.css" />
+    <link rel="stylesheet" type="text/css" href="../css/MainPage/logo.css" />
     <link rel="stylesheet" type="text/css" href="../css/loading.css" />
-    <link rel="stylesheet" type="text/css" href="../css/more.css" />
+    <link rel="stylesheet" type="text/css" href="../css/MainPage/more.css" />
     <link rel="stylesheet" type="text/css" href="../css/Atividades.css" />
     <script src="../scripts/MobileSupportAtiv.js"></script>
     <script src="..//Dependencies/gasp/gsap.min.js"></script>
@@ -52,9 +52,11 @@
             <img src="img/Logo/enef23_white2.png" style="min-height: 200px; min-width: 200px; width: 30vw; margin: -5vw auto; display: block; cursor: pointer" onclick="window.location = '/';" />
 
             <h1 style="width: 100%; margin-top: -50px">Informação de Atividades</h1>
+            <div class="back-button" id="back_button">
+                <button class="btn_logoPC" style="background-color:var(--color1_clear); height:3.5em" onclick="window.location = './Default.aspx'">Voltar a pagina inicial</button>
+            </div>
 
-            <h3 style="text-align: left; margin: 100px 0;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nislex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
-            </h3>
+            <h3 style="text-align: center; margin: 100px 0;">Aqui encontrarás mais informações detalhadas sobre as atividades que irás experienciar ao longo do ENEF 2023!</h3>
 
         </div>
 
@@ -69,8 +71,8 @@
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h4>Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”,
-        aplicando conhecimentos de uma forma dinâmica!</h4>
+                <h4>Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”, aplicando conhecimentos adquiridos de uma forma dinâmica!
+No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em duas sessões consecutivas. Desta forma, poderás participar em 2 Workshops e/ou Talks! Após efetuares a tua inscrição, ser-te-á fornecido um formulário no qual poderás dizer quais são as tuas 3 opções, por ordem de preferência. As colocações nos Workshops e Talks serão por ordem de inscrição, consequentemente, não haverá garantia que ficarás nas tuas primeiras opções.</h4>
             </div>
         </div>
 
@@ -83,8 +85,7 @@
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h4>Nas Inside Views, conhecerás alguns dos meios de investigação principais e terás a oportunidade de visitar laboratórios dos diversos institutos e
-        centros de investigação</h4>
+                <h4>Nas Inside Views, conhecerás alguns dos meios de investigação principais na cidade e Universidade de Aveiro no âmbito de áreas relacionadas a Física e Engenharia Física. Terás a oportunidade de visitar laboratórios dos diversos institutos e centros de investigação, comunicar com investigadores e ver em primeira-mão o ambiente de investigação nos que selecionares. O número de visitantes por laboratório terá vagas limitadas, sendo que as colocações nos mesmos serão por ordem de inscrição, consequentemente, não há garantia de que fiques nas tuas primeiras opções.</h4>
             </div>
         </div>
 
@@ -112,8 +113,20 @@
                 </div>
             </div>
             <div class="Ativ_cont">
-                <h4>Alterações Climáticas - um tema que será aprofundado por investigadores e profissionais das áreas de Meteorologia, Climatologia e Oceanografia no
-        debate, no qual poderás participar, colocando questões.</h4>
+                <h4>No ENEF2023, o tema selecionado para o Debate será “Alterações Climáticas”, visto que é um tema de grande importância a nível mundial e imensa relevância na comunidade científica. O tema principal será aprofundado por investigadores e profissionais das áreas de Meteorologia, Climatologia e Oceanografia, sendo estas importantes no meio de investigação em Aveiro, e terás oportunidade de comunicar com os oradores do debate.</h4>
+
+            </div>
+        </div>
+        <div class="Ativ_section closed" id="section5" onclick="ExpandSection(5)">
+            <div class="Ativ_head" id="section_head5">
+                <h1>Nobel Talk</h1>
+                <div style="flex: 1 1 100%"></div>
+                <div class="Ativ_icon">
+                    <h1>+</h1>
+                </div>
+            </div>
+            <div class="Ativ_cont">
+                <h4>O tema central da Nobel Talk do ENEF2023, será o Prémio Nobel da Física atribuído em 2022 aos investigadores Anton Zeilinger, Alain Aspect e John Clauser, pelos seus desenvolvimentos científicos no tópico de entrelaçamento quântico, estabelecimento da violação das Inequações de Bell e investigação pioneira na ciência de comunicação e informação quântica. Na palestra terás a oportunidade de ouvir a apresentação do Nobel por um dos professores catedráticos do Departamento de Física da Universidade de Aveiro e de colocar as tuas questões acerca do tema!</h4>
 
             </div>
         </div>
@@ -121,7 +134,7 @@
         <!-- MORE -->
         <div class="more" style="background-color: #222324">
             <div class="social-holder" style="width: max-content">
-                <div class="social">
+                <div class="social" style="gap:10px">
                     <div style="cursor: pointer" onclick="window.location = 'https://www.instagram.com/enef2023/'">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16" style="fill: var(--white);">
                             <path d="M 4.773438 1 C 2.695313 1 1 2.695313 1 4.773438 L 1 10.230469 C 1 12.304688 2.695313 14 4.773438 14 L 10.230469 14 C 12.304688 14 14 12.304688 14 10.226563 L 14 4.773438 C 14 2.695313 12.304688 1 10.226563 1 Z M 4.773438 2 L 10.226563 2 C 11.765625 2 13 3.234375 13 4.773438 L 13 10.226563 C 13 11.765625 11.765625 13 10.230469 13 L 4.773438 13 C 3.234375 13 2 11.765625 2 10.230469 L 2 4.773438 C 2 3.234375 3.234375 2 4.773438 2 Z M 11.5 3 C 11.222656 3 11 3.222656 11 3.5 C 11 3.777344 11.222656 4 11.5 4 C 11.777344 4 12 3.777344 12 3.5 C 12 3.222656 11.777344 3 11.5 3 Z M 7.5 4 C 5.574219 4 4 5.574219 4 7.5 C 4 9.425781 5.574219 11 7.5 11 C 9.425781 11 11 9.425781 11 7.5 C 11 5.574219 9.425781 4 7.5 4 Z M 7.5 5 C 8.886719 5 10 6.113281 10 7.5 C 10 8.886719 8.886719 10 7.5 10 C 6.113281 10 5 8.886719 5 7.5 C 5 6.113281 6.113281 5 7.5 5 Z"></path></svg>

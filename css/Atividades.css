@@ -22,6 +22,11 @@
     box-shadow: 5px 5px var(--color4_shade);
 }
 
+#section5 {
+    background-color: var(--color5_clear);
+    box-shadow: 5px 5px var(--color5);
+}
+
 .Ativ_section {
     max-height: 2.5em;
     margin: 20px 10vw;
@@ -61,4 +66,5 @@
 .Ativ_cont{
     border-top: 1px solid var(--black);
     margin-top: 1em;
+    text-align:justify
 }

@@ -22,7 +22,7 @@
     box-shadow: 5px 5px var(--color4_shade);
 }
 
-.Ativ_section {
+.Ativ-section-PC {
     max-height: 2.5em;
     margin: 20px 10vw;
     padding: 10px;
@@ -34,31 +34,39 @@
     font-size: 1.2em;
 }
 
-.closed{ transition: font-size linear .2s; font-size: 1em !important; }
-.closed:hover { font-size: 1.2em !important; }
+.closed-PC{ transition: font-size linear .2s; font-size: 1em !important; }
+.closed-PC:hover { font-size: 1.2em !important; }
 
-.Ativ_head {
+.Ativ-head-PC {
     height: 2.5em;
     display: flex;
     cursor: pointer;
     transition: max-height linear .5s;
 }
-    .Ativ_head h1 {
+    .Ativ-head-PC h1 {
         margin: 0 10px;
         flex: 1 1 0;
         white-space: nowrap;
         text-align: center;
         transition: flex .5s;
     }
-    .Ativ_head div{ transition: flex .5s; }
+    .Ativ-head div{ transition: flex .5s; }
 
-.Ativ_icon { 
+.Ativ-icon { 
     margin: 0 10px; 
     flex: 1 1 0;
 }
-.Ativ_icon h1{ text-align: right; }
+.Ativ-icon h1{ text-align: right; }
 
-.Ativ_cont{
+.Ativ-cont{
     border-top: 1px solid var(--black);
     margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+.Ativ-cont-PC
+
+.Ativ-box{
+    width: 100%
 }

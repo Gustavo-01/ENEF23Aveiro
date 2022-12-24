@@ -53,48 +53,41 @@
 
             <h1 style="width: 100%; margin-top: -50px">Informação de Atividades</h1>
 
-            <h3 style="text-align:left; margin: 100px 0;">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nislex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait Lorem ipsum dolor sit amet, cons ectetuer adipiscing elit, sed diam nonummy nibh
+            <h3 style="text-align:justify; margin: 100px 0;">
+                Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”, aplicando conhecimentos adquiridos de uma forma dinâmica!
+                No ENEF2023 oferecemos uma seleção de Workshops e Talks, entre os quais poderás escolher 2 após efetuares a tua inscrição. As colocações nos Workshops e Talks serão por ordem de inscrição, consequentemente, não haverá garantia que ficarás nas tuas primeiras opções. 
+
             </h3>
 
         </div>
 
         <!-- Content -->
 
-        <div class="Ativ_section closed" id="section1" onclick="ExpandSection(1)">
-            <div class="Ativ_head" id="section_head1">
+        <div class="Ativ-section closed" id="section1" onclick="ExpandSection(1)">
+            <div class="Ativ-head" id="section_head1">
                 <h1>Workshops </h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ_icon">
+                <div class="Ativ-icon">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
-                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-                                <h4>iaushkdlasfuyiuasfnklmasfhin</h4>
-
-
+            <div class="Ativ-cont">
+                <div class="Ativ-cont-row">
+                    <div class="Ativ-box"></div>
+                    <div class="Ativ-box"></div>
+                </div>
             </div>
         </div>
 
-        <div class="Ativ_section closed" id="section2" onclick="ExpandSection(2)">
-            <div class="Ativ_head" id="section_head2">
+        <div class="Ativ-section closed" id="section2" onclick="ExpandSection(2)">
+            <div class="Ativ-head" id="section_head2">
                 <h1>Inside Views</h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ_icon">
+                <div class="Ativ-icon">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ-cont">
                 <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
 
                                 <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
@@ -111,15 +104,15 @@
             </div>
         </div>
 
-        <div class="Ativ_section closed" id="section3" onclick="ExpandSection(3)">
-            <div class="Ativ_head" id="section_head3">
+        <div class="Ativ-section closed" id="section3" onclick="ExpandSection(3)">
+            <div class="Ativ-head" id="section_head3">
                 <h1>Palestras</h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ_icon">
+                <div class="Ativ-icon">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ-cont">
                 <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
 
                                 <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
@@ -136,15 +129,15 @@
             </div>
         </div>
 
-        <div class="Ativ_section closed" id="section4" onclick="ExpandSection(4)">
-            <div class="Ativ_head" id="section_head4">
+        <div class="Ativ-section closed" id="section4" onclick="ExpandSection(4)">
+            <div class="Ativ-head" id="section_head4">
                 <h1>Debate</h1>
                 <div style="flex:1 1 100%"></div>
-                <div class="Ativ_icon">
+                <div class="Ativ-icon">
                     <h1>+</h1>
                 </div>
             </div>
-            <div class="Ativ_cont">
+            <div class="Ativ-cont">
                 <h1>iaushkdlasfuyiuasfnklmasfhin</h1>
 
                                 <h1>iaushkdlasfuyiuasfnklmasfhin</h1>

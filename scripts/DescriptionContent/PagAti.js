@@ -30,8 +30,7 @@
     </p>`,
 
     "Nobel Talk": `<p>
-        Na Nobel Talk terás a oportunidade de ouvir a apresentação do Nobel por um dos professores catedráticos do Departamento de Física da UA e de colocar as
-        tuas questões à cerca do tema!
+       Na Nobel Talk, terás a oportunidade de ouvir a apresentação do Nobel da Física 2022 por um dos professores catedráticos do Departamento de Física da Universidade de Aveiro e de colocar as tuas questões acerca do tema!
     </p>`,
 
     "Observação FISUA": `<p>
@@ -44,7 +43,7 @@
         debate, no qual poderás participar, colocando questões.    </p>`,
 
 
-    "Student Lectures": `<p>
+    "Competitions": `<p>
         Na Student Lectures Competition terás a oportunidade de apresentar uma palestra, e na Poster Competition terás a oportunidade de desenvolver um poster científico.
     </p>`,
 

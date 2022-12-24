@@ -60,3 +60,8 @@
     top:0; bottom:0; right:0; left:0;
     box-shadow: rgb(50 50 93 / 25%) 10px 10px;
 }
+.logo_cesam {
+    flex: 0 0 25vw !important;
+    padding: 0 !important;
+    height: calc(60% + 40px) !important;
+}

@@ -2,6 +2,9 @@
 
     //Loading page
     document.getElementById("loading_page").style.opacity = "0";
+
+    //MobileSupport
+    MobileCheck();
 }
 
 function ExpandSection(num) {

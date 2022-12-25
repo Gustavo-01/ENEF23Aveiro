@@ -29,10 +29,11 @@ function ChangeClasses(className1, className2) {
 function RefreshMobile(is_mobile_device) {
 
     if (is_mobile_device) {
-
+        ChangeClasses("Ativ-sectionPC", "Ativ-sectionMob")
+        
     }
     else {
-
+        ChangeClasses("Ativ-sectionMob", "Ativ-sectionPC")
 
     }
 

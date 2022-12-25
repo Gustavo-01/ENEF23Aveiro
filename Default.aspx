@@ -134,7 +134,7 @@
 
 
         <!-- Sponsors -->
-        <div class="Sponsors snapMid-PC" id="sponsors_tab">
+        <div class="Sponsors snapTop-PC" id="sponsors_tab">
             <h1>Patrocinadores</h1>
             <div class="SponsorsContainerPC" id="sponsorContainer">
                 <div class="SponsorHolderPC logo_cesam" id="logo_cesam">

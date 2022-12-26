@@ -40,6 +40,7 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("bubblePC", "bubbleMob");
         ChangeClasses("menuElementPC", "menuElementMob");
         ChangeClasses("bgBPC", "bgBMob");
+        ChangeClasses("navbar-holderPC", "navbar-holderMob");
 
         //Logo
         document.getElementById("scrolldown-ico").classList.remove("scrolldownPC");
@@ -76,6 +77,7 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("bubbleMob", "bubblePC");
         ChangeClasses("menuElementMob", "menuElementPC");
         ChangeClasses("bgBMob", "bgBPC");
+        ChangeClasses("navbar-holderMob", "navbar-holderPC");
 
         //Logo
         document.getElementById("scrolldown-ico").classList.add("scrolldownPC");

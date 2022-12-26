@@ -40,7 +40,6 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("bubblePC", "bubbleMob");
         ChangeClasses("menuElementPC", "menuElementMob");
         ChangeClasses("bgBPC", "bgBMob");
-        document.getElementById("navbar_holder").style.bottom = "calc( -91vh - 130%)";
 
         //Logo
         document.getElementById("scrolldown-ico").classList.remove("scrolldownPC");
@@ -77,7 +76,6 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("bubbleMob", "bubblePC");
         ChangeClasses("menuElementMob", "menuElementPC");
         ChangeClasses("bgBMob", "bgBPC");
-        document.getElementById("navbar_holder").style.bottom = "calc( -91vh - 100%)"
 
         //Logo
         document.getElementById("scrolldown-ico").classList.add("scrolldownPC");

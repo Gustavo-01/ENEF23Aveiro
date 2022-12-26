@@ -1,6 +1,5 @@
 .navbar-holder {
     position: absolute;
-    bottom: calc( -91vh - 100%);
     width: 100%;
     height: 60px;
     color: var(--white);

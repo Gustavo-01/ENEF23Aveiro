@@ -10,6 +10,7 @@
     overflow: hidden;
     transition-duration: .5s;
     max-height: 100vh;
+    position: relative;
 }
 .Ativ-box-closed{
     max-height: 10vh !important;
@@ -49,7 +50,7 @@
     display: flex;
     flex-direction: column;
     flex: 1 1 100%;
-    margin: 10px 0;
+    margin: 10px 0 30px 0;
 }
 
 .Ativ-box-Title {
@@ -78,3 +79,11 @@
     font-size: 12px;
 }
 
+.Ativ-box-arrow-down {
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+    width: 25px;
+    background-color: var(--white);
+    padding: 0 10px;
+}

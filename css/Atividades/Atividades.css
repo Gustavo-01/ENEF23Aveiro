@@ -28,13 +28,12 @@
 }
 
 .Ativ-sectionPC {
-    max-height: 2.5em;
     margin: 20px 10vw;
     padding: 10px;
     width: calc(100% - 20vw);
     border-radius: 5px;
     color: #222324;
-    transition: max-height .5s;
+    transition: 2s;
     overflow: hidden;
     font-size: 1.2em;
 }
@@ -50,8 +49,14 @@
     font-size: 1.2em;
 }
 
-.closedPC{ transition: font-size linear .2s; font-size: 1em !important; }
-.closedPC:hover { font-size: 1.2em !important; }
+.closed-headPC {
+    transition: font-size linear .2s;
+    font-size: 1em !important;
+    max-height: 2.5em;
+}
+.closed-headPC:hover { font-size: 1.2em !important; }
+
+.closed-contPC{ max-height: 0; }
 
 .Ativ-headPC {
     height: 2.5em;

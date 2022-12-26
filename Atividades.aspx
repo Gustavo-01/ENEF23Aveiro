@@ -63,7 +63,7 @@
 
         <!-- Content -->
 
-        <div class="Ativ-sectionPC closed" id="section1" onclick="ExpandSection(1)">
+        <div class="Ativ-sectionPC closed-headPC" id="section1" onclick="ExpandSection(1)">
             <div class="Ativ-headPC" id="section_head1">
                 <h1>Workshops </h1>
                 <div style="flex: 1 1 100%"></div>
@@ -74,123 +74,14 @@
             <div class="Ativ-contPC">
                 <h4>Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”, aplicando conhecimentos adquiridos de uma forma dinâmica!
 No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em duas sessões consecutivas. Desta forma, poderás participar em 2 Workshops e/ou Talks! Após efetuares a tua inscrição, ser-te-á fornecido um formulário no qual poderás dizer quais são as tuas 3 opções, por ordem de preferência. As colocações nos Workshops e Talks serão por ordem de inscrição, consequentemente, não haverá garantia que ficarás nas tuas primeiras opções.</h4>
-                <div class="Ativ-rowPC">
 
-                    <!-- Elemento modelo -->
-
-                    <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this)">
-                        <div class="Ativ-box-imgs">
-                            <img class="Ativ-box-BigImg" src="img/Palestrantes/Placeholder.png" />
-                            <img class="Ativ-box-SmallImg" src="img/Palestrantes/Placeholder.png" />
-                        </div>
-                        <div class="Ativ-box-cont">
-                            <div class="Ativ-box-Title">
-                                <h4>Título aqui, Lorem Ipsum</h4>
-                                <p>Sessão 1</p>
-                            </div>
-                            <div class="Ativ-box-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis leo turpis. Sed pulvinar euismod laoreet. Aenean sollicitudin lacinia sapien id consequat. In lobortis, nulla non molestie efficitur, felis dui lacinia nibh, a dictum magna lectus ac eros. Praesent ac tincidunt neque. Suspendisse consequat nisi a ullamcorper elementum. Donec sit amet mollis lorem. Vestibulum accumsan lacinia orci, sit amet cursus lacus consequat non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac ullamcorper mauris. Integer dignissim venenatis dui, id tincidunt magna pretium condimentum. Quisque eu mauris mollis, sodales tortor non, porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum nibh ut elementum pellentesque.
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Elemento modelo FIM -->
-
-                    <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this)">
-                        <div class="Ativ-box-imgs">
-                            <img class="Ativ-box-BigImg" src="img/Palestrantes/Placeholder.png" />
-                            <img class="Ativ-box-SmallImg" src="img/Palestrantes/Placeholder.png" />
-                        </div>
-                        <div class="Ativ-box-cont">
-                            <div class="Ativ-box-Title">
-                                <h4>Título aqui, Lorem Ipsum</h4>
-                                <p>Sessão 1</p>
-                            </div>
-                            <div class="Ativ-box-desc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis leo turpis. Sed pulvinar euismod laoreet. Aenean sollicitudin lacinia sapien id consequat. In lobortis, nulla non molestie efficitur, felis dui lacinia nibh, a dictum magna lectus ac eros. Praesent ac tincidunt neque. Suspendisse consequat nisi a ullamcorper elementum. Donec sit amet mollis lorem. Vestibulum accumsan lacinia orci, sit amet cursus lacus consequat non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac ullamcorper mauris. Integer dignissim venenatis dui, id tincidunt magna pretium condimentum. Quisque eu mauris mollis, sodales tortor non, porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum nibh ut elementum pellentesque.
-                            </div>
-                        </div>
-                    </div>
-
+                <div id="ativCont1">
 
                 </div>
-            </div>
-            <div class="Ativ-rowPC">
-
-                <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this)">
-                    <div class="Ativ-box-imgs">
-                        <img class="Ativ-box-BigImg" src="img/Palestrantes/Placeholder.png" />
-                        <img class="Ativ-box-SmallImg" src="img/Palestrantes/Placeholder.png" />
-                    </div>
-                    <div class="Ativ-box-cont">
-                        <div class="Ativ-box-Title">
-                            <h4>Título aqui, Lorem Ipsum</h4>
-                            <p>Sessão 1</p>
-                        </div>
-                        <div class="Ativ-box-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis leo turpis. Sed pulvinar euismod laoreet. Aenean sollicitudin lacinia sapien id consequat. In lobortis, nulla non molestie efficitur, felis dui lacinia nibh, a dictum magna lectus ac eros. Praesent ac tincidunt neque. Suspendisse consequat nisi a ullamcorper elementum. Donec sit amet mollis lorem. Vestibulum accumsan lacinia orci, sit amet cursus lacus consequat non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac ullamcorper mauris. Integer dignissim venenatis dui, id tincidunt magna pretium condimentum. Quisque eu mauris mollis, sodales tortor non, porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum nibh ut elementum pellentesque.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this)">
-                    <div class="Ativ-box-imgs">
-                        <img class="Ativ-box-BigImg" src="img/Palestrantes/Placeholder.png" />
-                        <img class="Ativ-box-SmallImg" src="img/Palestrantes/Placeholder.png" />
-                    </div>
-                    <div class="Ativ-box-cont">
-                        <div class="Ativ-box-Title">
-                            <h4>Título aqui, Lorem Ipsum</h4>
-                            <p>Sessão 1</p>
-                        </div>
-                        <div class="Ativ-box-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis leo turpis. Sed pulvinar euismod laoreet. Aenean sollicitudin lacinia sapien id consequat. In lobortis, nulla non molestie efficitur, felis dui lacinia nibh, a dictum magna lectus ac eros. Praesent ac tincidunt neque. Suspendisse consequat nisi a ullamcorper elementum. Donec sit amet mollis lorem. Vestibulum accumsan lacinia orci, sit amet cursus lacus consequat non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac ullamcorper mauris. Integer dignissim venenatis dui, id tincidunt magna pretium condimentum. Quisque eu mauris mollis, sodales tortor non, porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum nibh ut elementum pellentesque.
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-            <div class="Ativ-rowPC">
-
-                <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this)">
-                    <div class="Ativ-box-imgs">
-                        <img class="Ativ-box-BigImg" src="img/Palestrantes/Placeholder.png" />
-                        <img class="Ativ-box-SmallImg" src="img/Palestrantes/Placeholder.png" />
-                    </div>
-                    <div class="Ativ-box-cont">
-                        <div class="Ativ-box-Title">
-                            <h4>Título aqui, Lorem Ipsum</h4>
-                            <p>Sessão 1</p>
-                        </div>
-                        <div class="Ativ-box-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis leo turpis. Sed pulvinar euismod laoreet. Aenean sollicitudin lacinia sapien id consequat. In lobortis, nulla non molestie efficitur, felis dui lacinia nibh, a dictum magna lectus ac eros. Praesent ac tincidunt neque. Suspendisse consequat nisi a ullamcorper elementum. Donec sit amet mollis lorem. Vestibulum accumsan lacinia orci, sit amet cursus lacus consequat non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac ullamcorper mauris. Integer dignissim venenatis dui, id tincidunt magna pretium condimentum. Quisque eu mauris mollis, sodales tortor non, porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum nibh ut elementum pellentesque.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this)">
-                    <div class="Ativ-box-imgs">
-                        <img class="Ativ-box-BigImg" src="img/Palestrantes/Placeholder.png" />
-                        <img class="Ativ-box-SmallImg" src="img/Palestrantes/Placeholder.png" />
-                    </div>
-                    <div class="Ativ-box-cont">
-                        <div class="Ativ-box-Title">
-                            <h4>Título aqui, Lorem Ipsum</h4>
-                            <p>Sessão 1</p>
-                        </div>
-                        <div class="Ativ-box-desc">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis leo turpis. Sed pulvinar euismod laoreet. Aenean sollicitudin lacinia sapien id consequat. In lobortis, nulla non molestie efficitur, felis dui lacinia nibh, a dictum magna lectus ac eros. Praesent ac tincidunt neque. Suspendisse consequat nisi a ullamcorper elementum. Donec sit amet mollis lorem. Vestibulum accumsan lacinia orci, sit amet cursus lacus consequat non. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean ac ullamcorper mauris. Integer dignissim venenatis dui, id tincidunt magna pretium condimentum. Quisque eu mauris mollis, sodales tortor non, porttitor turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce dictum nibh ut elementum pellentesque.
-                        </div>
-                    </div>
-                </div>
-
-
             </div>
         </div>
 
-        <div class="Ativ-sectionPC closed" id="section2" onclick="ExpandSection(2)">
+        <div class="Ativ-sectionPC closed-headPC" id="section2" onclick="ExpandSection(2)">
             <div class="Ativ-headPC" id="section_head2">
                 <h1>Inside Views</h1>
                 <div style="flex: 1 1 100%"></div>
@@ -200,10 +91,13 @@ No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em du
             </div>
             <div class="Ativ_contPC">
                 <h4>Nas Inside Views, conhecerás alguns dos meios de investigação principais na cidade e Universidade de Aveiro no âmbito de áreas relacionadas a Física e Engenharia Física. Terás a oportunidade de visitar laboratórios dos diversos institutos e centros de investigação, comunicar com investigadores e ver em primeira-mão o ambiente de investigação nos que selecionares. O número de visitantes por laboratório terá vagas limitadas, sendo que as colocações nos mesmos serão por ordem de inscrição, consequentemente, não há garantia de que fiques nas tuas primeiras opções.</h4>
+                <div id="ativCont2">
+
+                </div>
             </div>
         </div>
 
-        <div class="Ativ-sectionPC closed" id="section3" onclick="ExpandSection(3)">
+        <div class="Ativ-sectionPC closed-headPC" id="section3" onclick="ExpandSection(3)">
             <div class="Ativ-headPC" id="section_head3">
                 <h1>Palestras</h1>
                 <div style="flex: 1 1 100%"></div>
@@ -214,11 +108,13 @@ No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em du
             <div class="Ativ_contPC">
                 <h4>Esperam-te palestras interessantes relacionadas a diversas áreas da Física, nas quais irás assistir a oradores de renome a nível nacional e
         aprender sobre as suas áreas de investigação!</h4>
+                <div id="ativCont3">
 
+                </div>
             </div>
         </div>
 
-        <div class="Ativ-sectionPC closed" id="section4" onclick="ExpandSection(4)">
+        <div class="Ativ-sectionPC closed-headPC" id="section4" onclick="ExpandSection(4)">
             <div class="Ativ-headPC" id="section_head4">
                 <h1>Debate</h1>
                 <div style="flex: 1 1 100%"></div>
@@ -228,11 +124,13 @@ No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em du
             </div>
             <div class="Ativ_contPC">
                 <h4>No ENEF2023, o tema selecionado para o Debate será “Alterações Climáticas”, visto que é um tema de grande importância a nível mundial e imensa relevância na comunidade científica. O tema principal será aprofundado por investigadores e profissionais das áreas de Meteorologia, Climatologia e Oceanografia, sendo estas importantes no meio de investigação em Aveiro, e terás oportunidade de comunicar com os oradores do debate.</h4>
+                <div id="ativCont4">
 
+                </div>
             </div>
         </div>
 
-        <div class="Ativ-sectionPC closed" id="section5" onclick="ExpandSection(5)">
+        <div class="Ativ-sectionPC closed-headPC" id="section5" onclick="ExpandSection(5)">
             <div class="Ativ-headPC" id="section_head5">
                 <h1>Nobel Talk</h1>
                 <div style="flex: 1 1 100%"></div>
@@ -242,6 +140,9 @@ No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em du
             </div>
             <div class="Ativ-contPC">
                 <h4>O tema central da Nobel Talk do ENEF2023, será o Prémio Nobel da Física atribuído em 2022 aos investigadores Anton Zeilinger, Alain Aspect e John Clauser, pelos seus desenvolvimentos científicos no tópico de entrelaçamento quântico, estabelecimento da violação das Inequações de Bell e investigação pioneira na ciência de comunicação e informação quântica. Na palestra terás a oportunidade de ouvir a apresentação do Nobel por um dos professores catedráticos do Departamento de Física da Universidade de Aveiro e de colocar as tuas questões acerca do tema!</h4>
+                <div id="ativCont5">
+
+                </div>
             </div>
         </div>
 

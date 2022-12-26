@@ -13,17 +13,14 @@
                 "Inside Views - IT": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d714.4686348719528!2d-8.66016981097998!3d40.63401821192275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd239800023fffff%3A0x75387a25e0613df8!2sIT%20-%20Instituto%20de%20Telecomunica%C3%A7%C3%B5es%2C%203810-193%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1671848871119!5m2!1spt-PT!2spt",
                 "Inside Views - CICFANO": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d756.9941955341956!2d-8.657670511867625!3d40.63039399870249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2abbac7cb1b%3A0x55890551aa449a!2sCICFANO%20-%20Complexo%20Interdisciplinar%20de%20Ci%C3%AAncias.%20F%C3%ADsicas%20Aplicadas%20%C3%A0%20Nanotecnologia%20e%20%C3%A0.%20Oceanografia!5e0!3m2!1spt-PT!2spt!4v1671848959906!5m2!1spt-PT!2spt",
             },
-            "Título2": {
+            "Workshops": {
                 "Title1": "Coordenates1",
                 "Title2": "Coordenates2",
                 "Title3": "Coordenates3",
                 "Title3": "Coordenates4"
             },
-            "Título3": {
-                "Title1": "Coordenates1",
-                "Title2": "Coordenates2",
-                "Title3": "Coordenates3",
-                "Title3": "Coordenates4"
+            "Alojamentos": {
+                "Por Anunciar": "Por Anunciar",
             }
         };
 
@@ -90,18 +87,23 @@
     }
 
     clickOp(j, i, bodyOp) {
+        const mapElem = document.getElementById("loc-map");
         const elem = document.getElementById("loc-body-op" + j);
         elem.style.backgroundColor = "#587C5A";
         elem.style.color = "var(--white)";
-        const mapElem = document.getElementById("loc-map");
-        mapElem.innerHTML = `<iframe src=${bodyOp} width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
-
+        if (bodyOp == "Por Anunciar") {
+            mapElem.innerHTML = '<div style="height:calc(100vh - 200px - 2em - 90px);display:flex;align-items:center; justify-content:center;"><h1 style="color:var(--black);">Por Anunciar</h1>'
+        }
+        else {            
+            mapElem.innerHTML = `<iframe src=${bodyOp} width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
+        }
         if (window.contentPage.selectedOp != null) {
             const lastElem = document.getElementById("loc-body-op" + window.contentPage.selectedOp);
-            lastElem.style.backgroundColor = "#799EA0"; 
+            lastElem.style.backgroundColor = "#799EA0";
             lastElem.style.color = "black";
         }
         window.contentPage.selectedOp = j;
+        
     }
 
     hoverOp(j, i) {

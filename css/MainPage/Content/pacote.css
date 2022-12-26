@@ -1,7 +1,10 @@
-.pac-fitinha{
-    position: absolute;
+.pac-fitinha {
+    position: relative;
     width: 100vw;
     height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pac-fitinha-in::after {
     content: '';
@@ -17,4 +20,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.pac-fitinha-holderPC {
+
+}
+
+.pac-fitinha-holderMob {
+    height:inherit;
+    display:flex;
+    align-items:center;
+
 }

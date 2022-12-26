@@ -2,7 +2,7 @@
     width: 50%;
     background-color: var(--white);
     border-radius: 10px;
-    height: 100%;
+    height: inherit;
     box-shadow: rgb(50 50 93 / 25%) 3px 3px;
     position: relative;
     display: flex;
@@ -24,7 +24,6 @@
     margin: 1vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     position: relative;
     height: 100%;
@@ -76,7 +75,7 @@
 
 .Ativ-box-desc{
     margin: 0 5px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .Ativ-box-arrow-down {

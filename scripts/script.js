@@ -16,7 +16,6 @@ function setupAutoScroll() {
     window.sponsorTab = document.getElementById("sponsorContainer");
     window.supportTab = document.getElementById("supportContainer");
     window.sponsorMemberWidth = document.getElementById("logo_cesam").clientWidth;
-    console.log(window.sponsorMemberWidth);
     self.setInterval(() => {               //Card_N * (childWidth + gap)
         if (window.supportTab.scrollLeft > 9 * (window.sponsorMemberWidth + 50)) {
             window.supportTab.scrollLeft = 0;
@@ -33,7 +32,6 @@ function setupAutoScroll() {
             window.sponsorMemberWidth = document.getElementById("logo_cesam").clientWidth;
             window.sponsorTab = document.getElementById("sponsorContainer");
             window.supportTab = document.getElementById("supportContainer");
-            console.log(window.sponsorMemberWidth);
         },2000);
     }
 }

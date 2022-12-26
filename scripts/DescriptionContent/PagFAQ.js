@@ -13,19 +13,11 @@
         às vantagens de sócio.
         Excecionalmente, se efetuares a inscrição no ENEF e te tornares sócio antes do fim de 2022, a condição de sócio será válida 
         para o ano 2023.
-        Podes tornar-te sócio da Physis durante o ato de inscrição no ENEF ou aqui. Se não sabes como está a tua condição de sócio,
-        envia mensagem para a página da Physis.`,
+        Podes tornar-te sócio da Physis durante o ato de inscrição no ENEF ou <a href="http://physis.com.pt/formulario/">aqui</a>. Se não sabes como está a tua condição de sócio,
+        envia mensagem para a página da<a href="https://www.facebook.com/PhysisPT/">Physis</a>.`,
 
-    "COMO FUNCIONA O DESCONTO PARA SÓCIOS DA FISUA E COMO ME TORNO SÓCIO?":
-        `Se fores sócio da FISUA - Associação de Física da Universidade de Aveiro, terás acesso privilegiado à escolha dos
-        Workshops/Talks e das Inside Views. Os sócios da FISUA têm direito a descontos comerciais junto dos nossos parceiros e
-        preços e condições especiais em diversas atividades da associação, podes saber mais aqui. A condição de sócio da FISUA é 
-        anual, ou seja, és sócio durante o ano civil em que te inscreves nessa condição e pagas a tua cota (5 €). Por exemplo, se te 
-        inscreveres dia 1 de dezembro como sócio e pagares a tua cota, serás sócio até dia 31 de dezembro desse ano. Dia 1 de janeiro,
-        terás de pagar a cota anual desse ano para regularizares a tua condição de sócio e voltares a ter direito às vantagens de
-        sócio. Excecionalmente, se efetuares a inscrição no ENEF e te tornares sócio antes do fim de 2022, a condição de sócio será
-        válida para o ano 2023. Podes tornar-te sócio da FISUA deslocando-te presencialmente até à sede da associação, no Departamento
-        de Física da Universidade de Aveiro.`,
+    "QUE REGALIAS TÊM OS SÓCIOS DA FISUA E COMO ME TORNO SÓCIO?":
+        `Se fores sócio da FISUA - Associação de Física da Universidade de Aveiro, receberás uma t-shirt exclusiva do ENEF de graça. Os sócios da FISUA têm direito a descontos comerciais junto dos parceiros da FISUA e preços e condições especiais em diversas atividades da associação, podes saber mais <a href="https://fisua.web.ua.pt/socios">aqui</a>. Podes tornar-te sócio da FISUA deslocando-te presencialmente até à sede da associação, no Departamento de Física da Universidade de Aveiro.`,
 
     "O TRANSPORTE ESTÁ INCLUÍDO NOS PACKS?":
         `Não, o transporte não está incluído nos packs.`,
@@ -43,21 +35,18 @@
         febrada e no jantar de encerramento.`,
 
     "POSSO ESCOLHER COM QUEM FICO NOS QUARTOS?":
-        `No formulário de inscrição podes indicar com quem gostarias de ficar. Tentaremos, na medida do possível, que isso aconteça,
-        contudo não garantimos que fiquem todos juntos.`,
+        `No formulário de inscrição podes indicar com quem gostarias de ficar. Tentaremos, na medida do possível, que isso aconteça, contudo não garantimos que fiquem todos juntos. Dada a existência de quartos duplos com cama de casal, na possibilidade de ficares com uma pessoa que não conheças e não te sentires confortável, recomendamos que leves um saco-cama. No entanto, faremos os possíveis para que não seja o caso. `,
 
     "COMO FAÇO A ESCOLHA DOS WORKSHOPS/TALKS, DAS INSIDE VIEWS E DAS EMPRESAS PARA O BUSINESS SPEED DATING?":
-        `Após teres assegurado a tua vaga no ENEF2023, será-te-á enviado um formulário onde poderás fazer as tuas escolhas para estas
-        atividades. Terás que selecionar três opções e serás colocado conforme ordem de chegada!`,
+        `Após teres assegurado a tua vaga no ENEF2023, ser-te-á enviado um formulário onde poderás fazer as tuas escolhas para os Workshops/Talks e para as Inside Views. Para os Workshops/Talks terás que selecionar três opções e serás colocado conforme ordem de chegada! `,
+    "COMO ME INSCREVO NO BUSINESS SPEED DATING?":
+        `No formulário de inscrição, terás a opção de te inscrever no Business Speed Dating. Para tal terás que enviar o teu currículo em formato PDF para o e-mail inscricoes.enef2023@gmail.com com o assunto “BUSINESS SPEED DATING - CV [nome]”. `,
 
     "NÃO SOU ESTUDANTE DE FÍSICA NEM DE ENGENHARIA FÍSICA. POSSO-ME INSCREVER?":
-        `Se fores de um curso representado pela Physis poderás inscrever-te no ENEF2023. Podes ver a lista de cursos aqui. Se não 
-        fores de nenhum dos cursos listados podes inscrever-te na mesma no ENEF2023. No entanto, as vagas são muito limitadas e não 
-        poderás participar nas atividades “PLANCKS” e “Student Lectures/Poster Competition”.`,
+        `Se fores de um curso representado pela Physis poderás inscrever-te no ENEF2023. Podes ver a lista de cursos <a href="https://drive.google.com/file/d/1rbzZfcxWk4u4Otapnr3LIdfpXWWQcJ1-/view">aqui</a>. Se não fores de nenhum dos cursos listados podes inscrever-te na mesma no ENEF2023. No entanto, as vagas são muito limitadas e não poderás participar nas atividades “PLANCKS” e “Student Lectures/Poster Competition”.`,
 
-    "QUEM NÃO ESTÁ INSCRITO NO ENEF PODE PARTICIPAR NO PLANCKS?":
-        `Sim, podes-te inscrever preenchendo o formulário devido e pagamento 3 euros. Caso te tenhas inscrito no ENEF, apenas tens
-        de pagar 1 euro!`,
+    "QUAL É O PREÇO DE INSCRIÇÃO DO PLANCKS?":
+        `Se estiveres inscrito no ENEF e fores sócio da Physis, pagas apenas 1 euro, se não o fores, pagas 2 euros. Se não estiveres inscrito no ENEF, o preço de inscrição é de 5 euros.`,
 
     "COM QUANTOS ELEMENTOS PODEM SER CONSTITUÍDAS AS EQUIPAS?":
         `As equipas podem ser constituídas por 3 a 4 estudantes, de licenciatura ou mestrado.`,
@@ -106,7 +95,7 @@ class PagFaq {
     }
 
     click_desc_FAQ(i, key) {
-        if (document.getElementById(`FAQ_cont${i}`).classList.contains("FAQ-cont-hidden")){
+        if (document.getElementById(`FAQ_cont${i}`).classList.contains("FAQ-cont-hidden")) {
             document.getElementById(`FAQ_cont${i}`).innerHTML = "<h3 style='font-weight: 100; letter-spacing: 1px;'>" + FAQ[key] + "</h3>";
             document.getElementById(`FAQ_cont${i}`).classList.remove("FAQ-cont-hidden");
             document.getElementById(`FAQ_arrow${i}`).innerHTML = window.contentPage.arrowUp;
@@ -119,7 +108,7 @@ class PagFaq {
             document.getElementById(`FAQ_arrow${i}`).innerHTML = window.contentPage.arrowDown;
         }
 
-       
+
     }
 }
 

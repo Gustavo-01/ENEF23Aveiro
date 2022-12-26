@@ -106,4 +106,5 @@ function RefreshMobile(is_mobile_device) {
 
     //Sponsor auto-scroll
     window.resetScroll();
+    navbar_bublleClick('1');
 }

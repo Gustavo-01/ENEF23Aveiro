@@ -13,7 +13,7 @@
         -webkit-appearance: none; /* Chrome, Safari and Opera */
 }
 
-.TeamContent {
+.TeamContentPC {
     height: calc(60% - 40px);
     flex: 0 0 440px ;
     text-align: center;
@@ -24,7 +24,23 @@
     text-shadow: 0;
     transition-duration: .5s;
 }
-.TeamContent img{
+.TeamContentPC img{
         max-width: 100%;
         max-height:100%
+    }
+.TeamContentMob {
+    height: calc(60% - 40px);
+    flex: 0 0 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0;
+    transition-duration: .5s;
+}
+
+    .TeamContentMob img {
+        max-width: 100%;
+        max-height: 100%
     }

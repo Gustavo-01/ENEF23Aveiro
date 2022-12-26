@@ -11,94 +11,94 @@
     getContent() {
         const device = window.getDevice();
         var content = `<div class="TeamHolder" id="TeamHolder">
-                                <div class="TeamContent" id="telmo">
+                                <div class="TeamContent${device}" id="telmo">
                                     <img src="./img/Equipas/Administracao/telmo.png" width:"auto" height="auto">
                                 </div> 
-                                <div class="TeamContent" id="iara">
+                                <div class="TeamContent${device}" id="iara">
                                     <img src="./img/Equipas/Administracao/iara.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="carmo">
+                                <div class="TeamContent${device}" id="carmo">
                                     <img src="./img/Equipas/Administracao/carmo.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="ana_joao">
+                                <div class="TeamContent${device}" id="ana_joao">
                                     <img src="./img/Equipas/Academica/ana_joao.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="cupido">
+                                <div class="TeamContent${device}" id="cupido">
                                     <img src="./img/Equipas/Academica/cupido.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="monica">
+                                <div class="TeamContent${device}" id="monica">
                                     <img src="./img/Equipas/Academica/monica.png" width:"auto" height="auto">
                                 </div>
-                                <div class="TeamContent" id="rita">
+                                <div class="TeamContent${device}" id="rita">
                                     <img src="./img/Equipas/Alojamento/rita.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="bruno">
+                                <div class="TeamContent${device}" id="bruno">
                                     <img src="./img/Equipas/Alojamento/bruno.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="estaco">
+                                <div class="TeamContent${device}" id="estaco">
                                     <img src="./img/Equipas/Comunicacao/estaco.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="gustavo">
+                                <div class="TeamContent${device}" id="gustavo">
                                     <img src="./img/Equipas/Comunicacao/gustavo.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="quelhas">
+                                <div class="TeamContent${device}" id="quelhas">
                                     <img src="./img/Equipas/Comunicacao/quelhas.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="vasco">
+                                <div class="TeamContent${device}" id="vasco">
                                     <img src="./img/Equipas/Comunicacao/vasco.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="lucas">
+                                <div class="TeamContent${device}" id="lucas">
                                     <img src="./img/Equipas/Empresarial/lucas.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="andre">
+                                <div class="TeamContent${device}" id="andre">
                                     <img src="./img/Equipas/Empresarial/andre.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="pedro">
+                                <div class="TeamContent${device}" id="pedro">
                                     <img src="./img/Equipas/Empresarial/pedro.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="telmo">
+                                <div class="TeamContent${device}" id="telmo">
                                     <img src="./img/Equipas/Administracao/telmo.png" width:"auto" height="auto">
                                 </div> 
-                                <div class="TeamContent" id="iara">
+                                <div class="TeamContent${device}" id="iara">
                                     <img src="./img/Equipas/Administracao/iara.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="carmo">
+                                <div class="TeamContent${device}" id="carmo">
                                     <img src="./img/Equipas/Administracao/carmo.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="ana_joao">
+                                <div class="TeamContent${device}" id="ana_joao">
                                     <img src="./img/Equipas/Academica/ana_joao.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="cupido">
+                                <div class="TeamContent${device}" id="cupido">
                                     <img src="./img/Equipas/Academica/cupido.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="monica">
+                                <div class="TeamContent${device}" id="monica">
                                     <img src="./img/Equipas/Academica/monica.png" width:"auto" height="auto">
                                 </div>
-                                <div class="TeamContent" id="rita">
+                                <div class="TeamContent${device}" id="rita">
                                     <img src="./img/Equipas/Alojamento/rita.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="bruno">
+                                <div class="TeamContent${device}" id="bruno">
                                     <img src="./img/Equipas/Alojamento/bruno.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="estaco">
+                                <div class="TeamContent${device}" id="estaco">
                                     <img src="./img/Equipas/Comunicacao/estaco.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="gustavo">
+                                <div class="TeamContent${device}" id="gustavo">
                                     <img src="./img/Equipas/Comunicacao/gustavo.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="quelhas">
+                                <div class="TeamContent${device}" id="quelhas">
                                     <img src="./img/Equipas/Comunicacao/quelhas.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="vasco">
+                                <div class="TeamContent${device}" id="vasco">
                                     <img src="./img/Equipas/Comunicacao/vasco.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="lucas">
+                                <div class="TeamContent${device}" id="lucas">
                                     <img src="./img/Equipas/Empresarial/lucas.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="andre">
+                                <div class="TeamContent${device}" id="andre">
                                     <img src="./img/Equipas/Empresarial/andre.png" width:"auto" height="auto">
                                 </div>  
-                                <div class="TeamContent" id="pedro">
+                                <div class="TeamContent${device}" id="pedro">
                                     <img src="./img/Equipas/Empresarial/pedro.png" width:"auto" height="auto">
                                 </div>
                             <\div>

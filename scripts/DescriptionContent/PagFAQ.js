@@ -93,9 +93,9 @@ class PagFaq {
         let i = 0;
         for (var key in FAQ) {
             content += `<div class="FAQ-box-${device}" id="FAQ_quest${i}" onclick="window.contentPage.click_desc_FAQ(${i},'${key}')">
-                            <div class="FAQ-quest">
+                            <div class="FAQ-quest-${device}">
                                 <h2>${key}</h2>
-                                <div class='FAQ-arrow' id="FAQ_arrow${i}">${this.arrowDown}</div>
+                                <div class='FAQ-arrow${device}' id="FAQ_arrow${i}">${this.arrowDown}</div>
                             </div>
                         </div>
                             <div class="FAQ-cont-${device} FAQ-cont-hidden" id="FAQ_cont${i}">

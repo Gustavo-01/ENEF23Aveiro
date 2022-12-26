@@ -32,7 +32,7 @@
     box-shadow: var(--black) 5px 5px;
 }
 
-.FAQ-quest {
+.FAQ-quest-PC {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -40,9 +40,18 @@
     max-height: auto
 }
 
-    .FAQ-quest:hover {
+    .FAQ-quest-PC:hover {
         cursor: pointer;
     }
+
+.FAQ-quest-Mob {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    max-height: auto;
+    margin: 10px;
+}
 
 .FAQ-cont-PC {
     color: var(--white);
@@ -77,10 +86,16 @@
     opacity: 0 !important;
     transition: padding .5s, margin .5s, flex .5s, opacity .5s, max-height .5s;
 }
-.FAQ-arrow{
+.FAQ-arrowPC{
     position: absolute;
     right: 10px;
     bottom: 10px;
     width: 25px;
 }
 
+.FAQ-arrowMob {
+    position: absolute;
+    right: 10px;
+    bottom: -5px;
+    width: 25px;
+}

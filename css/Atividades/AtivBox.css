@@ -1,0 +1,80 @@
+.Ativ-boxPC {
+    width: 50%;
+    background-color: var(--white);
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: rgb(50 50 93 / 25%) 3px 3px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition-duration: .5s;
+    max-height: 100vh;
+}
+.Ativ-box-closed{
+    max-height: 10vh !important;
+}
+
+.Ativ-boxPC:hover{
+    cursor: pointer;
+}
+
+.Ativ-box-imgs {
+    margin: 1vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    flex: 0 0 9vh;
+}
+
+.Ativ-box-BigImg {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 50%;
+}
+
+.Ativ-box-SmallImg {
+    width: 4vh;
+    height: 4vh;
+    border-radius: 50%;
+    position: absolute;
+    top: 5vh;
+    left: 5vh;
+}
+
+.Ativ-box-cont{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 100%;
+    margin: 10px 0;
+}
+
+.Ativ-box-Title {
+    width: 100%;
+    border-bottom: 1px solid var(--black);
+    display: flex;
+    flex-direction: row;
+}
+    .Ativ-box-Title h4 {
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+        flex: 1 1 auto;
+    }
+    .Ativ-box-Title p {
+        margin: 0;
+        float: right;
+        flex: 1 1 auto;
+        font-size: 12px;
+        text-align: center;
+        margin: auto;
+    }
+
+.Ativ-box-desc{
+    margin: 0 5px;
+    font-size: 12px;
+}
+

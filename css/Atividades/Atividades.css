@@ -81,6 +81,9 @@
     flex-direction: column;
 }
 
-.Ativ-boxPC{
-    width: 100%
+.Ativ-rowPC{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    gap:5px;
 }

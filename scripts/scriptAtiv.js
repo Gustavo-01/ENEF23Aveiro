@@ -11,7 +11,7 @@ function ExpandSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
 
-    section.style.maxHeight = "50vh"; /* TODO: Eyeball max height */
+    section.style.maxHeight = "500vh"; /* TODO: Eyeball max height */
 
     section.classList.remove("closed");
 
@@ -46,4 +46,13 @@ function ShrinkSection(num) {
     }, 500)
 
 
+}
+
+var previousElem = null;
+function boxExpand(element) {
+    element.classList.remove("Ativ-box-closed");
+    if (previousElem != null && previousElem != element) {
+        previousElem.classList.add("Ativ-box-closed");
+    }
+    previousElem = element;
 }

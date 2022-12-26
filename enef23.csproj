@@ -105,7 +105,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="css\Atividades.css" />
+    <Content Include="css\Atividades\AtivBox.css" />
+    <Content Include="css\Atividades\Atividades.css" />
     <Content Include="css\MainPage\clcok2.css" />
     <Content Include="css\clockOld.css" />
     <Content Include="css\loading.css" />
@@ -183,6 +184,7 @@
     <Content Include="img\Nuvens.jpg" />
     <Content Include="img\Palestra.jpg" />
     <Content Include="img\Palestra1.JPG" />
+    <Content Include="img\Palestrantes\Placeholder.png" />
     <Content Include="img\ponte.jpg" />
     <Content Include="img\Praia.jpg" />
     <Content Include="img\Praça.jpg" />

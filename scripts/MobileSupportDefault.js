@@ -1,5 +1,5 @@
 ﻿window.getDevice = function () {
-    let device = "PC"; if (window.matchMedia("(max-width: 800px)").matches) { device = "Mob" };
+    let device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = "Mob" };
     return device;
 }
 
@@ -7,12 +7,12 @@
 function MobileCheck() {
     //Check if mobile
     var is_mobile_device = false;
-    if (window.matchMedia("(max-width: 800px)").matches) { is_mobile_device = true; }
+    if (window.matchMedia("(max-width: 750px)").matches) { is_mobile_device = true; }
     var last_mobile = is_mobile_device;
     RefreshMobile(is_mobile_device);
 
     setInterval(function () {
-        is_mobile_device = false; if (window.matchMedia("(max-width: 800px)").matches) { is_mobile_device = true; }
+        is_mobile_device = false; if (window.matchMedia("(max-width: 750px)").matches) { is_mobile_device = true; }
 
         if (last_mobile != is_mobile_device) {
             RefreshMobile(is_mobile_device);

@@ -53,11 +53,7 @@
             <img src="img/Logo/enef23_white2.png" style="min-height: 200px; min-width: 200px; width: 30vw; margin: -5vw auto; display: block; cursor: pointer" onclick="window.location = '/';" />
 
             <h1 style="width: 100%; margin-top: -50px">Informação de Atividades</h1>
-            <div class="back-button" id="back_button">
-                <button class="btn_logoPC" style="background-color: var(--white); padding: 10px" onclick="window.location = './Default.aspx'">página inicial</button>
-            </div>
-
-            <h3 style="text-align: center; margin: 100px 0;">Aqui encontrarás mais informações detalhadas sobre as atividades que irás experienciar ao longo do ENEF 2023!</h3>
+            <h3 style="text-align: center; margin: 30px 0;">Aqui encontrarás mais informações detalhadas sobre as atividades que irás experienciar ao longo do ENEF 2023!</h3>
 
         </div>
 

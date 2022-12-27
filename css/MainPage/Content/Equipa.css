@@ -44,3 +44,37 @@
         max-width: 100%;
         max-height: 100%
     }
+
+.TeamContentTitlePC {
+    height: calc(calc(60% - 40px) / 2);
+    flex: 0 0 440px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0;
+    transition-duration: .5s;
+}
+
+    .TeamContentTitlePC img {
+        max-width: 100%;
+        max-height: 100%
+    }
+
+.TeamContentTitleMob {
+    height: calc(calc(60% - 40px) / 2);
+    flex: 0 0 160px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0;
+    transition-duration: .5s;
+}
+
+    .TeamContentTitleMob img {
+        max-width: 100%;
+        max-height: 100%
+    }

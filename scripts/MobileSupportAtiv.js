@@ -22,6 +22,7 @@ function MobileCheck() {
             RefreshMobile(is_mobile_device);
             last_mobile = is_mobile_device;
         }
+
     }, 500);
 }
 
@@ -34,8 +35,9 @@ function ChangeClasses(className1, className2) {
 }
 
 function RefreshMobile(is_mobile_device) {
+    console.log(is_mobile_device)
     if (is_mobile_device) {
-        ChangeClasses("Ativ-contPC","Ativ-contMob")
+        ChangeClasses("Ativ-contPC", "Ativ-contMob");
         ChangeClasses("Ativ-sectionPC", "Ativ-sectionMob");
         ChangeClasses("Ativ-boxPC", "Ativ-boxMob");
         ChangeClasses("Ativ-rowPC", "Ativ-rowMob");
@@ -43,7 +45,7 @@ function RefreshMobile(is_mobile_device) {
         
     }
     else {
-        ChangeClasses("Ativ-contMob","Ativ-contPC")
+        ChangeClasses("Ativ-contMob", "Ativ-contPC");
         ChangeClasses("Ativ-sectionMob", "Ativ-sectionPC");
         ChangeClasses("Ativ-rowMob", "Ativ-rowPC");
         ChangeClasses("Ativ-boxMob", "Ativ-boxPC");

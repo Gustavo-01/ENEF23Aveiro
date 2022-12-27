@@ -12,6 +12,21 @@
     max-height: 100vh;
     position: relative;
 }
+
+.Ativ-boxMob {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+    height: inherit;
+    box-shadow: rgb(50 50 93 / 25%) 3px 3px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition-duration: .5s;
+    max-height: 100vh;
+    position: relative;
+}
 .Ativ-box-closed{
     max-height: 10vh !important;
 }
@@ -35,6 +50,21 @@
 }
 .Ativ-box-nobelPC:hover {
     cursor: none;
+}
+
+.Ativ-box-nobelMob {
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+    height: inherit;
+    box-shadow: rgb(50 50 93 / 25%) 3px 3px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition-duration: .5s;
+    max-height: 100vh;
+    position: relative;
 }
 
 .Ativ-box-imgs {
@@ -76,7 +106,7 @@
     flex-direction: row;
 }
     .Ativ-box-Title h4 {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         margin: 0;
         flex: 1 1 auto;
@@ -85,9 +115,9 @@
         margin: 0;
         float: right;
         flex: 1 1 auto;
+        width:fit-content;
+        text-align: center;
         font-size: 12px;
-        text-align: right;
-        margin: auto;
         margin-right:15px
     }
 
@@ -97,11 +127,15 @@
     transition-duration: .5s;
 }
 
-.Ativ-box-arrow-down {
+.Ativ-box-arrow-down-PC {
     position: absolute;
     right: 10px;
     bottom: -5px;
     width: 25px;
     background-color: var(--white);
     padding: 0 10px;
+}
+
+.Ativ-box-arrow-down-Mob {
+    display:none;
 }

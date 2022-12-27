@@ -44,7 +44,9 @@ window.onload = function () {
 
     //MobileSupport
     MobileCheck();
+
 }
+var device = window.getDevice()
 
 function buildContent(activityList,ActivityName) {
     var content = '';
@@ -52,7 +54,6 @@ function buildContent(activityList,ActivityName) {
     for (var i = 0; i < activityList.length; i++) {
         const activity = activityList[i];
         if (activityList == InsideViews) {
-            console.log(ActivityName);
             var innerContent = `
         <div class="Ativ-box${device} Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
                 <div class="Ativ-box-cont">
@@ -63,7 +64,7 @@ function buildContent(activityList,ActivityName) {
                         ${activity[1]}
                     </div>
                 </div>
-                <div class="Ativ-box-arrow-down" id="arrowDown-${ActivityName}${i}">${arrowDown}</div>
+                <div class="Ativ-box-arrow-down-${device}" id="arrowDown-${ActivityName}${i}">${arrowDown}</div>
             </div>`;
         }
         else if (activityList == NobelTalk){
@@ -98,7 +99,7 @@ function buildContent(activityList,ActivityName) {
                     ${activity[3]}
                 </div>
             </div>
-            <div class="Ativ-box-arrow-down" id="arrowDown-${ActivityName}${i}">${arrowDown}</div>
+            <div class="Ativ-box-arrow-down-${device}" id="arrowDown-${ActivityName}${i}">${arrowDown}</div>
         </div>`;
         }
 
@@ -106,14 +107,17 @@ function buildContent(activityList,ActivityName) {
             content += innerContent + '</div>';
         }
         else {
-            content +=    `<div class='Ativ-row${device}'>`+ innerContent;
+            content += `<div class="Ativ-row${device}">` + innerContent;
         }
     }
 
     return content;
 }
 
+
+
 var previousSection = null;
+var was_loaded = false;
 function ExpandSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
@@ -161,6 +165,7 @@ function ExpandSection(num) {
 function ShrinkSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
+    was_loaded = true;
 
     sectionHead.childNodes[1].style.flex = "1 1 0";
     sectionHead.childNodes[3].style.flex = "1 1 100%";
@@ -173,20 +178,25 @@ function ShrinkSection(num) {
     }, 250)
 
 }
-
+function ShrinkAll() {
+    if (was_loaded) {
+        for (let i = 0; i <= 5; i++) { ShrinkSection(i) }
+    }
+    
+}
 var previousElems = [];
 function boxExpand(element, num,activity) { //TODO close when clicked again (Adicionar uma seta para baixo) Mobile Support
 
     if (previousElems.includes(element)) {
         element.classList.add("Ativ-box-closed");
         document.getElementById(`arrowDown-${activity}${num}`).innerHTML = arrowDown;
-        document.getElementById(`Ativ_box_desc_${activity}${num}`).style.display="none"
+        document.getElementById(`Ativ_box_desc_${activity}${num}`).style.display = "none";
         previousElems.splice(previousElems.indexOf(element), 1);
     }
     else {
         element.classList.remove("Ativ-box-closed");
         document.getElementById(`arrowDown-${activity}${num}`).innerHTML = arrowUp;
-        document.getElementById(`Ativ_box_desc_${activity}${num}`).style.display = "flex"
+        document.getElementById(`Ativ_box_desc_${activity}${num}`).style.display = "flex";
         previousElems.push(element);
     }
 }

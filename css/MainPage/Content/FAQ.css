@@ -51,6 +51,7 @@
     overflow-y: auto;
     max-height: auto;
     margin: 10px;
+    overflow: visible;
 }
 
 .FAQ-cont-PC {

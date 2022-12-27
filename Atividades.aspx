@@ -144,7 +144,7 @@ No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em du
 
         <!-- MORE -->
         <div class="morePC" style="background-color: #222324">
-            <div class="social-holder" style="width: max-content">
+            <div class="social-holder">
                 <div class="social" style="gap: 10px">
                     <div style="cursor: pointer" onclick="window.location = 'https://www.instagram.com/enef2023/'">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="32" height="32" viewBox="0 0 16 16" style="fill: var(--white);">

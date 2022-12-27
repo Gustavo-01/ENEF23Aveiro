@@ -116,7 +116,7 @@
         float: right;
         flex: 1 1 auto;
         width:fit-content;
-        text-align: center;
+        text-align: right;
         font-size: 12px;
         margin-right:15px
     }

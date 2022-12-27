@@ -20,6 +20,7 @@
     height: calc(75vh + 80px);
     width: 80vw;
     opacity: 1 !important;
+    padding-bottom: 50px;
 }
 .des-cont-PC {
     color: var(--black);

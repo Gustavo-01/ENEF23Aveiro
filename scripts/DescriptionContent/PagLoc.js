@@ -92,7 +92,7 @@
             mapElem.innerHTML = `<iframe src=${bodyOp} width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>`;
         }
         else {
-            mapElem.innerHTML = '<div style="height:calc(100vh - 200px - 2em - 90px);display:flex;align-items:center; justify-content:center;"><h1 style="color:var(--black);">Em Breve</h1>'
+            mapElem.innerHTML = '<div style="height:100%; display:flex; align-items:center; justify-content:center;"><h1 style="color:var(--black);">Em Breve</h1>'
         }
         if (window.contentPage.selectedOp != null) {
             const lastElem = document.getElementById("loc-body-op" + window.contentPage.selectedOp);

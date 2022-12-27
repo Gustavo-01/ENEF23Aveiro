@@ -38,6 +38,7 @@
     justify-content: center;
     text-shadow: 0;
     transition-duration: .5s;
+    margin: 0 -15px 0 -15px;
 }
 
     .TeamContentMob img {

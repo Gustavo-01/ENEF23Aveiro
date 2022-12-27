@@ -142,8 +142,8 @@
             if (window.TeamsTab.scrollTop > window.TeamsMemberHeight * 20 + 1000) {
                 window.TeamsTab.scrollTop = 0;
             }
-            window.TeamsTab.scrollTo(0,window.TeamsTab.scrollTop + 1 ); // control velocity here
-        }, 1); //or here
+            window.TeamsTab.scrollTo(0, window.TeamsTab.scrollTop + Math.max(window.innerHeight / 2000, 1)); // control velocity here
+        }, 2); //or here
     }
 }
 

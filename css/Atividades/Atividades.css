@@ -63,6 +63,7 @@
     display: flex;
     cursor: pointer;
     transition: max-height linear .5s;
+    color:var(--white);
 }
     .Ativ-headPC h1 {
         margin: 0 10px;
@@ -84,6 +85,9 @@
     margin-top: 1em;
     display: flex;
     flex-direction: column;
+    color:var(--white);
+    text-align:justify;
+
 }
 
 .Ativ-rowPC{

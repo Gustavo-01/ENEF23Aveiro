@@ -4,7 +4,7 @@
     width: 100vw;
     font-size: 2em;
     overflow: hidden;
-    padding-bottom: 28px;
+    padding-bottom: 90px;
 }
 
 .moreMob {
@@ -19,7 +19,7 @@
 /* Social */
 .social-holderPC {
     font-size: 2.5em;
-    height: 35px;
+    height: 27px;
     width: 100%;
     position: relative;
     display: flex;

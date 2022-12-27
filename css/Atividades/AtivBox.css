@@ -69,12 +69,13 @@
         float: right;
         flex: 1 1 auto;
         font-size: 12px;
-        text-align: center;
+        text-align: right;
         margin: auto;
+        margin-right:15px
     }
 
 .Ativ-box-desc{
-    margin: 0 5px;
+    margin: 0 15px;
     font-size: 15px;
 }
 

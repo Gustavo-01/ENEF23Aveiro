@@ -16,6 +16,10 @@ function MobileCheck() {
         }
     }, 500);
 }
+window.getDevice = function () {
+    let device = "PC"; if (window.matchMedia("(max-width: 750px)").matches) { device = "Mob" };
+    return device;
+}
 
 function ChangeClasses(className1, className2) {
     const elems = [...document.getElementsByClassName(className1)];

@@ -54,7 +54,7 @@ function buildContent(activityList,ActivityName) {
         if (activityList == InsideViews) {
             console.log(ActivityName);
             var innerContent = `
-        <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
+        <div class="Ativ-box${device} Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
                 <div class="Ativ-box-cont">
                     <div class="Ativ-box-Title" style="margin-left: 15px">
                         <h4>${activity[0]}</h4>
@@ -68,7 +68,7 @@ function buildContent(activityList,ActivityName) {
         }
         else if (activityList == NobelTalk){
             var innerContent = `
-        <div class="Ativ-box-nobelPC"  style="width:100%;">
+        <div class="Ativ-box-nobel${device}"  style="width:100%;">
             <div class="Ativ-box-imgs">
                 <img class="Ativ-box-BigImg" src="img/Palestrantes/${activity[0]}" />
             </div>
@@ -85,7 +85,7 @@ function buildContent(activityList,ActivityName) {
             }
         else {
             var innerContent = `
-        <div class="Ativ-boxPC Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
+        <div class="Ativ-box${device} Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
             <div class="Ativ-box-imgs">
                 <img class="Ativ-box-BigImg" src="img/Palestrantes/${activity[0]}" />
             </div>
@@ -106,7 +106,7 @@ function buildContent(activityList,ActivityName) {
             content += innerContent + '</div>';
         }
         else {
-            content += '<div class="Ativ-rowPC">' + innerContent;
+            content +=    `<div class='Ativ-row${device}'>`+ innerContent;
         }
     }
 

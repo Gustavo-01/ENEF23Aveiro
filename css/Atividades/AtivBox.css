@@ -19,6 +19,23 @@
 .Ativ-boxPC:hover{
     cursor: pointer;
 }
+.Ativ-box-nobelPC {
+    width: 50%;
+    background-color: var(--white);
+    border-radius: 10px;
+    height: inherit;
+    box-shadow: rgb(50 50 93 / 25%) 3px 3px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transition-duration: .5s;
+    max-height: 100vh;
+    position: relative;
+}
+.Ativ-box-nobelPC:hover {
+    cursor: none;
+}
 
 .Ativ-box-imgs {
     margin: 1vh;
@@ -74,9 +91,10 @@
         margin-right:15px
     }
 
-.Ativ-box-desc{
-    margin: 0 15px;
+.Ativ-box-desc {
+    margin-right: 15px;
     font-size: 15px;
+    transition-duration: .5s;
 }
 
 .Ativ-box-arrow-down {

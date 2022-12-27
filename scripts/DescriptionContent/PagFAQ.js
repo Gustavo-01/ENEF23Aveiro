@@ -1,6 +1,6 @@
 ﻿const FAQ = {
     "É NECESSÁRIO PAGAR LOGO APÓS O ATO DE INSCRIÇÃO?":
-        `Após preencheres o formulário, terás de efetuar o pagamento e enviar o respetivo comprovativo num prazo de 5 dias.
+        `Após preencheres o formulário, terás de efetuar o pagamento e enviar o respetivo comprovativo num prazo de 3 dias.
         Só aí a tua vaga estará assegurada!`,
 
     "COMO FUNCIONA O DESCONTO PARA SÓCIOS DA PHYSIS E COMO ME TORNO SÓCIO?":
@@ -82,7 +82,7 @@ class PagFaq {
         let i = 0;
         for (var key in FAQ) {
             content += `<div class="FAQ-box-${device}" id="FAQ_quest${i}" onclick="window.contentPage.click_desc_FAQ(${i},'${key}')">
-                            <div class="FAQ-quest   -${device}">
+                            <div class="FAQ-quest-${device}">
                                 <h2>${key}</h2>
                                 <div class='FAQ-arrow${device}' id="FAQ_arrow${i}">${this.arrowDown}</div>
                             </div>

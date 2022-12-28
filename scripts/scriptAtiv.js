@@ -18,7 +18,7 @@ const InsideViews = [
 
 const Palestras = [
     ["carlos_brites.png", "Materiais Luminescentes para Lógica Molecular", "", "Carlos Brites, PhD em Física pela UA, é investigador no Instituto de Materiais de Aveiro -  CICECO e professor auxiliar do Departamento de Física da Universidade de Aveiro.  No ENEF2023, irá dar uma palestra sobre o seu projeto de investigação, LogicAll, que consiste na produção e caracterização de dispositivos lógicos moleculares baseados em materiais luminescentes, utilizados em computação."],
-    ["Placeholder.png", "Soft Matter (...)", "", "Nuno Araújo, Doutorado em Física pela Universidade do Minho, é Professor no Departamento de Física de Ciências da Universidade de Lisboa e investigador no Centro de Física Teórica e Computacional (CFTC). No ENEF2023, irá dar uma palestra acerca da sua principal área de investigação, Soft Matter, o principal constituinte da matéria no nosso planeta, no âmbito da Física da Matéria Condensada."],
+    ["Placeholder.png", "The rigidity of soft systems", "", "Nuno Araújo, Doutorado em Física pela Universidade do Minho, é Professor no Departamento de Física de Ciências da Universidade de Lisboa e investigador no Centro de Física Teórica e Computacional (CFTC). No ENEF2023, irá dar uma palestra acerca da sua principal área de investigação, Soft Matter, o principal constituinte da matéria no nosso planeta, no âmbito da Física da Matéria Condensada."],
 ];
 
 const Debate = [
@@ -46,9 +46,9 @@ window.onload = function () {
     MobileCheck();
 
 }
-var device = window.getDevice()
 
-function buildContent(activityList,ActivityName) {
+function buildContent(activityList, ActivityName) {
+    var device = window.getDevice()
     var content = '';
 
     for (var i = 0; i < activityList.length; i++) {
@@ -67,7 +67,7 @@ function buildContent(activityList,ActivityName) {
                 <div class="Ativ-box-arrow-down-${device}" id="arrowDown-${ActivityName}${i}">${arrowDown}</div>
             </div>`;
         }
-        else if (activityList == NobelTalk){
+        else if (activityList == NobelTalk) {
             var innerContent = `
         <div class="Ativ-box-nobel${device}"  style="width:100%;">
             <div class="Ativ-box-imgs">
@@ -83,7 +83,7 @@ function buildContent(activityList,ActivityName) {
                 </div>
             </div>
         </div>`;
-            }
+        }
         else {
             var innerContent = `
         <div class="Ativ-box${device} Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
@@ -122,6 +122,8 @@ function ExpandSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
     const sectionContent = document.getElementById("ativCont" + num);
+    was_loaded = true;
+
 
     var activityList;
     var ActivityName;
@@ -148,7 +150,7 @@ function ExpandSection(num) {
             break;
     }
 
-    sectionContent.innerHTML = buildContent(activityList,ActivityName);
+    sectionContent.innerHTML = buildContent(activityList, ActivityName);
 
     sectionHead.childNodes[1].style.flex = "1 1 100%";
     sectionHead.childNodes[3].style.flex = "1 1 0";
@@ -165,7 +167,6 @@ function ExpandSection(num) {
 function ShrinkSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
-    was_loaded = true;
 
     sectionHead.childNodes[1].style.flex = "1 1 0";
     sectionHead.childNodes[3].style.flex = "1 1 100%";
@@ -180,12 +181,12 @@ function ShrinkSection(num) {
 }
 function ShrinkAll() {
     if (was_loaded) {
-        for (let i = 0; i <= 5; i++) { ShrinkSection(i) }
+        for (let i = 1; i <= 5; i++) { ShrinkSection(i) }
     }
-    
+
 }
 var previousElems = [];
-function boxExpand(element, num,activity) { //TODO close when clicked again (Adicionar uma seta para baixo) Mobile Support
+function boxExpand(element, num, activity) { //TODO close when clicked again (Adicionar uma seta para baixo) Mobile Support
 
     if (previousElems.includes(element)) {
         element.classList.add("Ativ-box-closed");

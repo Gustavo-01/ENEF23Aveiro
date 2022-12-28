@@ -23,9 +23,9 @@ function setupAutoScroll() {
         if (window.sponsorTab.scrollLeft > 7 * (window.sponsorMemberWidth + 50)) {
             window.sponsorTab.scrollLeft = 0;
         }
-        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + Math.max(window.innerWidth / 800,1), 0);
-        window.supportTab.scrollTo(window.supportTab.scrollLeft + Math.max(window.innerWidth / 800,1), 0);// control velocity here
-    }, 1); //or here
+        window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + Math.max(window.innerWidth / 1200, 1), 0);
+        window.supportTab.scrollTo(window.supportTab.scrollLeft + Math.max(window.innerWidth / 1200, 1), 0);// control velocity here
+    }, 2); //or here
 
     window.resetScroll = function () {
         setTimeout(function () {

@@ -1,5 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Atividades.aspx.cs" Inherits="enef23.Atividades" %>
 
+<!doctype html>
 <html>
 
 <head>

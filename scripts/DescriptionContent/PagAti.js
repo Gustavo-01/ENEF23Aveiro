@@ -83,7 +83,8 @@ class PagAtividades {
     }
 
     initial_f() {
-        this.updatePageArrows();
+        window.contentPage.innerPage = 0;
+        window.contentPage.updatePageArrows();
     }
 
     getContent() {
@@ -128,19 +129,19 @@ class PagAtividades {
 
     changePage(forward) {
         //if already changing page, do nothing
-        if (this.changingPage) {
+        if (window.contentPage.changingPage) {
             return;
         }
 
         //Initiate change page
-        this.changingPage = true;
+        window.contentPage.changingPage = true;
         setTimeout(function () {
             window.contentPage.changingPage = false; //Page change takes 600ms
         }, 600);
 
-        var page = this.innerPage;
+        var page = window.contentPage.innerPage;
         if (forward) {
-            if (page == this.N_innerPage) { return; }
+            if (page == window.contentPage.N_innerPage) { return; }
             page += 1;
             var t1 = gsap.timeline();
             t1.to("#desc_page" + (page - 1), { duration: 0.5, transform: "translate(-20vw,0)", opacity: "0", ease: "ease-in" }, 0)
@@ -157,15 +158,15 @@ class PagAtividades {
                 .to("#desc_page" + page, { duration: 0, transform: "translate(-20vw,0)", zIndex: "2" }, 0.5)
                 .to("#desc_page" + page, { duration: 0.5, transform: "translate(0,0)", opacity: "2", ease: "ease-out" }, 0.5);
         }
-        this.innerPage = page;
+        window.contentPage.innerPage = page;
 
-        this.updatePageArrows();
+        window.contentPage.updatePageArrows();
     }
 
     updatePageArrows() {
         const arr_l = document.getElementById("arrow-l");
         const arr_r = document.getElementById("arrow-r");
-        if (this.innerPage == 0) {
+        if (window.contentPage.innerPage == 0) {
             if (arr_l.classList.contains("can-hover")) {
                 arr_l.classList.remove("can-hover");
                 arr_l.classList.add("disabled");
@@ -177,7 +178,7 @@ class PagAtividades {
                 arr_l.classList.remove("disabled");
             }
         }
-        if (this.innerPage == this.N_innerPage) {
+        if (window.contentPage.innerPage == window.contentPage.N_innerPage) {
             if (arr_r.classList.contains("can-hover")) {
                 arr_r.classList.remove("can-hover");
                 arr_r.classList.add("disabled");

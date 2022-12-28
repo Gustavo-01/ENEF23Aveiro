@@ -32,7 +32,7 @@ function setupAutoScroll() {
             window.sponsorMemberWidth = document.getElementById("logo_cesam").clientWidth;
             window.sponsorTab = document.getElementById("sponsorContainer");
             window.supportTab = document.getElementById("supportContainer");
-        },2000);
+        },200);
     }
 }
 

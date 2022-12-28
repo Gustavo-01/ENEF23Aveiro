@@ -143,7 +143,7 @@
                 window.TeamsTab.scrollTop = 0;
             }
             window.TeamsTab.scrollTo(0, window.TeamsTab.scrollTop + Math.max(window.innerHeight / 2000, 1)); // control velocity here
-        }, 2); //or here
+        }, 8); //or here
     }
 }
 

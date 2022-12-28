@@ -1,11 +1,11 @@
 ﻿const Workshops = [
-    ["Placeholder.png", "Isoladores Topológicos", "Sessão 1 e 2", "Isoladores topológicos têm potencial para serem usados ​​em uma variedade de aplicações, inclusive no desenvolvimento de dispositivos de computação quântica. Neste Workshop, irás trabalhar com noções de física da matéria condensada e aplicar conhecimentos de Python em computação quântica!"],
-    ["carlos_azevedo.png", "Hands on Particles", "Sessão 1 e 2", "Se és fascinado pelos mecanismos de interação entre os blocos fundamentais da física, este Workshop é para ti. Prepara-te para conhecer um pouco mais do fantástico Modelo Padrão com as mãos na massa! Este Workshop é dividido numa componente computacional (1ª Sessão), e numa demonstração laboratorial (2ª Sessão), sendo que podes optar por escolher apenas uma delas, ou ambas."],
-    ["Placeholder.png", "Fundamentos de Machine Learning", "Sessão 1 e 2", "Neste Workshop, terás a oportunidade de aprender sobre como funciona o Machine Learning, um dos sub-campos da computação mais relevantes na atualidade, nomeadamente importante para o desenvolvimento de Inteligência Artificial!"],
-    ["nuno_silva.jpg", "Criptografia num Mundo Pós-Quântico", "Sessão 1 e 2", " A criptografia e a computação quântica são peças fundamentais nas redes de comunicações atuais. Neste Workshop, terás a oportunidade de trabalhar com algoritmos quânticos, usando o QISKIT, e trabalhar com a criptografia quântica como solução para o surgimento de um computador quântico."],
-    ["luis_rino.png", "Impressão 3D", "Sessão 1", "Este Workshop destina-se aos interessados em aprender acerca de impressão 3D. Neste Workshop terás a oportunidade de aprender técnicas de modelação e o processo por trás de como funciona uma impressora 3D e como fazeres as tuas próprias impressões!"],
-    ["Placeholder.png", "Redes e Sistemas Complexos", "Sessão 1", "Gareth Baxter, PhD em Física Teórica pela Universidade de Manchester e Pós-Doutorado na Universidade de Aveiro é investigador e co-autor de dezenas de artigos científicos. No ENEF23, irá dar uma Talk acerca da sua área de investigação - Redes e Sistemas Complexos."],
-    ["Placeholder.png", "Buracos Negros e Ondas Gravitacionais", "Sessão 2", "O Gr@v é uma unidade de investigação integrada no CIDMA (Centro de Investigação e Desenvolvimento em Matemática e Aplicações), focada em gravitação forte e física das altas energias. No ENEF23, dois investigadores do Gr@v, Miguel Zilhão e Pedro Cunha, darão uma Talk sobre Buracos Negros e Ondas Gravitacionais."],
+    ["Placeholder.png", "Isoladores Topológicos - Ricardo Dias e Anselmo Marques", "Sessão 1 e 2", "Isoladores topológicos têm potencial para serem usados ​​em uma variedade de aplicações, inclusive no desenvolvimento de dispositivos de computação quântica. Neste Workshop, irás trabalhar com noções de física da matéria condensada e aplicar conhecimentos de Python em computação quântica!"],
+    ["carlos_azevedo.png", "Hands on Particles - Carlos Azevedo", "Sessão 1 e 2", "Se és fascinado pelos mecanismos de interação entre os blocos fundamentais da física, este Workshop é para ti. Prepara-te para conhecer um pouco mais do fantástico Modelo Padrão com as mãos na massa! Este Workshop é dividido numa componente computacional (1ª Sessão), e numa demonstração laboratorial (2ª Sessão), sendo que podes optar por escolher apenas uma delas, ou ambas."],
+    ["Luis_Silva.jpg", "Fundamentos de Machine Learning - Luís Silva", "Sessão 1 e 2", "Neste Workshop, terás a oportunidade de aprender sobre como funciona o Machine Learning, um dos sub-campos da computação mais relevantes na atualidade, nomeadamente importante para o desenvolvimento de Inteligência Artificial!"],
+    ["nuno_silva.jpg", "Criptografia num Mundo Pós-Quântico - Nuno Silva", "Sessão 1 e 2", " A criptografia e a computação quântica são peças fundamentais nas redes de comunicações atuais. Neste Workshop, terás a oportunidade de trabalhar com algoritmos quânticos, usando o QISKIT, e trabalhar com a criptografia quântica como solução para o surgimento de um computador quântico."],
+    ["luis_rino.png", "Impressão 3D - Luís Rino", "Sessão 1", "Este Workshop destina-se aos interessados em aprender acerca de impressão 3D. Neste Workshop terás a oportunidade de aprender técnicas de modelação e o processo por trás de como funciona uma impressora 3D e como fazeres as tuas próprias impressões!"],
+    ["Placeholder.png", "Redes e Sistemas Complexos - Gareth Baxter", "Sessão 1", "Gareth Baxter, PhD em Física Teórica pela Universidade de Manchester e Pós-Doutorado na Universidade de Aveiro é investigador e co-autor de dezenas de artigos científicos. No ENEF23, irá dar uma Talk acerca da sua área de investigação - Redes e Sistemas Complexos."],
+    ["Placeholder.png", "Buracos Negros e Ondas Gravitacionais - Pedro Cunha e Miguel Zilhão", "Sessão 2", "O Gr@v é uma unidade de investigação integrada no CIDMA (Centro de Investigação e Desenvolvimento em Matemática e Aplicações), focada em gravitação forte e física das altas energias. No ENEF23, dois investigadores do Gr@v, Miguel Zilhão e Pedro Cunha, darão uma Talk sobre Buracos Negros e Ondas Gravitacionais."],
 ];
 
 const InsideViews = [
@@ -17,8 +17,8 @@ const InsideViews = [
 ];
 
 const Palestras = [
-    ["carlos_brites.png", "Materiais Luminescentes para Lógica Molecular", "", "Carlos Brites, PhD em Física pela UA, é investigador no Instituto de Materiais de Aveiro -  CICECO e professor auxiliar do Departamento de Física da Universidade de Aveiro.  No ENEF2023, irá dar uma palestra sobre o seu projeto de investigação, LogicAll, que consiste na produção e caracterização de dispositivos lógicos moleculares baseados em materiais luminescentes, utilizados em computação."],
-    ["Placeholder.png", "Soft Matter (...)", "", "Nuno Araújo, Doutorado em Física pela Universidade do Minho, é Professor no Departamento de Física de Ciências da Universidade de Lisboa e investigador no Centro de Física Teórica e Computacional (CFTC). No ENEF2023, irá dar uma palestra acerca da sua principal área de investigação, Soft Matter, o principal constituinte da matéria no nosso planeta, no âmbito da Física da Matéria Condensada."],
+    ["carlos_brites.png", "Materiais Luminescentes para Lógica Molecular - Carlos Brites", "", "Carlos Brites, PhD em Física pela UA, é investigador no Instituto de Materiais de Aveiro -  CICECO e professor auxiliar do Departamento de Física da Universidade de Aveiro.  No ENEF2023, irá dar uma palestra sobre o seu projeto de investigação, LogicAll, que consiste na produção e caracterização de dispositivos lógicos moleculares baseados em materiais luminescentes, utilizados em computação."],
+    ["Nuno_Araujo.jpg", "The Rigidity of Soft Systems - Nuno Araújo", "", "Nuno Araújo, Doutorado em Física pela Universidade do Minho, é Professor no Departamento de Física de Ciências da Universidade de Lisboa e investigador no Centro de Física Teórica e Computacional (CFTC). No ENEF2023, irá dar uma palestra acerca da sua principal área de investigação, Soft Matter, o principal constituinte da matéria no nosso planeta, no âmbito da Física da Matéria Condensada."],
 ];
 
 const Debate = [
@@ -46,9 +46,9 @@ window.onload = function () {
     MobileCheck();
 
 }
-var device = window.getDevice()
 
-function buildContent(activityList,ActivityName) {
+function buildContent(activityList, ActivityName) {
+    var device = window.getDevice()
     var content = '';
 
     for (var i = 0; i < activityList.length; i++) {
@@ -67,7 +67,7 @@ function buildContent(activityList,ActivityName) {
                 <div class="Ativ-box-arrow-down-${device}" id="arrowDown-${ActivityName}${i}">${arrowDown}</div>
             </div>`;
         }
-        else if (activityList == NobelTalk){
+        else if (activityList == NobelTalk) {
             var innerContent = `
         <div class="Ativ-box-nobel${device}"  style="width:100%;">
             <div class="Ativ-box-imgs">
@@ -83,7 +83,7 @@ function buildContent(activityList,ActivityName) {
                 </div>
             </div>
         </div>`;
-            }
+        }
         else {
             var innerContent = `
         <div class="Ativ-box${device} Ativ-box-closed" onclick="boxExpand(this, ${i},'${ActivityName}')">
@@ -122,6 +122,8 @@ function ExpandSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
     const sectionContent = document.getElementById("ativCont" + num);
+    was_loaded = true;
+
 
     var activityList;
     var ActivityName;
@@ -148,7 +150,7 @@ function ExpandSection(num) {
             break;
     }
 
-    sectionContent.innerHTML = buildContent(activityList,ActivityName);
+    sectionContent.innerHTML = buildContent(activityList, ActivityName);
 
     sectionHead.childNodes[1].style.flex = "1 1 100%";
     sectionHead.childNodes[3].style.flex = "1 1 0";
@@ -165,7 +167,6 @@ function ExpandSection(num) {
 function ShrinkSection(num) {
     const section = document.getElementById("section" + num);
     const sectionHead = document.getElementById("section_head" + num);
-    was_loaded = true;
 
     sectionHead.childNodes[1].style.flex = "1 1 0";
     sectionHead.childNodes[3].style.flex = "1 1 100%";
@@ -180,12 +181,12 @@ function ShrinkSection(num) {
 }
 function ShrinkAll() {
     if (was_loaded) {
-        for (let i = 0; i <= 5; i++) { ShrinkSection(i) }
+        for (let i = 1; i <= 5; i++) { ShrinkSection(i) }
     }
-    
+
 }
 var previousElems = [];
-function boxExpand(element, num,activity) { //TODO close when clicked again (Adicionar uma seta para baixo) Mobile Support
+function boxExpand(element, num, activity) { //TODO close when clicked again (Adicionar uma seta para baixo) Mobile Support
 
     if (previousElems.includes(element)) {
         element.classList.add("Ativ-box-closed");

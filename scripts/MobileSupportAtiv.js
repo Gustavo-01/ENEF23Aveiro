@@ -51,6 +51,5 @@ function RefreshMobile(is_mobile_device) {
         ChangeClasses("Ativ-boxMob", "Ativ-boxPC");
         ChangeClasses("Ativ-box-arrow-down-Mob", "Ativ-box-arrow-down-PC")
     }
-    ShrinkAll()
     
 }

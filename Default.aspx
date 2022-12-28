@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="enef23._Default" %>
 
-
+<!doctype html>
 <html>
 
 <head>

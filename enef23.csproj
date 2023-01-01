@@ -193,9 +193,12 @@
     <Content Include="img\Nuvens.jpg" />
     <Content Include="img\Palestra.jpg" />
     <Content Include="img\Palestra1.JPG" />
+    <Content Include="img\Palestrantes\alvaro_folhas.jpg" />
     <Content Include="img\Palestrantes\carlos_azevedo.png" />
     <Content Include="img\Palestrantes\carlos_brites.png" />
     <Content Include="img\Palestrantes\david_carvalho.JPG" />
+    <Content Include="img\Palestrantes\david_furtado.jpg" />
+    <Content Include="img\Palestrantes\i3n.png" />
     <Content Include="img\Palestrantes\jm_dias.jpg" />
     <Content Include="img\Palestrantes\luis_rino.png" />
     <Content Include="img\Palestrantes\Luis_Silva.jpg" />
@@ -203,6 +206,7 @@
     <Content Include="img\Palestrantes\Nuno_Araujo.jpg" />
     <Content Include="img\Palestrantes\nuno_silva.jpg" />
     <Content Include="img\Palestrantes\Placeholder.png" />
+    <Content Include="img\Palestrantes\tania_fonseca.png" />
     <Content Include="img\Palestrantes\Tânia_Fonseca.png" />
     <Content Include="img\Palestrantes\vitor_amaral.jpg" />
     <Content Include="img\ponte.jpg" />

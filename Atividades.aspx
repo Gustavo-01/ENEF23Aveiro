@@ -33,16 +33,7 @@
         <img src="img/Logo/enef23.png" style="width: 30%" />
     </div>
 
-    <svg width="0" height="0">
-        <defs>
-            <filter id="goo">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="20" result="blur" id="blurFilter" />
-                <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 30 -15" result="goo" />
-                <feComposite in="SourceGraphic" in2="goo" operator="atop" />
-            </filter>
-        </defs>
-    </svg>
-
+    
     <!-- CONTENT -->
 
     <div class="content" style="scroll-snap-type: unset">

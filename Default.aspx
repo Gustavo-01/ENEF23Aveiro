@@ -201,6 +201,9 @@
                 <div class="SponsorHolderPC">
                     <object data=".\img\Apoios\nemog.svg"></object>
                 </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Apoios\physis.svg"></object>
+                </div>
                 <!-- Repeated for infinite scroll effect -->
                 <div class="SponsorHolderPC logo_cesam">
                     <object data=".\img\Apoios\cesam.svg"></object>
@@ -228,6 +231,9 @@
                 </div>
                 <div class="SponsorHolderPC">
                     <object data=".\img\Apoios\nemog.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Apoios\physis.svg"></object>
                 </div>
             </div>
         </div>

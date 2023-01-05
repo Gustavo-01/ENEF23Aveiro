@@ -61,7 +61,7 @@
             </div>
             <div class="Ativ-contPC">
                 <h4>Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”, aplicando conhecimentos adquiridos de uma forma dinâmica!
-No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em duas sessões consecutivas. Desta forma, poderás participar em 2 Workshops e/ou Talks! Após efetuares a tua inscrição, ser-te-á fornecido um formulário no qual poderás dizer quais são as tuas 3 opções, por ordem de preferência. As colocações nos Workshops e Talks serão por ordem de inscrição, consequentemente, não haverá garantia que ficarás nas tuas primeiras opções.</h4>
+No ENEF2023 oferecemos uma seleção de Workshops e Talks, ocorrendo estes em duas sessões consecutivas. Desta forma, poderás participar em 2 Workshops e/ou Talks! Após efetuares a tua inscrição, ser-te-á fornecido um formulário no qual poderás dizer quais são as tuas 3 opções, por ordem de preferência. As colocações nos Workshops e Talks serão por ordem de inscrição, consequentemente, não haverá garantia que ficarás nas tuas primeiras opções. As vagas apresentadas sao temporarias e dispostas a atualização.</h4>
 
                 <div style="color:var(--black)" id="ativCont1">
 

@@ -150,6 +150,12 @@
                 <div class="SponsorHolderPC">
                     <object data=".\img\Sponsors\spf.svg"></object>
                 </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\rossio.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\soldouro.svg"></object>
+                </div>
                 <div class="SponsorHolderPC logo_cesam">
                     <object data=".\img\Sponsors\cesam.svg"></object>
                 </div>
@@ -170,6 +176,12 @@
                 </div>
                 <div class="SponsorHolderPC">
                     <object data=".\img\Sponsors\spf.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\rossio.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\soldouro.svg"></object>
                 </div>
             </div>
             <h1>Apoios</h1>

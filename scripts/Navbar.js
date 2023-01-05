@@ -13,22 +13,27 @@
         case 1:
             bgBubbleLeft = 0;
             window.contentPage = window.PagAtividades;
+            document.getElementById("description").style.marginTop = "calc(100px + 2em)"
             break;
         case 2:
             bgBubbleLeft = 20;
             window.contentPage = window.PagPacotes;
+            document.getElementById("description").style.marginTop="calc(80px + 2em)"
             break;
         case 3:
             bgBubbleLeft = 40;
             window.contentPage = window.PagLocalizacoes;
+            document.getElementById("description").style.marginTop = "calc(100px + 2em)"
             break;
         case 4:
             bgBubbleLeft = 60;
             window.contentPage = window.PagEquipa;
+            document.getElementById("description").style.marginTop = "calc(100px + 2em)"
             break;
         case 5:
             bgBubbleLeft = 80;
             window.contentPage = window.PagFaq;
+            document.getElementById("description").style.marginTop = "calc(100px + 2em)"
             break;
     }
 

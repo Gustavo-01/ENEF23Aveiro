@@ -1,34 +1,27 @@
-.pac-fitinha {
-    position: relative;
-    width: 100vw;
-    height: 60px;
+.pac-pacotes-PC {
+    height: calc(100% - 160px);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    gap: 10px;
 }
-.pac-fitinha-in::after {
-    content: '';
-    opacity: 0.8;
-    background-color: var(--white);
-    position: absolute;
+
+.pac-table-btn-PC {
+    width: calc(100% - 160px);
     height: 100%;
-    width: 100%;
-    background: linear-gradient(45deg, transparent, black, transparent);
-    z-index: -1;
-}
-.pac-fitinha-in {
     display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pac-fitinha-holderPC {
-
-}
-
-.pac-fitinha-holderMob {
-    height:inherit;
-    display:flex;
+    flex-direction: column;
     align-items:center;
-
 }
+    .pac-table-btn-PC img {
+        height: 90%;
+        width: 90%;
+        align-self:center;
+    }
+
+.pac-horario-PC {
+    width: calc(100% - 160px);
+    height: 100%;
+}
+    .pac-horario-PC img {
+        height:100%
+    }

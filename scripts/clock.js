@@ -15,7 +15,7 @@ function clock() {
     // Data de acontecimento
     const year = 2023;
     const month = 1;
-    const day = 0;
+    const day = 9;
     const hours = 0;
     const minutes = 0;
 

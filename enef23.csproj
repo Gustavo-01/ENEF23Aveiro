@@ -161,6 +161,7 @@
     <Content Include="img\Apoios\eps.svg" />
     <Content Include="img\Apoios\i3n.svg" />
     <Content Include="img\Apoios\neef.svg" />
+    <Content Include="img\Apoios\physis.svg" />
     <Content Include="img\Biblioteca.jpg" />
     <Content Include="img\Biblioteca2.jpg" />
     <Content Include="img\Caloirodromo.JPG" />
@@ -172,6 +173,7 @@
     <Content Include="img\Apoios\it.svg" />
     <Content Include="img\Equipas\Alojamento\titulo_alojamento.png" />
     <Content Include="img\Equipas\Empresarial\pedro.png" />
+    <Content Include="img\horario.png" />
     <Content Include="img\Institutos\cesam.png" />
     <Content Include="img\Institutos\ciceco.png" />
     <Content Include="img\Institutos\dfis.png" />
@@ -191,6 +193,7 @@
     <Content Include="img\MuralVert.jpg" />
     <Content Include="img\Noite.jpg" />
     <Content Include="img\Nuvens.jpg" />
+    <Content Include="img\packs.png" />
     <Content Include="img\Palestra.jpg" />
     <Content Include="img\Palestra1.JPG" />
     <Content Include="img\Palestrantes\alvaro_folhas.jpg" />

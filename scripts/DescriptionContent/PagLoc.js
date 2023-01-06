@@ -51,7 +51,7 @@
         return `
         <div class="local-wrapper-${device}" id = "local_wrapper_${device}">
             <div onmouseover="window.contentPage.shiftFlex(0)" id="loc-side0" class="local-box">
-                <div id="loc-map">
+                <div id="loc-map" style="height:100%">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12112.821164248973!2d-8.649069149999999!3d40.6253544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversity%20of%20Aveiro!5e0!3m2!1sen!2spt!4v1671361252119!5m2!1sen!2spt" width="100%" height="100%" style="border:0; border-radius:15px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>

@@ -19,6 +19,14 @@
     "QUE REGALIAS TÊM OS SÓCIOS DA FISUA E COMO ME TORNO SÓCIO?":
         `Se fores sócio da FISUA - Associação de Física da Universidade de Aveiro, receberás uma t-shirt exclusiva do ENEF de graça. Os sócios da FISUA têm direito a descontos comerciais junto dos parceiros da FISUA e preços e condições especiais em diversas atividades da associação, podes saber mais <a href="https://fisua.web.ua.pt/socios">aqui</a>. Podes tornar-te sócio da FISUA deslocando-te presencialmente até à sede da associação, no Departamento de Física da Universidade de Aveiro.`,
 
+    "O QUE É QUE “ATIVIDADES CIENTÍFICAS” E “ATIVIDADES DE CONVÍVIO” INCLUEM?":
+        `As “atividades científicas” incluem: workshops, palestras, Nobel Talk, debate, Inside Views, Feira de Emprego, Business Speed Dating, Informal Talks, Spacing Out e todos os coffee- breaks.
+        As “atividades de convívio” incluem: Peddy Paper, Febrada, Jantar de Encerramento e Sessão de Jogos.`,
+
+    "O QUE É QUE AS “REFEIÇÕES” E “ALOJAMENTOS E PEQUENOS-ALMOÇOS”?":
+        `As “refeições” incluem: almoços de sexta, sábado e domingo na cantina e jantares de quinta, sexta e sábado na cantina (apenas sexta, se escolheres um pack com atividades de convívio). 
+        Os “alojamentos e pequenos-almoços” incluem: três noites num hostel ou pousada e pequenos-almoços de sexta, sábado e domingo. Nem todos os participantes terão direito a pequeno-almoço no hostel/pousada, pelo que este será-lhes servido pela organização do ENEF 2023.`,
+
     "O TRANSPORTE ESTÁ INCLUÍDO NOS PACKS?":
         `Não, o transporte não está incluído nos packs.`,
 

@@ -21,6 +21,9 @@ class PagPacotes {
                                     <img src=./img/packs.png>
                                     <button class="btn_logoPC" onclick="window.location = 'https://forms.gle/25NcmCm9HPBcyAwB9'" style="margin-top:10px;margin-bottom:0">Inscreve-te!</button>
                                     <p>A primeira fase abrirá no dia 5 de janeiro e fechará no dia 10, no qual o pack Neutron Star terá 62 vagas.</p>
+                                </div>  
+                                <div class="pac-horarios-${device}">
+                                    <img src=./img/horario.png>
                                 </div>
                                 
                         </div>

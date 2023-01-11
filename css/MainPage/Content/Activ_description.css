@@ -131,3 +131,7 @@
 .arrowDown-PC{
     display: none;
 }
+
+.clickable-card:hover{
+    cursor:pointer
+}

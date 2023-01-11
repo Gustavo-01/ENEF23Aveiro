@@ -1,4 +1,13 @@
 ﻿const atividades = {
+    "PLANCKS": `<p class="clickable-card" onclick="window.location = https://forms.gle/khSwAjmr7FmTXiPJ8">
+        O Physics League Across Numerous Countries for Kick-ass Students é uma competição de física teórica para estudantes de licenciatura e mestrado, que
+        ocorrerá presencialmente no ENEF23. Clica neste cartao para te inscreveres!
+    </p>`,
+
+    "Competitions": `<p>
+        Na Student Lectures Competition terás a oportunidade de apresentar uma palestra, e na Poster Competition terás a oportunidade de desenvolver um poster científico. Clica neste cartao para te inscreveres!
+    </p>`,
+
     "Workshops/ Talks": `<p>
         Nos Workshops e Talks terás a oportunidade de entrar em contacto direto com investigadores e profissionais em diversas áreas, e pôr as “mãos na massa”,
         aplicando conhecimentos de uma forma dinâmica!
@@ -43,14 +52,9 @@
         debate, no qual poderás participar, colocando questões.    </p>`,
 
 
-    "Competitions": `<p>
-        Na Student Lectures Competition terás a oportunidade de apresentar uma palestra, e na Poster Competition terás a oportunidade de desenvolver um poster científico.
-    </p>`,
 
-    "PLANCKS": `<p>
-        O Physics League Across Numerous Countries for Kick-ass Students é uma competição de física teórica para estudantes de licenciatura e mestrado, que
-        ocorrerá presencialmente no ENEF23.
-    </p>`,
+
+
 
     "Peddy Paper": `<p>
         Espera-te um Peddy Paper organizado para dar-te a conhecer o centro da cidade de Aveiro, onde terás a oportunidade de entrar em contacto com a cultura
@@ -85,6 +89,10 @@ class PagAtividades {
     initial_f() {
         window.contentPage.innerPage = 0;
         window.contentPage.updatePageArrows();
+        document.getElementById("des_cont0").classList.add("clickable-card")
+        document.getElementById("des_cont1").classList.add("clickable-card")
+        document.getElementById("des_cont0").onclick = function () { window.location = "https://forms.gle/khSwAjmr7FmTXiPJ8" }
+        document.getElementById("des_cont1").onclick = function () { window.location = "https://forms.gle/JZzg8dC1RrVe2bnY6" }
     }
 
     getContent() {

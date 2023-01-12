@@ -14,8 +14,8 @@
                             <div class="pac-pacotes-${device}">
                                 <div class="pac-table-btn-${device}">
                                     <img src=./img/packs.png>
-                                    <button class="btn_logoPC" onclick="window.location = 'https://forms.gle/25NcmCm9HPBcyAwB9'" style="margin-top:10px;margin-bottom:0">Inscreve-te!</button>
-                                    <p>Primeira fase: 6 a 11 de janeiro (62 vagas no pack Neutron Star)</p>
+                                    <button class="btn_logoPC" onclick="window.location = 'https://forms.gle/Tm9wyCkjkK8gDv9o6'" style="margin-top:10px;margin-bottom:0">Inscreve-te!</button>
+                                    <p>Segunda fase: 13 a 17 de janeiro (30 vagas no pack Neutron Star)</p>
                                 </div>  
                                 <div class="pac-horarios-${device}">
                                     <img src=./img/horario.png  style="height:100%">

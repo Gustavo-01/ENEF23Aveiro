@@ -97,12 +97,13 @@
                             </div>
                         </div>
                     </div>
+                    <div class="dates">
+                        <p>Estamos a tua espera nos dias 9 ate 12 de Fevereiro!</p>
+
+                    </div>
 
                 </div>
-                <div class ="dates">
-                    <p> </p>
 
-                </div>
                 <!-- MORE -->
                 <div class="morePC">
                     <div class="social-holderPC">

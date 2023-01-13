@@ -1,7 +1,6 @@
 ﻿.countdown-clock {
     text-align: center;
     font-size: 1.5em;
-    min-height: 30vh;
     position: relative;
     overflow: hidden;
 }
@@ -11,7 +10,7 @@
     align-items: center;
     font-size: 2em;
     font-weight: 800;
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
 }
 ._clockMob {
     display: flex;

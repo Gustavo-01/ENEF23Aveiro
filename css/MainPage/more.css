@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
 }
+
 .social-holderMob {
     font-size: 2.5em;
     height: 30px;
@@ -66,3 +67,12 @@
             .social div svg:hover {
                 bottom: -25px;
             }
+
+.dates {
+    text-shadow: 1px 1px var(--black), 1.5px 1.5px var(--black), 2px 2px var(--black), 2.5px 2.5px var(--black), 3px 3px var(--black), 3.5px 3.5px var(--black), 4px 4px var(--black), 4.5px 4.5px var(--black), 5px 5px var(--black), 5.5px 5.5px var(--black), 6px 6px var(--black), 6.5px 6.5px var(--black), 7px 7px var(--black), 7.5px 7.5px var(--black), 8px 8px var(--black), 8.5px 8.5px var(--black), 9px 9px var(--black), 9.5px 9.5px var(--black), 10px 10px var(--black), 10.5px 10.5px var(--black), 11px 11px var(--black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 800;
+}

@@ -20,7 +20,8 @@ function clock() {
     const minutes = 0;
 
     const d2 = new Date(year, month, day, hours, minutes)
-    const total_time = d2.getTime() - d;
+    var total_time = d2.getTime() - d;
+    if (total_time <= 0) { total_time = 0; }
     const clock = second_to_days(total_time);
     return clock
 

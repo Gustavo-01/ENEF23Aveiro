@@ -98,7 +98,7 @@
                         </div>
                     </div>
                     <div class="dates">
-                        <p>Estamos a tua espera nos dias 9 ate 12 de Fevereiro!</p>
+                        <p>Estamos à tua espera nos dias 9 até 12 de Fevereiro!</p>
 
                     </div>
 
@@ -184,6 +184,9 @@
                 <div class="SponsorHolderPC">
                     <object data=".\img\Sponsors\soldouro.svg"></object>
                 </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\aauav.svg"></object>
+                </div>
                 <div class="SponsorHolderPC logo_cesam">
                     <object data=".\img\Sponsors\cesam.svg"></object>
                 </div>
@@ -210,6 +213,9 @@
                 </div>
                 <div class="SponsorHolderPC">
                     <object data=".\img\Sponsors\soldouro.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\aauav.svg"></object>
                 </div>
             </div>
             <h1>Apoios</h1>

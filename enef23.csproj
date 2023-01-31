@@ -157,6 +157,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="img\Apoios\aauav.svg" />
     <Content Include="img\Apoios\dfis.svg" />
     <Content Include="img\Apoios\eps.svg" />
     <Content Include="img\Apoios\i3n.svg" />
@@ -201,6 +202,7 @@
     <Content Include="img\Palestrantes\carlos_brites.png" />
     <Content Include="img\Palestrantes\david_carvalho.JPG" />
     <Content Include="img\Palestrantes\david_furtado.jpg" />
+    <Content Include="img\Palestrantes\gareth_baxter.jpg" />
     <Content Include="img\Palestrantes\i3n.png" />
     <Content Include="img\Palestrantes\jm_dias.jpg" />
     <Content Include="img\Palestrantes\luis_rino.png" />

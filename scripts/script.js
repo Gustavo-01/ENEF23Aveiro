@@ -17,10 +17,10 @@ function setupAutoScroll() {
     window.supportTab = document.getElementById("supportContainer");
     window.sponsorMemberWidth = document.getElementById("logo_cesam").clientWidth;
     self.setInterval(() => {               //Card_N * (childWidth + gap)
-        if (window.supportTab.scrollLeft > 11 * (window.sponsorMemberWidth + 50)) {
+        if (window.supportTab.scrollLeft > 10 * (window.sponsorMemberWidth + 50)) {
             window.supportTab.scrollLeft = 0;
         }
-        if (window.sponsorTab.scrollLeft > 9 * (window.sponsorMemberWidth + 50)) {
+        if (window.sponsorTab.scrollLeft > 10 * (window.sponsorMemberWidth + 50)) {
             window.sponsorTab.scrollLeft = 0;
         }
         window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + Math.max(window.innerWidth / 1200, 1), 0);

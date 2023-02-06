@@ -16,9 +16,9 @@
 const InsideViews = [
     ["CESAM", "Laboratório de Modelação Estuarina e Costeira<br>Laboratório de Meteorologia e Climatologia<br>Laboratório de Oceanografia Física"],
     ["IT", "Laboratorio de Comunicações Óticas<br>Laboratorio de Radiofrequencias<br>Laboratorio de Redes e Comunicações Multimédia"],
-    ["CICECO", "Por Anunciar"],
-    ["i3N", "Processamento de materiais com tecnologia laser<br/>Física médica e instrumentação<br/>Nanofotónica e optoeletrónica"],
-    ["IEETA", "Por Anunciar"],
+    ["CICECO", "Materiais Híbridos e Nanomateriais Fotónicos<br/>Magnetismo e Imagem<br/>Magnetismo e Térmico"],
+    ["i3N", "Processamento de Materiais com Tecnologia Laser<br/>Física Médica e Instrumentação<br/>Nanofotónica e optoeletrónica"],
+    ["IEETA", "Ciber Segurança e Gestão de Identidades<br/>Robótica - IRIS Lab<br/>Laboratorio de Realidade Virtual Aumentada"],
 ];
 
 const Palestras = [

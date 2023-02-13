@@ -187,6 +187,12 @@
                 <div class="SponsorHolderPC">
                     <object data=".\img\Sponsors\aauav.svg"></object>
                 </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\Canaveses.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\IDB.svg"></object>
+                </div>
                 <div class="SponsorHolderPC logo_cesam">
                     <object data=".\img\Sponsors\cesam.svg"></object>
                 </div>
@@ -217,7 +223,14 @@
                 <div class="SponsorHolderPC">
                     <object data=".\img\Sponsors\aauav.svg"></object>
                 </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\Canaveses.svg"></object>
+                </div>
+                <div class="SponsorHolderPC">
+                    <object data=".\img\Sponsors\IDB.svg"></object>
+                </div>
             </div>
+            <!-- Apoios -->
             <h1>Apoios</h1>
             <div class="SponsorsContainerPC" id="supportContainer">
                 <div class="SponsorHolderPC logo_cesam">

@@ -20,7 +20,7 @@ function setupAutoScroll() {
         if (window.supportTab.scrollLeft > 10 * (window.sponsorMemberWidth + 50)) {
             window.supportTab.scrollLeft = 0;
         }
-        if (window.sponsorTab.scrollLeft > 10 * (window.sponsorMemberWidth + 50)) {
+        if (window.sponsorTab.scrollLeft > 12 * (window.sponsorMemberWidth + 50)) {
             window.sponsorTab.scrollLeft = 0;
         }
         window.sponsorTab.scrollTo(window.sponsorTab.scrollLeft + Math.max(window.innerWidth / 1200, 1), 0);
